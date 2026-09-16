@@ -11,7 +11,7 @@
 
 **免翻墙 · 低延迟 · 500+ 模型 · OpenAI 兼容 · Claude Code 就绪**
 
-[🌐 官网](https://ai.levolink.com) · [📋 定价](https://ai.levolink.com/pricing) · [📖 API 文档](https://levolink.apifox.cn/) · [💬 联系](https://ai.levolink.com)
+[🌐 官网](https://api.levogat.com) · [📋 定价](https://api.levogat.com/pricing) · [📖 API 文档](https://levogat.apifox.cn/) · [💬 联系](https://api.levogat.com)
 
 </div>
 
@@ -34,9 +34,9 @@
 
 ## 🖥️ 产品预览
 
-![Levolink AI 首页 - 500+ AI 模型 API 中转平台](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/homepage.jpg)
+![levogat AI 首页 - 500+ AI 模型 API 中转平台](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
-![Levolink AI 控制台 - 创建 API Key、查看用量、充值](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/console.jpg)
+![levogat AI 控制台 - 创建 API Key、查看用量、充值](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 
 ## 💰 实时模型价格
 
-> 以下价格由 GitHub Actions 自动从 [Levolink API](https://ai.levolink.com/api/pricing) 拉取，每小时更新。
+> 以下价格由 GitHub Actions 自动从 [Levogat API](https://api.levogat.com/api/pricing) 拉取，每小时更新。
 > 
 > 价格单位：USD / 百万 Token | 出入倍率 = 输出价格 / 输入价格
 
@@ -180,7 +180,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 完整价格请前往 [Levolink AI 定价页面](https://ai.levolink.com/pricing) 查看，支持 33 个分组、228 个模型、500+ 价格组合。
+> 💡 完整价格请前往 [Levogat AI 定价页面](https://api.levogat.com/pricing) 查看，支持 33 个分组、228 个模型、500+ 价格组合。
 
 ### 分组说明
 
@@ -202,7 +202,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 
 ### 快速开始
 
-1. 前往 [Levolink AI](https://ai.levolink.com) -> 注册 -> 控制台创建 Key
+1. 前往 [Levogat AI](https://api.levogat.com) -> 注册 -> 控制台创建 Key
 2. 充值（最低 1 元起充）
    - 支付宝支付 / 微信支付 / 加密货币支付 / Stripe / Global Pay
 3. 选择代码示例接入：
@@ -214,7 +214,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="***",
-    base_url="https://ai.levolink.com/v1"
+    base_url="https://ai.levogat.com/v1"
 )
 
 # GPT-5.6 Sol
@@ -240,7 +240,7 @@ resp = client.chat.completions.create(
 ### Node.js / curl
 
 ```bash
-curl https://ai.levolink.com/v1/chat/completions \
+curl https://ai.levogat.com/v1/chat/completions \
   -H "Authorization: Bearer 你的API Key" \
   -H "Content-Type: application/json" \
   -d '{
@@ -257,7 +257,7 @@ curl https://ai.levolink.com/v1/chat/completions \
 npm install -g @anthropic-ai/claude-code
 
 echo 'export ANTHROPIC_AUTH_TOKEN="你的API Key"' >> ~/.bash_profile
-echo 'export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"' >> ~/.bash_profile
+echo 'export ANTHROPIC_BASE_URL="https://ai.levogat.com/v1"' >> ~/.bash_profile
 source ~/.bash_profile
 
 cd your-project && claude
@@ -271,7 +271,7 @@ cd your-project && claude
 npm install -g @openai/codex
 
 export OPENAI_API_KEY="你的API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_BASE="https://ai.levogat.com/v1"
 ```
 
 📖 详细教程见 [Codex 接入教程](docs/codex-setup.md)
@@ -282,7 +282,7 @@ export OPENAI_API_BASE="https://ai.levolink.com/v1"
 npm install -g @google/gemini-cli
 
 export GEMINI_API_KEY="你的API Key"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_BASE="https://ai.levogat.com/v1"
 ```
 
 📖 详细教程见 [Cursor IDE 配置教程](docs/cursor-setup.md)（同样适用于 Gemini CLI 配置）
@@ -291,11 +291,11 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 | 工具 | 配置方式 |
 |------|---------|
-| Dify / FastGPT | API 设置填入 Key + Base URL: `https://ai.levolink.com/v1` |
-| n8n | HTTP Request -> URL: `https://ai.levolink.com/v1/chat/completions` |
-| LangChain | `ChatOpenAI(openai_api_key="Key", openai_api_base="https://ai.levolink.com/v1")` |
-| NextChat | 设置 -> 自定义 API -> URL: `https://ai.levolink.com/v1` |
-| OpenClaw | `openai_api_key: Key` + `openai_api_base: https://ai.levolink.com/v1` |
+| Dify / FastGPT | API 设置填入 Key + Base URL: `https://ai.levogat.com/v1` |
+| n8n | HTTP Request -> URL: `https://ai.levogat.com/v1/chat/completions` |
+| LangChain | `ChatOpenAI(openai_api_key="Key", openai_api_base="https://ai.levogat.com/v1")` |
+| NextChat | 设置 -> 自定义 API -> URL: `https://ai.levogat.com/v1` |
+| OpenClaw | `openai_api_key: Key` + `openai_api_base: https://ai.levogat.com/v1` |
 
 ### 使用场景
 
@@ -311,7 +311,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 > 数据基于 2026-07-29 公开信息整理，仅供参考。
 
-| 维度 | Levolink AI | OpenRouter | 硅基流动 | 神马中转 | 自建代理 |
+| 维度 | levogat AI | OpenRouter | 硅基流动 | 神马中转 | 自建代理 |
 |------|------------|-----------|---------|---------|---------|
 | 模型数量 | **228+** | ~400 | ~200 | ~100 | 需手动维护 |
 | 分组选择 | **33 个分组** | 无（按供应商定价） | 无分组 | 1-3 个 | - |
@@ -330,11 +330,11 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 **响应内容和官方一致吗？**
 
-高度一致。Levolink AI 仅做请求转发，底层调用官方模型，响应内容与官方 API 保持一致。
+高度一致。levogat AI 仅做请求转发，底层调用官方模型，响应内容与官方 API 保持一致。
 
 **会被封号吗？**
 
-不会。你使用的是 Levolink AI 的 Key，不走官方账号体系，不涉及你的官方账号封禁风险。
+不会。你使用的是 levogat AI 的 Key，不走官方账号体系，不涉及你的官方账号封禁风险。
 
 **不同分组有什么区别？**
 
@@ -352,9 +352,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 新用户注册赠送体验额度，可先试用再决定是否充值。
 
-**可以开发票吗？**
 
-可以。个人设置 -> 实名认证 -> 钱包 -> 选择开票，电子发票 5 个工作日内开出。
 
 **如何选择分组？**
 
@@ -370,15 +368,15 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 | 教程 | 内容 |
 |------|------|
 | [Claude Code 接入教程](docs/claude-code-guide.md) | 国内使用 Claude Code 的完整配置方案 |
-| [Claude Desktop 接入教程](docs/claude-desktop-guide.md) | Claude Desktop 桌面应用配置 Levolink AI |
+| [Claude Desktop 接入教程](docs/claude-desktop-guide.md) | Claude Desktop 桌面应用配置 levogat AI |
 | [Codex 接入教程](docs/codex-setup.md) | OpenAI Codex CLI 国内配置方法 |
-| [Gemini CLI 接入教程](docs/gemini-cli-guide.md) | Gemini CLI 配置 Levolink AI 调用 Gemini 模型 |
+| [Gemini CLI 接入教程](docs/gemini-cli-guide.md) | Gemini CLI 配置 levogat AI 调用 Gemini 模型 |
 | [Cursor IDE 配置教程](docs/cursor-setup.md) | Cursor 中接入 GPT-5.6 / Claude 4.8 / Gemini |
-| [Grok Build 接入教程](docs/grok-build-guide.md) | xAI Grok Build 配置自定义模型接入 Levolink AI |
-| [OpenCode 接入教程](docs/opencode-guide.md) | OpenCode 开源编程助手配置 Levolink AI |
-| [OpenClaw 接入教程](docs/openclaw-guide.md) | OpenClaw Agent 运行时配置 Levolink AI |
-| [CC Switch 接入教程](docs/cc-switch-guide.md) | 统一管理多个 AI 工具的 Levolink AI 配置 |
-| [Dify 接入教程](docs/dify-integration.md) | Dify 对接 Levolink AI 完整流程 |
+| [Grok Build 接入教程](docs/grok-build-guide.md) | xAI Grok Build 配置自定义模型接入 levogat AI |
+| [OpenCode 接入教程](docs/opencode-guide.md) | OpenCode 开源编程助手配置 levogat AI |
+| [OpenClaw 接入教程](docs/openclaw-guide.md) | OpenClaw Agent 运行时配置 levogat AI |
+| [CC Switch 接入教程](docs/cc-switch-guide.md) | 统一管理多个 AI 工具的 levogat AI 配置 |
+| [Dify 接入教程](docs/dify-integration.md) | Dify 对接 levogat AI 完整流程 |
 | [模型选择指南](docs/model-selection-guide.md) | 228 个模型怎么选？按场景/预算推荐 |
 | [中转站掺水检测指南](docs/fraud-detection-guide.md) | 5 种方法检测中转站是否用低端模型冒充 |
 | [成本计算器使用指南](docs/cost-calculator-guide.md) | 估算 API 调用成本，优化开支 |
@@ -387,9 +385,9 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 ## 🤝 贡献
 
-- 🐛 发现 Bug -> 提交 [Issue](https://github.com/jiaqing77cn/levolink-ai-api/issues)
+- 🐛 发现 Bug -> 提交 [Issue](https://github.com/jiaqing77cn/levogat-ai-api/issues)
 - 📝 优化文档 -> 直接提交 PR
-- 💡 新功能建议 -> 发起 [Discussion](https://github.com/jiaqing77cn/levolink-ai-api/discussions)
+- 💡 新功能建议 -> 发起 [Discussion](https://github.com/jiaqing77cn/levogat-ai-api/discussions)
 - 📄 贡献指南 -> 见 [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 📋 更新日志 -> 见 [CHANGELOG.md](./CHANGELOG.md)
 
@@ -397,7 +395,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 ## License
 
-MIT License · Copyright (c) 2026 [Levolink AI](https://ai.levolink.com)
+MIT License · Copyright (c) 2026 [Levogat AI](https://api.levogat.com)
 
 ## 📢 商标声明
 
