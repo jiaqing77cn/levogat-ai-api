@@ -9,7 +9,7 @@
 
 <div align="center">
 
-**免翻墙 · 低延迟 · 500+ 模型 · OpenAI 兼容 · Claude Code 就绪**
+· 低延迟 · 500+ 模型 · OpenAI 兼容 · Claude Code
 
 [🌐 官网](https://api.levogat.com) · [📋 定价](https://api.levogat.com/pricing) · [📖 API 文档](https://levogat.apifox.cn/) · [💬 联系](https://api.levogat.com)
 
