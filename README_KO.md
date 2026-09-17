@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-09-17 17:40 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-09-17 18:02 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -122,6 +122,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-8` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-opus-5` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-sonnet-4-5-20250929` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
 | `claude-sonnet-4-6` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
 | `claude-sonnet-5` | Kiro-Claude-… | 0.18x | $0.35 | $1.76 | AWS-Claude-3 | 2.2x | $4.40 | $22.00 | 5x |
@@ -133,14 +134,14 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GEMINI_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `gemini-2.5-flash` | Anti-Gemini-… | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.34x |
-| `gemini-2.5-flash-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
-| `gemini-2.5-flash-lite` | Anti-Gemini-… | 0.15x | $0.01 | $0.06 | Aistudio-Gem… | 1.91x | $0.19 | $0.76 | 4x |
-| `gemini-2.5-pro` | Anti-Gemini-… | 0.15x | $0.18 | $1.47 | Aistudio-Gem… | 1.91x | $2.39 | $19.12 | 8x |
+| `gemini-3.8-flash` | Anti-Gemini-… | 0.15x | $0.11 | $0.55 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.7-flash` | Anti-Gemini-… | 0.15x | $0.11 | $0.55 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.6-flash` | Anti-Gemini-… | 0.15x | $0.11 | $0.55 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.5-flash` | Anti-Gemini-… | 0.15x | $0.22 | $1.32 | Aistudio-Gem… | 1.91x | $2.87 | $17.21 | 6x |
+| `gemini-3.5-flash-lite` | Anti-Gemini-… | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.33x |
 | `gemini-3-pro-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
-| `gemini-3.1-flash-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
-| `gemini-3.1-flash-lite` | Anti-Gemini-… | 0.15x | $0.04 | $0.22 | Aistudio-Gem… | 1.91x | $0.48 | $2.87 | 6x |
-| `gemini-3.1-flash-lite-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
+| `gemini-3-pro-image-preview` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
+| `gemini-3-pro-preview` | Anti-Gemini-… | 0.15x | $0.29 | $1.76 | Aistudio-Gem… | 1.91x | $3.82 | $22.94 | 6x |
 
 <!-- GEMINI_PRICE_TABLE_END -->
 
@@ -155,6 +156,8 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `deepseek-v3.1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
 | `deepseek-v3.2` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
 | `deepseek-v3.2-exp` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
+| `deepseek-v4-flash` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
+| `deepseek-v4-flash-0731` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
 
 <!-- DEEPSEEK_PRICE_TABLE_END -->
 
@@ -163,18 +166,20 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- CN_MODEL_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
+| `qwen3.7-max` | Alibaba-1 | 1x | $2.50 | $7.50 | Alibaba-3 | 2.2x | $5.50 | $16.50 | 3x |
 | `qwen3-max` | Self-Deploye… | 0.6x | $0.72 | $3.60 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
-| `qwen3-max-2026-01-23` | Alibaba-1 | 1x | $1.20 | $6.00 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
 | `qwen3-coder-plus` | Self-Deploye… | 0.6x | $0.60 | $3.00 | Self-Deploye… | 1x | $1.00 | $5.00 | 5x |
 | `qwen3.6-plus` | Self-Deploye… | 1x | $0.50 | $3.00 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
-| `qwen3.7-max` | Alibaba-1 | 1x | $2.50 | $7.50 | Alibaba-3 | 2.2x | $5.50 | $16.50 | 3x |
+| `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
+| `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
+| `glm-5.1` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `glm-4.6` | Self-Deploye… | 0.6x | $0.36 | $1.44 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
-| `glm-4.5` | Self-Deploye… | 0.6x | $0.36 | $1.44 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
-| `glm-4.5-air` | Self-Deploye… | 0.6x | $0.12 | $0.66 | Alibaba-3 | 2.2x | $0.44 | $2.42 | 5.5x |
-| `kimi-k2` | Alibaba-1 | 1x | $0.60 | $2.40 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
-| `kimi-k2.5` | Alibaba-1 | 1x | $0.60 | $3.15 | Alibaba-3 | 2.2x | $1.32 | $6.93 | 5.25x |
 | `kimi-k3` | Self-Deploye… | 1x | $3.00 | $15.00 | Self-Deploye… | 1.5x | $4.50 | $22.50 | 5x |
+| `kimi-k2.5` | Alibaba-1 | 1x | $0.60 | $3.15 | Alibaba-3 | 2.2x | $1.32 | $6.93 | 5.25x |
+| `kimi-k2` | Alibaba-1 | 1x | $0.60 | $2.40 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
+| `doubao-seed-2-1-pro-260628` | Doubao-2 | 1.5x | $1.35 | $6.75 | Doubao-3 | 2.2x | $1.98 | $9.90 | 5x |
 | `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
+| `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
@@ -221,16 +226,16 @@ resp = client.chat.completions.create(
     messages=[{"role": "user", "content": "Write a Python quicksort"}]
 )
 
-# Claude Sonnet 4.6
+# Claude Sonnet 5
 resp = client.chat.completions.create(
-    model="claude-sonnet-4-6",
+    model="claude-sonnet-5",
     messages=[{"role": "user", "content": "Explain quantum computing"}],
     extra_body={"anthropic_version": "vertex-2023-10-01"}
 )
 
-# DeepSeek R1
+# DeepSeek V4
 resp = client.chat.completions.create(
-    model="deepseek-reasoner",
+    model="deepseek-v4-pro",
     messages=[{"role": "user", "content": "Implement a web server in Python"}]
 )
 ```
@@ -296,7 +301,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 ### 사용 사례
 
-- **AI 코딩** - Claude Code / Codex와 Claude 4.8 / GPT-5.6으로 리팩토링, 버그 수정
+- **AI 코딩** - Claude Code / Codex와 Claude Opus 5 / GPT-5.6으로 리팩토링, 버그 수정
 - **긴 문서 처리** - 10만 단 이상 분석, 계약서 검토, 논문 요약
 - **AI 에이전트** - 하나의 키로 모든 모델 사용, 멀티 에이전트 병렬 작업
 - **RAG 지식 베이스** - DeepSeek / GPT와 벡터 데이터베이스로 기업 Q&A 구축
@@ -370,7 +375,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | [Claude Desktop 가이드](docs/ko/claude-desktop-guide.md) | Claude Desktop에 Levogat AI 설정 |
 | [Codex 설정 가이드](docs/ko/codex-setup.md) | 중국에서 OpenAI Codex CLI 설정 |
 | [Gemini CLI 가이드](docs/ko/gemini-cli-guide.md) | Gemini CLI로 Levogat AI 통해 Gemini 모델 사용 |
-| [Cursor IDE 설정](docs/ko/cursor-setup.md) | Cursor에서 GPT-5.6 / Claude 4.8 / Gemini 사용 |
+| [Cursor IDE 설정](docs/ko/cursor-setup.md) | Cursor에서 GPT-5.6 / Claude Opus 5 / Gemini 사용 |
 | [Grok Build 가이드](docs/ko/grok-build-guide.md) | xAI Grok Build에 Levogat AI 커스텀 모델 설정 |
 | [OpenCode 가이드](docs/ko/opencode-guide.md) | OpenCode 오픈소스 에이전트에 Levogat AI 설정 |
 | [OpenClaw 가이드](docs/ko/openclaw-guide.md) | OpenClaw Agent 런타임에 Levogat AI 설정 |

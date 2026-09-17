@@ -32,14 +32,14 @@ async function main() {
   // Example 2: Claude Sonnet 4.6
   console.log("\n=== Claude Sonnet 4.6 ===");
   console.log(
-    await chat("claude-sonnet-4-6", "Explain recursion briefly.", {
+    await chat("claude-sonnet-5", "Explain recursion briefly.", {
       extra_body: { anthropic_version: "vertex-2023-10-01" },
     })
   );
 
   // Example 3: DeepSeek R1
   console.log("\n=== DeepSeek R1 ===");
-  console.log(await chat("deepseek-reasoner", "Write a hello world in Rust."));
+  console.log(await chat("deepseek-v4-pro", "Write a hello world in Rust."));
 
   // Example 4: Gemini 2.5 Pro
   console.log("\n=== Gemini 2.5 Pro ===");

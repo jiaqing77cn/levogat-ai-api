@@ -512,48 +512,50 @@ def main():
     claude_from_groups = extract_models_from_groups(data, "claude")
     claude_all = list(dict.fromkeys(claude_models + claude_from_groups))
     claude_hot = [m for m in claude_all if any(x in m.lower() for x in
-        ["opus-4-8", "opus-4-7", "opus-4-6", "opus-4-5-2025", "sonnet-4-6", "sonnet-5",
-         "fable-5", "haiku-4-5-2025", "opus-4-1", "sonnet-4-5-2025", "sonnet-4-2025"])]
+        ["opus-5", "sonnet-5", "fable-5", "opus-4-8", "opus-4-7", "opus-4-6", "sonnet-4-6",
+         "opus-4-5-2025", "haiku-4-5-2025", "opus-4-1", "sonnet-4-5-2025", "sonnet-4-2025"])]
     claude_hot = list(dict.fromkeys(claude_hot))[:12]
 
     # --- Gemini models ---
     gemini_models = get_models_by_keyword(data, ["gemini"])
     gemini_from_groups = extract_models_from_groups(data, "gemini")
     gemini_all = list(dict.fromkeys(gemini_models + gemini_from_groups))
-    gemini_hot = [m for m in gemini_all if "latest" not in m.lower() and "preview" not in m.lower()]
-    gemini_hot = list(dict.fromkeys(gemini_hot))[:8]
+    gemini_hot = []
+    for kw in ["gemini-3.8", "gemini-3.7", "gemini-3.6", "gemini-3.5-flash",
+               "gemini-3-pro", "gemini-2.5-pro", "gemini-2.5-flash"]:
+        gemini_hot += [m for m in gemini_all if kw in m.lower() and "embedding" not in m.lower()
+                       and m not in gemini_hot]
+    gemini_hot = gemini_hot[:8]
 
     # --- DeepSeek models ---
     deepseek_models = get_models_by_keyword(data, ["deepseek"])
     deepseek_from_groups = extract_models_from_groups(data, "deepseek")
     deepseek_all = list(dict.fromkeys(deepseek_models + deepseek_from_groups))
     deepseek_hot = [m for m in deepseek_all if any(x in m.lower() for x in
-        ["v3.1", "v3-1", "r1", "v3.2", "reasoner"])]
+        ["v4", "v3.2", "v3.1", "v3-1", "r1", "reasoner"])]
     deepseek_hot = list(dict.fromkeys(deepseek_hot))[:8]
 
     # --- CN models - use exact names to avoid missing ---
     cn_exact = extract_exact_models(data, [
-        "qwen3-max", "qwen3-max-2026-01-23", "qwen3-coder", "qwen3-coder-plus",
-        "qwen3.6-plus", "qwen3.7-max",
-        "glm-4.6", "glm-4.5", "glm-4.5-air",
-        "kimi-k2", "kimi-k2.5", "kimi-k3",
-        "doubao-seed-1-6-250615", "doubao-seed-1-8-251228",
-        "doubao-seed-2-0-lite-260215",
-        "MiniMax-M3", "MiniMax-M2.7",
+        "qwen3.7-max", "qwen3-max", "qwen3-coder-plus", "qwen3.6-plus",
+        "glm-5.3", "glm-5.2", "glm-5.1", "glm-4.6",
+        "kimi-k3", "kimi-k2.5", "kimi-k2",
+        "doubao-seed-2-1-pro-260628", "doubao-seed-1-6-250615",
+        "MiniMax-M3",
     ])
     # Also try keyword-based for any we missed
     cn_from_kw = []
-    for kw in ["qwen3-max", "qwen3-coder", "glm-4.6", "glm-4.5", "doubao-seed", "kimi-k"]:
+    for kw in ["qwen3-max", "qwen3-coder", "glm-5", "glm-4.6", "doubao-seed-2-1", "doubao-seed", "kimi-k"]:
         cn_from_kw += [m for m in extract_models_from_groups(data, kw) if m not in cn_exact]
     cn_all = list(dict.fromkeys(cn_exact + cn_from_kw))
     # Filter to hot models
     cn_hot = [m for m in cn_all if any(x in m.lower() for x in
         ["qwen3-max", "qwen3-coder", "qwen3.6-plus", "qwen3.7-max",
-         "glm-4.6", "glm-4.5",
+         "glm-5", "glm-4.6", "glm-4.5",
          "kimi-k2", "kimi-k3",
-         "doubao-seed-1-6", "doubao-seed-1-8", "doubao-seed-2-0",
+         "doubao-seed-2-1", "doubao-seed-1-6", "doubao-seed-1-8",
          "minimax-m3", "minimax-m2"])]
-    cn_hot = list(dict.fromkeys(cn_hot))[:12]
+    cn_hot = list(dict.fromkeys(cn_hot))[:14]
 
     print(f"  CN hot models found: {cn_hot}")
 

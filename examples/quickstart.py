@@ -50,14 +50,14 @@ if __name__ == "__main__":
     # Example 2: Claude Sonnet 4.6
     print("\n=== Claude Sonnet 4.6 ===")
     print(chat(
-        "claude-sonnet-4-6",
+        "claude-sonnet-5",
         "Explain quantum entanglement in one sentence.",
         extra_body={"anthropic_version": "vertex-2023-10-01"},
     ))
 
     # Example 3: DeepSeek R1 (streaming)
     print("\n=== DeepSeek R1 (streaming) ===")
-    stream_chat("deepseek-reasoner", "Implement a simple web server in Python.")
+    stream_chat("deepseek-v4-pro", "Implement a simple web server in Python.")
 
     # Example 4: Gemini 2.5 Pro
     print("\n=== Gemini 2.5 Pro ===")

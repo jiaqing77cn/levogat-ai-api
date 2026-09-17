@@ -21,7 +21,7 @@ curl -s "$BASE_URL/chat/completions" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $API_KEY" \
   -d '{
-    "model": "claude-sonnet-4-6",
+    "model": "claude-sonnet-5",
     "messages": [{"role": "user", "content": "What is 2+2?"}],
     "anthropic_version": "vertex-2023-10-01"
   }' | jq '.choices[0].message.content'
@@ -32,7 +32,7 @@ curl -s "$BASE_URL/chat/completions" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $API_KEY" \
   -d '{
-    "model": "deepseek-reasoner",
+    "model": "deepseek-v4-pro",
     "messages": [{"role": "user", "content": "Write a Python one-liner."}],
     "stream": true
   }'
