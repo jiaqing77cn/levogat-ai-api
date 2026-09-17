@@ -1,6 +1,6 @@
 # Dify 연동 튜토리얼: OpenAI 호환 API 설정
 
-> Dify를 Levogat AI에 연결하여 하나의 Key로 500+ AI 모델을 호출.
+> Dify를 Levogat AI에 연결하여 하나의 Key로 366개 AI 모델을 호출.
 
 ## Dify란?
 

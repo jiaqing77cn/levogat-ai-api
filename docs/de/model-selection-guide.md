@@ -1,6 +1,6 @@
 # KI-Modellauswahl-Guide: Claude vs GPT vs Gemini vs DeepSeek
 
-> 228 Modelle – welches passt zu dir? Dieser Leitfaden hilft dir, das passende Modell zu finden.
+> 366 Modelle – welches passt zu dir? Dieser Leitfaden hilft dir, das passende Modell zu finden.
 
 ## Auswahl nach Anwendungsbereich
 

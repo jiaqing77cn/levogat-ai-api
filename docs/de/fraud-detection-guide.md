@@ -107,7 +107,7 @@ print(f"Latenz: {elapsed:.2f}s")
 
 ## Transparenz von Levogat AI
 
-Levogat AI bietet 33 Gruppen, wobei jede Gruppe das Backend klar ausweist:
+Levogat AI bietet 81 Gruppen, wobei jede Gruppe das Backend klar ausweist:
 
 | Gruppe | Backend | Multiplikator | Transparenz |
 |------|------|------|--------|

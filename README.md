@@ -9,7 +9,7 @@
 
 <div align="center">
 
-· 低延迟 · 500+ 模型 · OpenAI 兼容 · Claude Code
+· 低延迟 · 366 个模型 · OpenAI 兼容 · Claude Code
 
 [🌐 官网](https://api.levogat.com) · [📋 定价](https://api.levogat.com/pricing) · [📖 API 文档](https://levogat.apifox.cn/) · [💬 联系](https://api.levogat.com)
 
@@ -34,7 +34,7 @@
 
 ## 🖥️ 产品预览
 
-![levogat AI 首页 - 500+ AI 模型 API 中转平台](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
+![levogat AI 首页 - 366 个 AI 模型 API 中转平台](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
 ![levogat AI 控制台 - 创建 API Key、查看用量、充值](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
@@ -197,7 +197,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 完整价格请前往 [Levogat AI 定价页面](https://api.levogat.com/pricing) 查看，支持 33 个分组、228 个模型、500+ 价格组合。
+> 💡 完整价格请前往 [Levogat AI 定价页面](https://api.levogat.com/pricing) 查看，支持 81 个分组、366 个模型、数千种价格组合。
 
 ### 分组说明
 
@@ -221,7 +221,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 
 1. 前往 [Levogat AI](https://api.levogat.com) -> 注册 -> 控制台创建 Key
 2. 充值（最低 1 元起充）
-   - 支付宝支付 / 微信支付 / 加密货币支付 / Stripe / Global Pay
+   - 支付宝支付 / 微信支付 / 加密货币支付 / 信用卡 / Stripe
 3. 选择代码示例接入：
 
 ### Python (OpenAI SDK)
@@ -330,8 +330,8 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | 维度 | levogat AI | OpenRouter | 硅基流动 | 神马中转 | 自建代理 |
 |------|------------|-----------|---------|---------|---------|
-| 模型数量 | **228+** | ~400 | ~200 | ~100 | 需手动维护 |
-| 分组选择 | **33 个分组** | 无（按供应商定价） | 无分组 | 1-3 个 | - |
+| 模型数量 | **366** | ~400 | ~200 | ~100 | 需手动维护 |
+| 分组选择 | **81 个分组** | 无（按供应商定价） | 无分组 | 1-3 个 | - |
 | 国内 CDN 加速 | ✅ 多节点 | ❌ 无国内节点 | ✅ 单节点 | ✅ | ❌ |
 | 最低充值 | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | 按量计费 | ✅ | ✅ | ✅ | ✅ | ❌ |
@@ -394,7 +394,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | [OpenClaw 接入教程](docs/openclaw-guide.md) | OpenClaw Agent 运行时配置 levogat AI |
 | [CC Switch 接入教程](docs/cc-switch-guide.md) | 统一管理多个 AI 工具的 levogat AI 配置 |
 | [Dify 接入教程](docs/dify-integration.md) | Dify 对接 levogat AI 完整流程 |
-| [模型选择指南](docs/model-selection-guide.md) | 228 个模型怎么选？按场景/预算推荐 |
+| [模型选择指南](docs/model-selection-guide.md) | 366 个模型怎么选？按场景/预算推荐 |
 | [中转站掺水检测指南](docs/fraud-detection-guide.md) | 5 种方法检测中转站是否用低端模型冒充 |
 | [成本计算器使用指南](docs/cost-calculator-guide.md) | 估算 API 调用成本，优化开支 |
 

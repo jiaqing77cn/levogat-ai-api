@@ -32,13 +32,13 @@
 ```markdown
 ## Levogat AI - AI API Proxy for China
 
-Access 500+ AI models (GPT-5.6/Claude 4.8/Gemini 3.5/DeepSeek R1) in China without VPN. 
+Access 366 AI models (GPT-6/Claude Opus 5/Gemini 3.8/DeepSeek V4) in China without VPN. 
 OpenAI-compatible API, 33 channel groups, auto-updated pricing.
 
 - **Website**: https://api.levogat.com
 - **GitHub**: https://github.com/jiaqing77cn/levogat-ai-api
-- **Models**: 500+ (GPT, Claude, Gemini, DeepSeek, Qwen, GLM, Kimi)
-- **Features**: No VPN needed, China CDN, 33 groups, pay-per-token, Claude Code ready
+- **Models**: 366 (GPT, Claude, Gemini, DeepSeek, Qwen, GLM, Kimi)
+- **Features**: No VPN needed, China CDN, 81 groups, pay-per-token, Claude Code ready
 - **Pricing**: Auto-updated on GitHub (hourly)
 - **License**: MIT
 ```

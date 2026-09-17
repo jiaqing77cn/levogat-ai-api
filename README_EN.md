@@ -9,7 +9,7 @@
 
 <div align="center">
 
-**No VPN · Low Latency · 500+ Models · OpenAI Compatible · Claude Code Ready**
+**No VPN · Low Latency · 366 Models · OpenAI Compatible · Claude Code Ready**
 
 [🌐 Website](https://api.levogat.com) · [📋 Pricing](https://api.levogat.com/pricing) · [📖 API Docs](https://levogat.apifox.cn/) · [💬 Contact](https://api.levogat.com)
 
@@ -34,7 +34,7 @@
 
 ## 🖥️ Product Preview
 
-![Levogat AI homepage - 500+ AI model API proxy dashboard](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
+![Levogat AI homepage - 366 AI model API proxy dashboard](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
 ![Levogat AI dashboard - create API keys, view usage, top up account](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
@@ -197,7 +197,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 Full pricing with all 33 groups and 228 models at [Levogat AI Pricing](https://api.levogat.com/pricing)
+> 💡 Full pricing with all 81 groups and 366 models at [Levogat AI Pricing](https://api.levogat.com/pricing)
 
 ### Group Tiers
 
@@ -221,7 +221,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 1. Visit [Levogat AI](https://api.levogat.com) -> Register -> Console -> Create Key
 2. Top up (min 1 yuan)
-   - Alipay / WeChat Pay / Crypto Pay / Stripe / Global Pay
+   - Alipay / WeChat Pay / Crypto Pay / Credit Card / Stripe
 3. Choose your integration method:
 
 ### Python (OpenAI SDK)
@@ -329,14 +329,14 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | Other Proxies | Self-Built |
 |--|-------------|-----------|-------------|---------------|------------|
-| Model count | **228+** | ~400 | ~200 | ~100 | Manual |
-| Group options | **33 groups** | None (per-provider) | None | 1-3 | - |
+| Model count | **366** | ~400 | ~200 | ~100 | Manual |
+| Group options | **81 groups** | None (per-provider) | None | 1-3 | - |
 | China CDN | ✅ Multi-node | ❌ No China nodes | ✅ Single | ✅ | ❌ |
 | Min top-up | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | Pay-as-you-go | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude Code ready | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI compatible | ✅ | ✅ | ✅ | ✅ | Needs adapter |
-| Price transparency | ✅ 33 groups | Per-model, limited choice | Single price | Single price | - |
+| Price transparency | ✅ 81 groups | Per-model, limited choice | Single price | Single price | - |
 | Invoice | ✅ | ❌ No CN invoice | ✅ | ❌ | - |
 | GitHub open source | ✅ Auto-pricing | ❌ | ❌ | ❌ | - |
 
@@ -395,7 +395,7 @@ Yes. Settings -> Identity Verification -> Wallet -> Invoice. E-invoice issued wi
 | [OpenClaw Guide](docs/en/openclaw-guide.md) | OpenClaw Agent runtime with Levogat AI |
 | [CC Switch Guide](docs/en/cc-switch-guide.md) | Unified config management for multiple AI tools |
 | [Dify Integration Guide](docs/en/dify-integration.md) | Connect Dify with Levogat AI |
-| [Model Selection Guide](docs/en/model-selection-guide.md) | Which of 228 models to choose? By use case & budget |
+| [Model Selection Guide](docs/en/model-selection-guide.md) | Which of 366 models to choose? By use case & budget |
 | [Fraud Detection Guide](docs/en/fraud-detection-guide.md) | 5 methods to detect model swapping in API proxies |
 | [Cost Calculator Guide](docs/en/cost-calculator-guide.md) | Estimate API costs and optimize spending |
 

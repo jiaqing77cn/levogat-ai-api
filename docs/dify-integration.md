@@ -1,6 +1,6 @@
 # Dify 接入教程：配置 OpenAI 兼容 API
 
-> 将 Dify 对接 Levogat AI，一个 Key 调用 500+ AI 模型。
+> 将 Dify 对接 Levogat AI，一个 Key 调用 366 个 AI 模型。
 
 ## 什么是 Dify
 

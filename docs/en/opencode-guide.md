@@ -1,6 +1,6 @@
 # OpenCode Third-Party API Setup Guide
 
-> Use Levogat AI with OpenCode to access 500+ AI models without a VPN.
+> Use Levogat AI with OpenCode to access 366 AI models without a VPN.
 
 ## What is OpenCode
 

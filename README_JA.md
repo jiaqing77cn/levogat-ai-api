@@ -197,7 +197,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 全33グループ・228モデルの完全な料金表は[Levogat AI 料金ページ](https://api.levogat.com/pricing)でご確認ください。
+> 💡 全81グループ・366モデルの完全な料金表は[Levogat AI 料金ページ](https://api.levogat.com/pricing)でご確認ください。
 
 ### グループティア
 
@@ -221,7 +221,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 1. [Levogat AI](https://api.levogat.com)にアクセス -> 新規登録 -> コンソール -> キー作成
 2. チャージ（最低1元）
-   - Alipay / WeChat Pay / Crypto Pay / Stripe / Global Pay
+   - Alipay / WeChat Pay / Crypto Pay / クレジットカード / Stripe
 3. 統合方法を選択：
 
 ### Python（OpenAI SDK）
@@ -329,14 +329,14 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | その他プロキシ | セルフビルド |
 |--|-------------|-----------|-------------|---------------|------------|
-| モデル数 | **228以上** | ~400 | 約200 | 約100 | 手動 |
-| グループ選択肢 | **33グループ** | なし（プロバイダー別） | なし | 1-3 | - |
+| モデル数 | **366** | ~400 | 約200 | 約100 | 手動 |
+| グループ選択肢 | **81グループ** | なし（プロバイダー別） | なし | 1-3 | - |
 | 中国CDN | ✅ マルチノード | ❌ 中国ノードなし | ✅ 単一 | ✅ | ❌ |
 | 最低チャージ | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | 従量課金 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude Code対応 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI互換 | ✅ | ✅ | ✅ | ✅ | アダプター必要 |
-| 価格透明性 | ✅ 33グループ | モデル別、選択制限 | 単一価格 | 単一価格 | - |
+| 価格透明性 | ✅ 81グループ | モデル別、選択制限 | 単一価格 | 単一価格 | - |
 | 請求書 | ✅ | ❌ 中国の請求書なし | ✅ | ❌ | - |
 | GitHubオープンソース | ✅ 自動価格更新 | ❌ | ❌ | ❌ | - |
 
@@ -395,7 +395,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | [OpenClaw ガイド](docs/ja/openclaw-guide.md) | OpenClaw AgentランタイムにLevogat AIを設定 |
 | [CC Switch ガイド](docs/ja/cc-switch-guide.md) | 複数AIツールのLevogat AI設定を統合管理 |
 | [Dify 統合ガイド](docs/ja/dify-integration.md) | DifyとLevogat AIの連携 |
-| [モデル選択ガイド](docs/ja/model-selection-guide.md) | 228モデルからどれを選ぶ？用途と予算別 |
+| [モデル選択ガイド](docs/ja/model-selection-guide.md) | 366モデルからどれを選ぶ？用途と予算別 |
 | [詐欺検出ガイド](docs/ja/fraud-detection-guide.md) | APIプロキシでモデルすり替えを検出する5つの方法 |
 | [コスト計算ガイド](docs/ja/cost-calculator-guide.md) | APIコストの見積もりと最適化 |
 

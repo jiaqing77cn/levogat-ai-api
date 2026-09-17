@@ -1,6 +1,6 @@
 # Dify Integration Guide: Configure OpenAI-Compatible API
 
-> Connect Dify to Levogat AI — one API Key to access 500+ AI models.
+> Connect Dify to Levogat AI — one API Key to access 366 AI models.
 
 ## What is Dify
 
