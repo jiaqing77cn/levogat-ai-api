@@ -15,7 +15,7 @@
 
 </div>
 
-> 最后更新：2026-08-11 21:18 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-09-17 17:38 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 ---
 
@@ -91,21 +91,21 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- GPT_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `gpt-5-codex` | enterprise-a… | 0.35x | $0.44 | $3.50 | Codex专属 | 0.8x | $1.00 | $8.00 | 8x |
-| `gpt-5-mini` | enterprise-a… | 0.35x | $0.09 | $0.70 | 特供-优质gpt | 5.6x | $1.40 | $11.20 | 8x |
-| `gpt-5-mini-2025-08-07` | enterprise-a… | 0.35x | $0.09 | $0.70 | 特供-优质gpt | 5.6x | $1.40 | $11.20 | 8x |
-| `gpt-5-nano` | enterprise-a… | 0.35x | $0.02 | $0.14 | 特供-优质gpt | 5.6x | $0.28 | $2.24 | 8x |
-| `gpt-5-nano-2025-08-07` | enterprise-a… | 0.35x | $0.02 | $0.14 | 特供-优质gpt | 5.6x | $0.28 | $2.24 | 8x |
-| `gpt-5-pro` | enterprise-a… | 0.35x | $5.25 | $42.00 | 特供-优质gpt | 5.6x | $84.00 | $672.00 | 8x |
-| `gpt-5.1-codex` | 特价9折 | 0.54x | $0.68 | $5.40 | Codex专属 | 0.8x | $1.00 | $8.00 | 8x |
-| `gpt-5.1-codex-max` | 特价9折 | 0.54x | $0.68 | $5.40 | 纯AZ | 1.5x | $1.88 | $15.00 | 8x |
-| `gpt-5.1-codex-mini` | 特价9折 | 0.54x | $0.14 | $1.08 | 纯AZ | 1.5x | $0.38 | $3.00 | 8x |
-| `gpt-5.2-chat` | enterprise-a… | 0.35x | $0.61 | $4.90 | 特供-优质gpt | 5.6x | $9.80 | $78.40 | 8x |
-| `gpt-5.2-chat-latest` | enterprise-a… | 0.35x | $0.61 | $4.90 | 特供-优质gpt | 5.6x | $9.80 | $78.40 | 8x |
-| `gpt-5.2-codex` | 特价9折 | 0.54x | $0.95 | $7.56 | 特供-优质gpt | 5.6x | $9.80 | $78.40 | 8x |
-| `gpt-5.3-chat-latest` | enterprise-a… | 0.35x | $0.61 | $4.90 | 特供-优质gpt | 5.6x | $9.80 | $78.40 | 8x |
-| `gpt-5.3-codex` | 特价9折 | 0.54x | $0.95 | $7.56 | 特供-优质gpt | 5.6x | $9.80 | $78.40 | 8x |
-| `gpt-5.3-codex-spark` | Codex专属 | 0.8x | $1.40 | $11.20 | 官转OpenAI | 8x | $14.00 | $112.00 | 8x |
+| `gpt-5-codex` | Codex-Gpt-1 | 0.07x | $0.09 | $0.74 | Openai-Gpt-2 | 1.47x | $1.84 | $14.71 | 8x |
+| `gpt-5-mini` | Azure-Gpt-1 | 0.09x | $0.02 | $0.18 | Openai-Gpt-2 | 1.47x | $0.37 | $2.94 | 8x |
+| `gpt-5-mini-2025-08-07` | Azure-Gpt-1 | 0.09x | $0.02 | $0.18 | Openai-Gpt-2 | 1.47x | $0.37 | $2.94 | 8x |
+| `gpt-5-nano` | Azure-Gpt-1 | 0.09x | $0.00 | $0.04 | Openai-Gpt-2 | 1.47x | $0.07 | $0.59 | 8x |
+| `gpt-5-nano-2025-08-07` | Azure-Gpt-1 | 0.09x | $0.00 | $0.04 | Openai-Gpt-2 | 1.47x | $0.07 | $0.59 | 8x |
+| `gpt-5-pro` | Azure-Gpt-1 | 0.09x | $1.32 | $10.59 | Openai-Gpt-2 | 1.47x | $22.06 | $176.47 | 8x |
+| `gpt-5.1-codex` | Azure-Gpt-4 | 0.44x | $0.55 | $4.41 | Openai-Gpt-2 | 1.47x | $1.84 | $14.71 | 8x |
+| `gpt-5.1-codex-mini` | Azure-Gpt-2 | 0.21x | $0.05 | $0.41 | Openai-Gpt-2 | 1.47x | $0.37 | $2.94 | 8x |
+| `gpt-5.2-chat-latest` | Azure-Gpt-1 | 0.09x | $0.15 | $1.24 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
+| `gpt-5.2-codex` | Azure-Gpt-2 | 0.21x | $0.36 | $2.88 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
+| `gpt-5.3-codex` | Azure-Gpt-2 | 0.21x | $0.36 | $2.88 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
+| `gpt-5.4` | Azure-Gpt-2 | 0.21x | $0.51 | $3.09 | Azure-Gpt-6 | 1.8x | $4.50 | $27.00 | 6x |
+| `gpt-5.4-mini` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
+| `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Openai-Gpt-2 | 1.47x | $1.10 | $6.62 | 6x |
+| `gpt-5.4-nano` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Azure-Gpt-6 | 1.8x | $0.36 | $2.25 | 6.25x |
 
 <!-- GPT_PRICE_TABLE_END -->
 
@@ -114,17 +114,17 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- CLAUDE_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `claude-fable-5` | default | 1x | $10.00 | $50.00 | Claude Code专… | 2.4x | $24.00 | $120.00 | 5x |
-| `claude-haiku-4-5-20251001` | default | 1x | $1.00 | $5.00 | Claude Code专… | 2.4x | $2.40 | $12.00 | 5x |
-| `claude-opus-4-1-20250805` | default | 1x | $15.00 | $75.00 | 官转克劳德1 | 4x | $60.00 | $300.00 | 5x |
-| `claude-opus-4-5-20251101` | default | 1x | $5.00 | $25.00 | Claude Code专… | 2.4x | $12.00 | $60.00 | 5x |
-| `claude-opus-4-6` | default | 1x | $5.00 | $25.00 | Claude Code专… | 2.4x | $12.00 | $60.00 | 5x |
-| `claude-opus-4-7` | default | 1x | $5.00 | $25.00 | Claude Code专… | 2.4x | $12.00 | $60.00 | 5x |
-| `claude-opus-4-8` | default | 1x | $5.00 | $25.00 | Claude Code专… | 2.4x | $12.00 | $60.00 | 5x |
-| `claude-sonnet-4-20250514` | default | 1x | $3.00 | $15.00 | 官转克劳德1 | 4x | $12.00 | $60.00 | 5x |
-| `claude-sonnet-4-5-20250929` | default | 1x | $3.00 | $15.00 | Claude Code专… | 2.4x | $7.20 | $36.00 | 5x |
-| `claude-sonnet-4-6` | default | 1x | $3.00 | $15.00 | Claude Code专… | 2.4x | $7.20 | $36.00 | 5x |
-| `claude-sonnet-5` | default | 1x | $2.00 | $10.00 | Claude Code专… | 2.4x | $4.80 | $24.00 | 5x |
+| `claude-fable-5` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
+| `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
+| `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
+| `claude-opus-4-1-20250805` | Azure-Claude… | 0.88x | $13.24 | $66.18 | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | 5x |
+| `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-opus-4-8` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-sonnet-4-5-20250929` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
+| `claude-sonnet-4-6` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
+| `claude-sonnet-5` | Kiro-Claude-… | 0.18x | $0.35 | $1.76 | AWS-Claude-3 | 2.2x | $4.40 | $22.00 | 5x |
 
 <!-- CLAUDE_PRICE_TABLE_END -->
 
@@ -133,14 +133,14 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- GEMINI_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `gemini-2.0-flash-lite` | 官转gemini | 3.6x | $0.27 | $1.08 | 官转Gemini | 6x | $0.45 | $1.80 | 4x |
-| `gemini-2.5-flash` | gemini-cli | 1x | $0.30 | $2.50 | 官转Gemini | 6x | $1.80 | $15.01 | 8.34x |
-| `gemini-2.5-flash-image` | 优质gemini | 2.4x | $0.00 | $0.00 | 官转Gemini | 6x | $0.00 | $0.00 | 0x |
-| `gemini-2.5-flash-lite` | gemini-cli | 1x | $0.10 | $0.40 | 官转Gemini | 6x | $0.60 | $2.40 | 4x |
-| `gemini-2.5-pro` | gemini-cli | 1x | $1.25 | $10.00 | 官转Gemini | 6x | $7.50 | $60.00 | 8x |
-| `gemini-3-pro-image` | 优质gemini | 2.4x | $0.00 | $0.00 | 官转Gemini | 6x | $0.00 | $0.00 | 0x |
-| `gemini-3.1-flash-image` | 优质gemini | 2.4x | $0.00 | $0.00 | 官转Gemini | 6x | $0.00 | $0.00 | 0x |
-| `gemini-3.1-flash-lite` | gemini-cli | 1x | $0.25 | $1.50 | 官转Gemini | 6x | $1.50 | $9.00 | 6x |
+| `gemini-2.5-flash` | Anti-Gemini-… | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.34x |
+| `gemini-2.5-flash-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
+| `gemini-2.5-flash-lite` | Anti-Gemini-… | 0.15x | $0.01 | $0.06 | Aistudio-Gem… | 1.91x | $0.19 | $0.76 | 4x |
+| `gemini-2.5-pro` | Anti-Gemini-… | 0.15x | $0.18 | $1.47 | Aistudio-Gem… | 1.91x | $2.39 | $19.12 | 8x |
+| `gemini-3-pro-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
+| `gemini-3.1-flash-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
+| `gemini-3.1-flash-lite` | Anti-Gemini-… | 0.15x | $0.04 | $0.22 | Aistudio-Gem… | 1.91x | $0.48 | $2.87 | 6x |
+| `gemini-3.1-flash-lite-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
 
 <!-- GEMINI_PRICE_TABLE_END -->
 
@@ -149,14 +149,12 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `deepseek-r1` | uchat_qwen | 0.6x | $2.40 | $9.60 | 纯AZ | 1.5x | $6.00 | $24.00 | 4x |
-| `deepseek-r1-0528` | uchat_qwen | 0.6x | $2.40 | $9.60 | 纯AZ | 1.5x | $6.00 | $24.00 | 4x |
-| `deepseek-r1-2025-01-20` | uchat_qwen | 0.6x | $2.40 | $9.60 | 纯AZ | 1.5x | $6.00 | $24.00 | 4x |
-| `deepseek-r1-250120` | uchat_qwen | 0.6x | $2.40 | $9.60 | 纯AZ | 1.5x | $6.00 | $24.00 | 4x |
-| `deepseek-r1-250528` | uchat_qwen | 0.6x | $2.40 | $9.60 | 纯AZ | 1.5x | $6.00 | $24.00 | 4x |
-| `deepseek-r1-distill-qwen-32b` | 特供-国产4折 | 0.8x | $1.60 | $4.80 | 纯AZ | 1.5x | $3.00 | $9.00 | 3x |
-| `deepseek-r1-distill-qwen-7b` | 特供-国产4折 | 0.8x | $0.40 | $0.80 | 纯AZ | 1.5x | $0.75 | $1.50 | 2x |
-| `deepseek-reasoner` | uchat_qwen | 0.6x | $2.40 | $9.60 | 纯AZ | 1.5x | $6.00 | $24.00 | 4x |
+| `deepseek-r1` | Self-Deploye… | 0.6x | $0.35 | $1.39 | Alibaba-3 | 2.2x | $1.28 | $5.10 | 4x |
+| `deepseek-r1-0528` | Self-Deploye… | 0.6x | $0.35 | $1.39 | Alibaba-3 | 2.2x | $1.28 | $5.10 | 4x |
+| `deepseek-v3-1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
+| `deepseek-v3.1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
+| `deepseek-v3.2` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
+| `deepseek-v3.2-exp` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
 
 <!-- DEEPSEEK_PRICE_TABLE_END -->
 
@@ -165,18 +163,18 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- CN_MODEL_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `qwen3-max` | 限时特价 | 0.6x | $1.50 | $6.00 | 纯AZ | 1.5x | $3.75 | $15.00 | 4x |
-| `qwen3-max-2026-01-23` | 阿里4折 | 0.8x | $2.00 | $8.00 | 纯AZ | 1.5x | $3.75 | $15.00 | 4x |
-| `qwen3-coder` | 特供-国产4折 | 0.8x | $4.80 | $19.20 | 纯AZ | 1.5x | $9.00 | $36.00 | 4x |
-| `qwen3-coder-plus` | 限时特价 | 0.6x | $2.40 | $9.60 | 特供-HC1 | 1.32x | $5.28 | $21.12 | 4x |
-| `qwen3.6-plus` | default | 1x | $2.00 | $12.00 | 纯AZ | 1.5x | $3.00 | $18.00 | 6x |
-| `qwen3.7-max` | 限时特价 | 0.6x | $7.20 | $21.60 | 纯AZ | 1.5x | $18.00 | $54.00 | 3x |
-| `glm-4.6` | 限时特价 | 0.6x | $1.20 | $4.80 | 纯AZ | 1.5x | $3.00 | $12.00 | 4x |
-| `glm-4.5` | 限时特价 | 0.6x | $0.96 | $3.84 | 纯AZ | 1.5x | $2.40 | $9.60 | 4x |
-| `glm-4.5-air` | 限时特价 | 0.6x | $0.48 | $3.60 | 纯AZ | 1.5x | $1.20 | $9.00 | 7.5x |
-| `kimi-k2` | 特供-国产4折 | 0.8x | $3.20 | $12.80 | 特供-优质gpt | 5.6x | $22.40 | $89.60 | 4x |
-| `kimi-k2.5` | 特供-国产4折 | 0.8x | $3.20 | $16.80 | 纯AZ | 1.5x | $6.00 | $31.50 | 5.25x |
-| `kimi-k3` | 纯AZ | 1.5x | $30.00 | $150.00 | 官转 | 3x | $60.00 | $300.00 | 5x |
+| `qwen3-max` | Self-Deploye… | 0.6x | $0.72 | $3.60 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
+| `qwen3-max-2026-01-23` | Alibaba-1 | 1x | $1.20 | $6.00 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
+| `qwen3-coder-plus` | Self-Deploye… | 0.6x | $0.60 | $3.00 | Self-Deploye… | 1x | $1.00 | $5.00 | 5x |
+| `qwen3.6-plus` | Self-Deploye… | 1x | $0.50 | $3.00 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
+| `qwen3.7-max` | Alibaba-1 | 1x | $2.50 | $7.50 | Alibaba-3 | 2.2x | $5.50 | $16.50 | 3x |
+| `glm-4.6` | Self-Deploye… | 0.6x | $0.36 | $1.44 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
+| `glm-4.5` | Self-Deploye… | 0.6x | $0.36 | $1.44 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
+| `glm-4.5-air` | Self-Deploye… | 0.6x | $0.12 | $0.66 | Alibaba-3 | 2.2x | $0.44 | $2.42 | 5.5x |
+| `kimi-k2` | Alibaba-1 | 1x | $0.60 | $2.40 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
+| `kimi-k2.5` | Alibaba-1 | 1x | $0.60 | $3.15 | Alibaba-3 | 2.2x | $1.32 | $6.93 | 5.25x |
+| `kimi-k3` | Self-Deploye… | 1x | $3.00 | $15.00 | Self-Deploye… | 1.5x | $4.50 | $22.50 | 5x |
+| `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
