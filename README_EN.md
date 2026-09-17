@@ -391,7 +391,6 @@ New users get trial credits. Start free, top up when ready.
 | [CC Switch Guide](docs/en/cc-switch-guide.md) | Unified config management for multiple AI tools |
 | [Dify Integration Guide](docs/en/dify-integration.md) | Connect Dify with Levogat AI |
 | [Model Selection Guide](docs/en/model-selection-guide.md) | Which of 366 models to choose? By use case & budget |
-| [API Relay Directory](docs/en/api-relay-list.md) | Verified-live relay stations 2026 — submit yours via Issue |
 | [Fraud Detection Guide](docs/en/fraud-detection-guide.md) | 5 methods to detect model swapping in API proxies |
 | [Cost Calculator Guide](docs/en/cost-calculator-guide.md) | Estimate API costs and optimize spending |
 
