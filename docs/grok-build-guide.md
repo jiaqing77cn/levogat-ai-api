@@ -1,4 +1,4 @@
-# Grok Build 接入教程
+# Grok Build 接入教程：Grok API 中转配置
 
 > 在 Grok Build 中使用 Levogat AI 中转调用 GPT/Claude/Gemini 等模型。
 

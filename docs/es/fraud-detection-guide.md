@@ -1,4 +1,4 @@
-# Guía Completa de Detección de Adulteración en Proxies de IA
+# Guía completa de detección de API puente: cómo identificar modelos adulterados
 
 > Cómo detectar si un proxy de API de IA está usando modelos baratos haciéndose pasar por modelos caros.
 

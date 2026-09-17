@@ -1,4 +1,4 @@
-# Gemini CLI Setup Guide
+# Gemini CLI Setup Guide: Access Gemini API in China
 
 > Use Levogat AI with Gemini CLI to access Gemini 3.5 Pro / Flash and other models without a VPN.
 

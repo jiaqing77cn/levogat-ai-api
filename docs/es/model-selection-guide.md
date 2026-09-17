@@ -1,4 +1,4 @@
-# Guía de Selección de Modelos
+# Guía de selección de modelos de IA: Claude vs GPT vs Gemini vs DeepSeek
 
 > ¿Cómo elegir entre 228 modelos? Esta guía te ayuda a encontrar el modelo más adecuado.
 

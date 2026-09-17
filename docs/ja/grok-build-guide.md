@@ -1,4 +1,4 @@
-# Grok Build 連携ガイド
+# Grok Build接続チュートリアル：Grok API中継設定
 
 > Grok Build で Levogat AI 経由で GPT/Claude/Gemini などのモデルを呼び出します。
 

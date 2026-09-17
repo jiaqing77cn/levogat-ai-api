@@ -1,6 +1,6 @@
-# Claude Code セットアップガイド
+# Claude Code サードパーティAPI設定チュートリアル（国内直結）
 
-> 中国国内で Claude Code を使う最適なソリューション。VPN 不要、低レイテンシ。
+> 中国国内でClaude CodeにサードパーティAPIキーを設定する完全ガイド：VPN不要、低遅延、Claude Opus 5 / Sonnet 5対応。5分で完了。
 
 ## Claude Code とは
 

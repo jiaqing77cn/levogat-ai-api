@@ -1,4 +1,4 @@
-# Claude Desktop Integrationsanleitung
+# Claude Desktop Drittanbieter-API Einrichtungsguide
 
 > Verwenden Sie Levogat AI in der Claude Desktop-App, um Claude-Modelle ohne VPN direkt aufzurufen.
 

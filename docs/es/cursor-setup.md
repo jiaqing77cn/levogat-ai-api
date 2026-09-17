@@ -1,6 +1,6 @@
-# Guía de Configuración de Cursor IDE
+# Guía de configuración de API en Cursor (API puente para Claude/GPT)
 
-> Usar Levogat AI en Cursor IDE para llamar a GPT-5.6 / Claude 4.8 / Gemini 3.5.
+> Guía completa para configurar una API puente en Cursor: compatible con Claude Opus 5, GPT-6, DeepSeek V4. Acceso directo en China.
 
 ## Pasos de Configuración
 

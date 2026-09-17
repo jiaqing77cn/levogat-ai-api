@@ -1,4 +1,4 @@
-# CC Switch 연결 튜토리얼
+# CC Switch 튜토리얼: Claude Code 서드파티 API 원클릭 전환
 
 > CC Switch를 사용하여 Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw 등 도구의 Levogat AI 설정을 통합 관리하세요.
 

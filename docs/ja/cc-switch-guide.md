@@ -1,4 +1,4 @@
-# CC Switch 連携ガイド
+# CC Switchチュートリアル：Claude CodeのサードパーティAPIをワンクリック切替
 
 > CC Switch を使用して、Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw などのツールの Levogat AI 設定を一元管理します。
 

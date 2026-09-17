@@ -1,4 +1,4 @@
-# Grok Build 연결 튜토리얼
+# Grok Build 연결 튜토리얼: Grok API 중계 설정
 
 > Grok Build에서 Levogat AI를 중계로 사용하여 GPT/Claude/Gemini 등의 모델을 호출하세요.
 

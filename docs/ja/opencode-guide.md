@@ -1,4 +1,4 @@
-# OpenCode 連携ガイド
+# OpenCode サードパーティAPI設定チュートリアル
 
 > OpenCode で Levogat AI を使用し、500 以上の AI モデルを呼び出します。VPN は不要です。
 

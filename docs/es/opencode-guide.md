@@ -1,4 +1,4 @@
-# Guía de Integración con OpenCode
+# Guía de configuración de API de terceros para OpenCode
 
 > Usa Levogat AI en OpenCode para acceder a más de 500 modelos de IA, sin necesidad de VPN.
 

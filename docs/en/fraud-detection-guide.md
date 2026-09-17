@@ -1,4 +1,4 @@
-# API Proxy Fraud Detection Complete Guide
+# API Relay Detection Guide: How to Spot Model Swapping
 
 > How to detect whether an AI API proxy is substituting cheap models for premium ones.
 

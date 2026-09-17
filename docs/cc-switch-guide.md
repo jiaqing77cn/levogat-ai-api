@@ -1,4 +1,4 @@
-# CC Switch 接入教程
+# CC Switch 教程：一键切换 Claude Code 第三方 API
 
 > 使用 CC Switch 统一管理 Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw 等工具的 Levogat AI 配置。
 

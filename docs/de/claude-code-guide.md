@@ -1,6 +1,6 @@
-# Claude Code Anleitung
+# Claude Code Drittanbieter-API Einrichtungsguide (China)
 
-> Die beste Lösung für die Nutzung von Claude Code in China, ohne VPN, mit geringer Latenz.
+> Die komplette Anleitung zur Einrichtung von Claude Code mit einem Drittanbieter-API-Key in China — ohne VPN, niedrige Latenz, unterstützt Claude Opus 5 / Sonnet 5. In 5 Minuten fertig.
 
 ## Was ist Claude Code
 

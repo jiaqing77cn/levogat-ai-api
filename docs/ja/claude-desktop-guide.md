@@ -1,4 +1,4 @@
-# Claude Desktop 連携ガイド
+# Claude Desktop サードパーティAPI設定チュートリアル
 
 > Claude Desktop デスクトップアプリで Levogat AI を使用し、VPN なしで Claude モデルを直接呼び出します。
 

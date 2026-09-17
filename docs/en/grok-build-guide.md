@@ -1,4 +1,4 @@
-# Grok Build Setup Guide
+# Grok Build Setup Guide: Grok API Relay Configuration
 
 > Use Levogat AI with Grok Build to access GPT/Claude/Gemini and other models.
 

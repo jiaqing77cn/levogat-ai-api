@@ -1,4 +1,4 @@
-# Claude Desktop 연결 튜토리얼
+# Claude Desktop 서드파티 API 설정 튜토리얼
 
 > Claude Desktop 데스크톱 앱에서 Levogat AI를 사용하여 VPN 없이 Claude 모델을 호출하세요.
 

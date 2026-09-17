@@ -1,6 +1,6 @@
-# OpenAI Codex 接入教程
+# Codex 配置第三方 API 教程（国内模型直连）
 
-> 国内使用 OpenAI Codex CLI 的最佳方案，无需翻墙，通过 Levogat AI 中转。
+> OpenAI Codex 配置第三方 API / 国内模型的完整教程：支持 GPT-6、DeepSeek V4、GLM-5.3，免翻墙直连，含 codex 配置文件详解。
 
 ## 什么是 Codex CLI
 

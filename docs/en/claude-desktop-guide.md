@@ -1,4 +1,4 @@
-# Claude Desktop Setup Guide
+# Claude Desktop Third-Party API Setup Guide
 
 > Use Levogat AI with the Claude Desktop app to access Claude models directly without a VPN.
 

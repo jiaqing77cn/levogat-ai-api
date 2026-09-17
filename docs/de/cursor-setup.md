@@ -1,6 +1,6 @@
-# Cursor IDE Anleitung
+# Cursor API-Einrichtungsguide (Relay-API für Claude/GPT)
 
-> Verwende Levogat AI in Cursor IDE, um GPT-5.6 / Claude 4.8 / Gemini 3.5 aufzurufen.
+> Komplette Anleitung zur Einrichtung einer Relay-API in Cursor — unterstützt Claude Opus 5, GPT-6, DeepSeek V4. Direktzugang in China.
 
 ## Konfigurationsschritte
 

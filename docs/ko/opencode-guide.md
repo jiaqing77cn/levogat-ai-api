@@ -1,4 +1,4 @@
-# OpenCode 연결 튜토리얼
+# OpenCode 서드파티 API 설정 튜토리얼
 
 > OpenCode에서 Levogat AI를 사용하여 500개 이상의 AI 모델을 호출하세요. VPN이 필요 없습니다.
 

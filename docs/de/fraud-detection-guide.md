@@ -1,4 +1,4 @@
-# Vollständiger Leitfaden zur Erkennung von Modell-Manipulation bei API-Proxys
+# API-Relay-Erkennungsguide: Modellaustausch erkennen
 
 > So erkennst du, ob ein KI-API-Proxy günstige Modelle als teure Modelle ausgibt.
 

@@ -1,4 +1,4 @@
-# Cost Calculator Guide
+# API Cost Calculator: Compare LLM API Pricing
 
 > Estimate your AI API costs and find the most cost-effective model and group combination.
 

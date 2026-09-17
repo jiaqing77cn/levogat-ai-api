@@ -1,4 +1,4 @@
-# Guía de Integración con Claude Desktop
+# Guía de configuración de API de terceros para Claude Desktop
 
 > Usa Levogat AI en la aplicación de escritorio Claude Desktop, con acceso a modelos Claude sin necesidad de VPN.
 

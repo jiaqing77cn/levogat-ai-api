@@ -1,4 +1,4 @@
-# OpenCode 接入教程
+# OpenCode 配置第三方 API 教程
 
 > 在 OpenCode 中使用 Levogat AI 调用 500+ AI 模型，无需翻墙。
 

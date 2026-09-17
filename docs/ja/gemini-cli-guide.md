@@ -1,4 +1,4 @@
-# Gemini CLI 連携ガイド
+# Gemini CLI接続チュートリアル：国内からGemini APIに直結
 
 > Gemini CLI で Levogat AI を使用し、Gemini 3.5 Pro / Flash などのモデルを呼び出します。VPN は不要です。
 

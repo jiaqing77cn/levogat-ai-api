@@ -1,4 +1,4 @@
-# Kostenrechner-Anleitung
+# API-Kostenrechner: LLM-API-Preise vergleichen
 
 > Schätze deine KI-API-Aufrufkosten ab und finde die günstigste Modell- und Gruppenkombination.
 

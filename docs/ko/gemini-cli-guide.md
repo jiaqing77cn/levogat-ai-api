@@ -1,4 +1,4 @@
-# Gemini CLI 연결 튜토리얼
+# Gemini CLI 연결 튜토리얼: 중국에서 Gemini API 직결
 
 > Gemini CLI에서 Levogat AI를 사용하여 Gemini 3.5 Pro / Flash 등의 모델을 호출하세요. VPN이 필요 없습니다.
 

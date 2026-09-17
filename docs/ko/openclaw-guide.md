@@ -1,4 +1,4 @@
-# OpenClaw 연결 튜토리얼
+# OpenClaw 연결 튜토리얼: 중국 AI API 설정
 
 > OpenClaw에서 Levogat AI를 백엔드 모델 제공자로 사용하세요.
 

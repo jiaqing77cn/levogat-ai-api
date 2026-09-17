@@ -1,4 +1,4 @@
-# Gemini CLI 接入教程
+# Gemini CLI 接入教程：国内直连 Gemini API
 
 > 在 Gemini CLI 中使用 Levogat AI 调用 Gemini 3.5 Pro / Flash 等模型，无需翻墙。
 

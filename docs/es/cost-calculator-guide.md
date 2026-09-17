@@ -1,4 +1,4 @@
-# Guía de Uso de la Calculadora de Costos
+# Calculadora de costos de API: compara precios de API de LLM
 
 > Estima los costos de tus llamadas a la API de IA y elige la combinación de modelo y grupo más económica.
 

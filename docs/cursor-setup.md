@@ -1,6 +1,6 @@
-# Cursor IDE 接入教程
+# Cursor 配置 API 教程（中转 API 接入 Claude/GPT）
 
-> 在 Cursor IDE 中使用 Levogat AI 调用 GPT-5.6 / Claude 4.8 / Gemini 3.5。
+> Cursor 配置中转 API 的完整教程：支持 Claude Opus 5、GPT-6、DeepSeek V4，国内直连，一键配置 API Key。
 
 ## 配置步骤
 

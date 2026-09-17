@@ -1,4 +1,4 @@
-# OpenClaw Integrationsanleitung
+# OpenClaw-Einrichtungsguide: KI-API in China konfigurieren
 
 > Verwenden Sie Levogat AI als Backend-Modellanbieter in OpenClaw.
 

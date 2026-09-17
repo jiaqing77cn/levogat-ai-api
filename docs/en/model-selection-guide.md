@@ -1,4 +1,4 @@
-# Model Selection Guide
+# AI Model Selection Guide: Claude vs GPT vs Gemini vs DeepSeek
 
 > 228 models to choose from? This guide helps you find the right one.
 

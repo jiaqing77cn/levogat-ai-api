@@ -1,6 +1,6 @@
-# OpenAI Codex 연결 튜토리얼
+# Codex 서드파티 API 설정 튜토리얼 (중국 모델 직결)
 
-> 중국에서 OpenAI Codex CLI를 사용하는 최적의 방법, VPN 없이 Levogat AI를 통해 이용.
+> OpenAI Codex에 서드파티 API / 중국 모델을 설정하는 완전 가이드: GPT-6, DeepSeek V4, GLM-5.3 지원, VPN 불필요.
 
 ## Codex CLI란?
 

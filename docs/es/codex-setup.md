@@ -1,6 +1,6 @@
-# Guía de Configuración de OpenAI Codex
+# Guía de configuración de API de terceros para Codex (modelos en China)
 
-> La mejor solución para usar OpenAI Codex CLI en China, sin necesidad de VPN, a través del proxy de Levogat AI.
+> Guía completa para configurar Codex con una API de terceros: compatible con GPT-6, DeepSeek V4, GLM-5.3. Sin VPN, acceso directo en China.
 
 ## ¿Qué es Codex CLI?
 

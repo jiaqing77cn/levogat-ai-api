@@ -1,4 +1,4 @@
-# Dify セットアップガイド
+# Dify連携チュートリアル：OpenAI互換APIの設定
 
 > Dify を Levogat AI に接続し、1つの Key で 500以上の AI モデルを呼び出す。
 

@@ -1,6 +1,6 @@
-# Cursor IDE セットアップガイド
+# Cursor API設定チュートリアル（中継APIでClaude/GPTに接続）
 
-> Cursor IDE で Levogat AI を使って GPT-5.6 / Claude 4.8 / Gemini 3.5 を呼び出す。
+> Cursorに中継APIを設定する完全ガイド：Claude Opus 5、GPT-6、DeepSeek V4対応、中国国内直結。
 
 ## 設定手順
 

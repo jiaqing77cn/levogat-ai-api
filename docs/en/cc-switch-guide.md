@@ -1,4 +1,4 @@
-# CC Switch Setup Guide
+# CC Switch Guide: Switch Claude Code API Providers in One Click
 
 > Use CC Switch to centrally manage Levogat AI configurations for Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw, and other tools.
 

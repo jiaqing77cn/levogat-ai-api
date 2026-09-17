@@ -1,6 +1,6 @@
-# Claude Code 연결 튜토리얼
+# Claude Code 서드파티 API 설정 튜토리얼 (중국 직결)
 
-> 중국에서 Claude Code를 사용하는 최적의 방법, VPN 없이 저지연으로 이용 가능.
+> 중국에서 Claude Code에 서드파티 API Key를 설정하는 완전 가이드: VPN 불필요, 저지연, Claude Opus 5 / Sonnet 5 지원. 5분 완성.
 
 ## Claude Code란?
 

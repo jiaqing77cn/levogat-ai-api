@@ -1,6 +1,6 @@
-# Claude Code 接入教程
+# Claude Code 配置第三方 API 教程（国内直连）
 
-> 国内使用 Claude Code 的最佳方案，无需翻墙，低延迟。
+> 国内配置 Claude Code 第三方 API Key 的完整方案：免翻墙、低延迟，支持 Claude Opus 5 / Sonnet 5，5 分钟完成配置。
 
 ## 什么是 Claude Code
 

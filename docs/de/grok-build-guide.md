@@ -1,4 +1,4 @@
-# Grok Build Integrationsanleitung
+# Grok Build Einrichtungsguide: Grok API Relay konfigurieren
 
 > Verwenden Sie Levogat AI als Proxy in Grok Build, um Modelle wie GPT/Claude/Gemini aufzurufen.
 

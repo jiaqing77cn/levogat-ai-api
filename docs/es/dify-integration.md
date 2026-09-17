@@ -1,4 +1,4 @@
-# Guía de Integración con Dify
+# Guía de integración de Dify: configurar API compatible con OpenAI
 
 > Conecta Dify con Levogat AI: una sola Key para acceder a más de 500 modelos de IA.
 

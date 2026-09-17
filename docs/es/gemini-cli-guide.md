@@ -1,4 +1,4 @@
-# Guía de Integración con Gemini CLI
+# Guía de Gemini CLI: acceder a la API de Gemini en China
 
 > Usa Levogat AI en Gemini CLI para invocar modelos como Gemini 3.5 Pro / Flash sin necesidad de VPN.
 

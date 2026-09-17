@@ -1,4 +1,4 @@
-# Claude Desktop 接入教程
+# Claude Desktop 配置第三方 API 教程
 
 > 在 Claude Desktop 桌面应用中使用 Levogat AI，无需翻墙直接调用 Claude 模型。
 

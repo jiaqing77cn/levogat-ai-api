@@ -1,6 +1,6 @@
-# OpenAI Codex セットアップガイド
+# Codex サードパーティAPI設定チュートリアル（国内モデル直結）
 
-> 中国国内で OpenAI Codex CLI を使う最適なソリューション。VPN 不要、Levogat AI 経由で利用。
+> OpenAI CodexにサードパーティAPI / 国内モデルを設定する完全ガイド：GPT-6、DeepSeek V4、GLM-5.3対応、VPN不要。
 
 ## Codex CLI とは
 

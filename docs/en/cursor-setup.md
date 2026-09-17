@@ -1,6 +1,6 @@
-# Cursor IDE Setup Guide
+# Cursor API Setup Guide: Configure Third-Party API in China
 
-> Use Levogat AI in Cursor IDE to access GPT-5.6 / Claude 4.8 / Gemini 3.5.
+> Complete guide to configuring a relay API in Cursor — supports Claude Opus 5, GPT-6, DeepSeek V4. Direct access in China.
 
 ## Configuration Steps
 

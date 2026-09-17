@@ -1,4 +1,4 @@
-# Guía de Integración con Grok Build
+# Guía de Grok Build: configuración de API puente de Grok
 
 > Usa Levogat AI en Grok Build para invocar modelos como GPT/Claude/Gemini a través de intermediario.
 

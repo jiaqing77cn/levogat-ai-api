@@ -1,6 +1,6 @@
-# Cursor IDE 연결 튜토리얼
+# Cursor API 설정 튜토리얼 (중계 API로 Claude/GPT 연결)
 
-> Cursor IDE에서 Levogat AI를 사용하여 GPT-5.6 / Claude 4.8 / Gemini 3.5 호출.
+> Cursor에 중계 API를 설정하는 완전 가이드: Claude Opus 5, GPT-6, DeepSeek V4 지원, 중국 직결.
 
 ## 설정 단계
 
