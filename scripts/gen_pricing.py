@@ -497,15 +497,16 @@ def main():
     print(f"  Ratios: {len(ratios)}")
 
     # --- GPT models ---
-    gpt_models = get_models_by_keyword(data, ["gpt-5", "gpt-4", "o1", "o3", "o4"])
+    gpt_models = get_models_by_keyword(data, ["gpt-6", "gpt-5", "gpt-4", "o1", "o3", "o4"])
     gpt_from_groups = extract_models_from_groups(data, "gpt-5")
     gpt_all = list(dict.fromkeys(gpt_models + gpt_from_groups))
-    gpt_hot = [m for m in gpt_all if any(x in m.lower() for x in
-        ["gpt-5.6-sol", "gpt-5.6-luna", "gpt-5.6-terra", "gpt-5.5", "gpt-5.4-mini", "gpt-5.4-nano",
-         "gpt-5.4-pro", "gpt-5.4", "gpt-5.3-chat", "gpt-5.3-codex", "gpt-5.2-chat", "gpt-5.2-codex",
-         "gpt-5.1-codex", "gpt-5-codex", "gpt-5-chat", "gpt-5-mini", "gpt-5-nano", "gpt-5-pro"])]
+    gpt_hot = []
+    for kw in ["gpt-6", "gpt-5.6-sol", "gpt-5.6-luna", "gpt-5.6-terra", "gpt-5.5",
+               "gpt-5.4-pro", "gpt-5.4-mini", "gpt-5.4-nano", "gpt-5.3-codex", "gpt-5.2-codex",
+               "gpt-5.2-chat", "gpt-5.1-codex", "gpt-5-pro", "gpt-5-codex", "gpt-5-mini", "gpt-5-nano"]:
+        gpt_hot += [m for m in gpt_all if kw in m.lower() and m not in gpt_hot]
     gpt_hot = [m for m in gpt_hot if m not in ("gpt-5", "gpt-5-chat-latest")]
-    gpt_hot = list(dict.fromkeys(gpt_hot))[:15]
+    gpt_hot = gpt_hot[:15]
 
     # --- Claude models ---
     claude_models = get_models_by_keyword(data, ["claude"])
@@ -531,31 +532,41 @@ def main():
     deepseek_models = get_models_by_keyword(data, ["deepseek"])
     deepseek_from_groups = extract_models_from_groups(data, "deepseek")
     deepseek_all = list(dict.fromkeys(deepseek_models + deepseek_from_groups))
-    deepseek_hot = [m for m in deepseek_all if any(x in m.lower() for x in
-        ["v4", "v3.2", "v3.1", "v3-1", "r1", "reasoner"])]
-    deepseek_hot = list(dict.fromkeys(deepseek_hot))[:8]
+    deepseek_hot = []
+    for kw in ["v4.1", "v4-pro", "v4-flash", "v3.2", "v3.1", "v3-1", "r1"]:
+        deepseek_hot += [m for m in deepseek_all if kw in m.lower() and m not in deepseek_hot]
+    deepseek_hot = deepseek_hot[:8]
 
     # --- CN models - use exact names to avoid missing ---
     cn_exact = extract_exact_models(data, [
-        "qwen3.7-max", "qwen3-max", "qwen3-coder-plus", "qwen3.6-plus",
-        "glm-5.3", "glm-5.2", "glm-5.1", "glm-4.6",
-        "kimi-k3", "kimi-k2.5", "kimi-k2",
+        "qwen3.8-max", "qwen3-max", "qwen3-coder-plus",
+        "glm-5.3", "glm-5.3-flash", "glm-5.2",
+        "kimi-k3", "kimi-k2.7-code", "kimi-k2.5",
         "doubao-seed-2-1-pro-260628", "doubao-seed-1-6-250615",
-        "MiniMax-M3",
+        "MiniMax-M3", "MiniMax-M2.7",
     ])
     # Also try keyword-based for any we missed
     cn_from_kw = []
-    for kw in ["qwen3-max", "qwen3-coder", "glm-5", "glm-4.6", "doubao-seed-2-1", "doubao-seed", "kimi-k"]:
+    for kw in ["qwen3.8", "qwen3-max", "qwen3-coder", "glm-5", "glm-4.6", "doubao-seed-2-1", "doubao-seed", "kimi-k"]:
         cn_from_kw += [m for m in extract_models_from_groups(data, kw) if m not in cn_exact]
     cn_all = list(dict.fromkeys(cn_exact + cn_from_kw))
     # Filter to hot models
     cn_hot = [m for m in cn_all if any(x in m.lower() for x in
-        ["qwen3-max", "qwen3-coder", "qwen3.6-plus", "qwen3.7-max",
+        ["qwen3.8", "qwen3-max", "qwen3-coder", "qwen3.6-plus", "qwen3.7-max",
          "glm-5", "glm-4.6", "glm-4.5",
          "kimi-k2", "kimi-k3",
          "doubao-seed-2-1", "doubao-seed-1-6", "doubao-seed-1-8",
          "minimax-m3", "minimax-m2"])]
     cn_hot = list(dict.fromkeys(cn_hot))[:14]
+
+    # --- Grok models ---
+    grok_models = get_models_by_keyword(data, ["grok"])
+    grok_from_groups = extract_models_from_groups(data, "grok")
+    grok_all = list(dict.fromkeys(grok_models + grok_from_groups))
+    grok_hot = []
+    for kw in ["grok-4.6", "grok-4.5", "grok-4.3", "grok-4-20", "grok-4"]:
+        grok_hot += [m for m in grok_all if kw in m.lower() and m not in grok_hot]
+    grok_hot = grok_hot[:6]
 
     print(f"  CN hot models found: {cn_hot}")
 
@@ -565,6 +576,7 @@ def main():
     gemini_table_cn = gen_table(data, gemini_hot, "Gemini", "cn")
     deepseek_table_cn = gen_table(data, deepseek_hot, "DeepSeek", "cn")
     cn_table_cn = gen_table(data, cn_hot, "国产", "cn")
+    grok_table_cn = gen_table(data, grok_hot, "Grok", "cn")
 
     # Generate tables - English
     gpt_table_en = gen_table(data, gpt_hot, "GPT", "en")
@@ -572,6 +584,7 @@ def main():
     gemini_table_en = gen_table(data, gemini_hot, "Gemini", "en")
     deepseek_table_en = gen_table(data, deepseek_hot, "DeepSeek", "en")
     cn_table_en = gen_table(data, cn_hot, "Chinese", "en")
+    grok_table_en = gen_table(data, grok_hot, "Grok", "en")
 
     # Timestamp
     now = datetime.now(timezone(timedelta(hours=8)))
@@ -595,6 +608,7 @@ def main():
     readme_cn = replace_section(readme_cn, "GEMINI_PRICE_TABLE", gemini_table_cn)
     readme_cn = replace_section(readme_cn, "DEEPSEEK_PRICE_TABLE", deepseek_table_cn)
     readme_cn = replace_section(readme_cn, "CN_MODEL_PRICE_TABLE", cn_table_cn)
+    readme_cn = replace_section(readme_cn, "GROK_PRICE_TABLE", grok_table_cn)
     readme_cn = re.sub(
         r'最后更新：[\d\-: ]+ \(UTC\+8\)',
         f'最后更新：{new_ts} (UTC+8)',
@@ -608,6 +622,7 @@ def main():
         readme_en = replace_section(readme_en, "GEMINI_PRICE_TABLE", gemini_table_en)
         readme_en = replace_section(readme_en, "DEEPSEEK_PRICE_TABLE", deepseek_table_en)
         readme_en = replace_section(readme_en, "CN_MODEL_PRICE_TABLE", cn_table_en)
+        readme_en = replace_section(readme_en, "GROK_PRICE_TABLE", grok_table_en)
         readme_en = re.sub(
             r'Last updated:[^|\n]*',
             f'Last updated: {new_ts} (UTC+8)',
@@ -640,6 +655,7 @@ def main():
             content = replace_section(content, "GEMINI_PRICE_TABLE", gemini_table_en)
             content = replace_section(content, "DEEPSEEK_PRICE_TABLE", deepseek_table_en)
             content = replace_section(content, "CN_MODEL_PRICE_TABLE", cn_table_en)
+            content = replace_section(content, "GROK_PRICE_TABLE", grok_table_en)
             content = re.sub(
                 r'Last updated:[^|\n]*',
                 f'Last updated: {new_ts} (UTC+8)',

@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-09-17 18:02 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-09-17 18:15 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -91,21 +91,21 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GPT_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `gpt-5-codex` | Codex-Gpt-1 | 0.07x | $0.09 | $0.74 | Openai-Gpt-2 | 1.47x | $1.84 | $14.71 | 8x |
-| `gpt-5-mini` | Azure-Gpt-1 | 0.09x | $0.02 | $0.18 | Openai-Gpt-2 | 1.47x | $0.37 | $2.94 | 8x |
-| `gpt-5-mini-2025-08-07` | Azure-Gpt-1 | 0.09x | $0.02 | $0.18 | Openai-Gpt-2 | 1.47x | $0.37 | $2.94 | 8x |
-| `gpt-5-nano` | Azure-Gpt-1 | 0.09x | $0.00 | $0.04 | Openai-Gpt-2 | 1.47x | $0.07 | $0.59 | 8x |
-| `gpt-5-nano-2025-08-07` | Azure-Gpt-1 | 0.09x | $0.00 | $0.04 | Openai-Gpt-2 | 1.47x | $0.07 | $0.59 | 8x |
-| `gpt-5-pro` | Azure-Gpt-1 | 0.09x | $1.32 | $10.59 | Openai-Gpt-2 | 1.47x | $22.06 | $176.47 | 8x |
-| `gpt-5.1-codex` | Azure-Gpt-4 | 0.44x | $0.55 | $4.41 | Openai-Gpt-2 | 1.47x | $1.84 | $14.71 | 8x |
-| `gpt-5.1-codex-mini` | Azure-Gpt-2 | 0.21x | $0.05 | $0.41 | Openai-Gpt-2 | 1.47x | $0.37 | $2.94 | 8x |
-| `gpt-5.2-chat-latest` | Azure-Gpt-1 | 0.09x | $0.15 | $1.24 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
-| `gpt-5.2-codex` | Azure-Gpt-2 | 0.21x | $0.36 | $2.88 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
-| `gpt-5.3-codex` | Azure-Gpt-2 | 0.21x | $0.36 | $2.88 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
-| `gpt-5.4` | Azure-Gpt-2 | 0.21x | $0.51 | $3.09 | Azure-Gpt-6 | 1.8x | $4.50 | $27.00 | 6x |
+| `gpt-6-astra` | Codex-Gpt-1 | 0.07x | $0.74 | $3.68 | Azure-Gpt-6 | 1.8x | $18.00 | $90.00 | 5x |
+| `gpt-5.6-sol` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
+| `gpt-5.6-luna` | Azure-Gpt-2 | 0.21x | $0.04 | $0.25 | Azure-Gpt-6 | 1.8x | $0.36 | $2.16 | 6x |
+| `gpt-5.6-terra` | Codex-Gpt-1 | 0.07x | $0.15 | $0.88 | Azure-Gpt-6 | 1.8x | $3.60 | $21.60 | 6x |
+| `gpt-5.5` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
+| `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
+| `gpt-5.4-pro` | Azure-Gpt-1 | 0.09x | $2.65 | $15.88 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
+| `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.21x | $6.18 | $37.06 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-mini` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
 | `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Openai-Gpt-2 | 1.47x | $1.10 | $6.62 | 6x |
 | `gpt-5.4-nano` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Azure-Gpt-6 | 1.8x | $0.36 | $2.25 | 6.25x |
+| `gpt-5.4-nano-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Openai-Gpt-2 | 1.47x | $0.29 | $1.84 | 6.25x |
+| `gpt-5.3-codex` | Azure-Gpt-2 | 0.21x | $0.36 | $2.88 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
+| `gpt-5.2-codex` | Azure-Gpt-2 | 0.21x | $0.36 | $2.88 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
+| `gpt-5.2-chat-latest` | Azure-Gpt-1 | 0.09x | $0.15 | $1.24 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
 
 <!-- GPT_PRICE_TABLE_END -->
 
@@ -150,36 +150,50 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `deepseek-r1` | Self-Deploye… | 0.6x | $0.35 | $1.39 | Alibaba-3 | 2.2x | $1.28 | $5.10 | 4x |
-| `deepseek-r1-0528` | Self-Deploye… | 0.6x | $0.35 | $1.39 | Alibaba-3 | 2.2x | $1.28 | $5.10 | 4x |
-| `deepseek-v3-1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
-| `deepseek-v3.1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
-| `deepseek-v3.2` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
-| `deepseek-v3.2-exp` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 1x | $0.30 | $1.20 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
+| `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
+| `deepseek-v4-pro-0813` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-flash` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
 | `deepseek-v4-flash-0731` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
+| `deepseek-v3.2` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
+| `deepseek-v3.2-exp` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
+| `deepseek-v3.1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
 
 <!-- DEEPSEEK_PRICE_TABLE_END -->
+
+### xAI Grok 시리즈
+
+<!-- GROK_PRICE_TABLE_START -->
+| Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
+|-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
+| `grok-4.6` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
+| `grok-4.5` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
+| `grok-4.3` | Azure-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
+| `grok-4-20-non-reasoning` | Cli-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
+| `grok-4-20-reasoning` | Cli-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
+| `grok-4` | Azure-Grok-1 | 0.15x | $0.44 | $2.21 | Azure-Grok-2 | 0.22x | $0.66 | $3.31 | 5x |
+
+<!-- GROK_PRICE_TABLE_END -->
 
 ### 중국 모델 (Qwen/Doubao/GLM/Kimi/MiniMax)
 
 <!-- CN_MODEL_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `qwen3.7-max` | Alibaba-1 | 1x | $2.50 | $7.50 | Alibaba-3 | 2.2x | $5.50 | $16.50 | 3x |
+| `qwen3.8-max` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 | `qwen3-max` | Self-Deploye… | 0.6x | $0.72 | $3.60 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
 | `qwen3-coder-plus` | Self-Deploye… | 0.6x | $0.60 | $3.00 | Self-Deploye… | 1x | $1.00 | $5.00 | 5x |
-| `qwen3.6-plus` | Self-Deploye… | 1x | $0.50 | $3.00 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
 | `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
+| `glm-5.3-flash` | Self-Deploye… | 1x | $0.15 | $0.50 | Self-Deploye… | 1.5x | $0.22 | $0.75 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
-| `glm-5.1` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
-| `glm-4.6` | Self-Deploye… | 0.6x | $0.36 | $1.44 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
 | `kimi-k3` | Self-Deploye… | 1x | $3.00 | $15.00 | Self-Deploye… | 1.5x | $4.50 | $22.50 | 5x |
+| `kimi-k2.7-code` | Self-Deploye… | 1x | $0.95 | $3.95 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
 | `kimi-k2.5` | Alibaba-1 | 1x | $0.60 | $3.15 | Alibaba-3 | 2.2x | $1.32 | $6.93 | 5.25x |
-| `kimi-k2` | Alibaba-1 | 1x | $0.60 | $2.40 | Alibaba-3 | 2.2x | $1.32 | $5.28 | 4x |
 | `doubao-seed-2-1-pro-260628` | Doubao-2 | 1.5x | $1.35 | $6.75 | Doubao-3 | 2.2x | $1.98 | $9.90 | 5x |
 | `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
 | `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
+| `MiniMax-M2.7` | Self-Deploye… | 1.5x | $0.45 | $1.80 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
+| `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
