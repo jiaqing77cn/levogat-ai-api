@@ -2,6 +2,8 @@
 
 > 在 OpenClaw 中使用 Levogat AI 作为后端模型提供商。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=openclaw-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 OpenClaw
 
 OpenClaw 是开源的 AI Agent 运行时，支持多模型调度、技能系统、定时任务、记忆系统等。通过配置 OpenAI 兼容的 API 端点，可以接入 Levogat AI。

@@ -2,6 +2,8 @@
 
 > AI API 프록시이 저가 모델로 고가 모델을 대체하는지 검출하는 방법.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=fraud-detection-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## 왜 검출해야 하는가?
 
 일부 프록시은 이윤을 위해 GLM-4 등 저렴한 모델로 GPT-5를 대체하고, Haiku로 Opus를 대체합니다. 사용자는 고가 모델의 비용을 지불하지만 저가 모델의 출력을 받게 됩니다.

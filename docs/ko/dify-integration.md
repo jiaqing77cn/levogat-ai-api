@@ -2,6 +2,8 @@
 
 > Dify를 Levogat AI에 연결하여 하나의 Key로 366개 AI 모델을 호출.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=dify-integration&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## Dify란?
 
 Dify는 오픈소스 LLM 애플리케이션 개발 플랫폼으로, 지식베이스 관리, Agent 오케스트레이션, 워크플로우 자동화를 지원합니다. Levogat AI와 연결하면 Dify에서 GPT-5.6, Claude 4.8, Gemini, DeepSeek 등 모든 모델을 호출할 수 있습니다.

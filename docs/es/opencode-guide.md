@@ -2,6 +2,8 @@
 
 > Usa Levogat AI en OpenCode para acceder a más de 500 modelos de IA, sin necesidad de VPN.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=opencode-guide&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## ¿Qué es OpenCode?
 
 OpenCode es un asistente de programación con IA de código abierto (160K+ Stars), que soporta terminal, escritorio y plugin de IDE. Mediante la configuración de un endpoint compatible con OpenAI, se puede integrar Levogat AI.

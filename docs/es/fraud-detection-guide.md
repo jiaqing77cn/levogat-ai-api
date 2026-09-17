@@ -2,6 +2,8 @@
 
 > Cómo detectar si un proxy de API de IA está usando modelos baratos haciéndose pasar por modelos caros.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=fraud-detection-guide&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## ¿Por qué es necesario detectarlo?
 
 Algunos proxies, para maximizar ganancias, usan modelos baratos como GLM-4 haciéndose pasar por GPT-5, o Haiku haciéndose pasar por Opus. Los usuarios pagan el precio de un modelo premium pero reciben la salida de un modelo de bajo rendimiento.

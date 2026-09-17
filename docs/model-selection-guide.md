@@ -2,6 +2,8 @@
 
 > 366 个模型怎么选？这份指南帮你找到最适合的模型。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=model-selection-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 按场景选择
 
 ### 🧑‍💻 AI 编程

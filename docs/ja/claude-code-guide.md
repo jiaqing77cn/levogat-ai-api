@@ -2,6 +2,8 @@
 
 > 中国国内でClaude CodeにサードパーティAPIキーを設定する完全ガイド：VPN不要、低遅延、Claude Opus 5 / Sonnet 5対応。5分で完了。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-code-guide&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## Claude Code とは
 
 Claude Code は Anthropic が公式提供する AI プログラミングアシスタントです。ターミナルで直接使用でき、コード生成、リファクタリング、バグ修正、テスト作成などをサポートしています。

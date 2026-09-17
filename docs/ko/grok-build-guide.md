@@ -2,6 +2,8 @@
 
 > Grok Build에서 Levogat AI를 중계로 사용하여 GPT/Claude/Gemini 등의 모델을 호출하세요.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=grok-build-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## Grok Build란?
 
 Grok Build는 xAI에서 출시한 터미널 AI 프로그래밍 어시스턴트로, 대화형 TUI, 헤드리스 모드 및 ACP 프로토콜을 지원합니다. 커스텀 모델 설정을 통해 Grok Build에서 Levogat AI의 모든 모델을 호출할 수 있습니다.

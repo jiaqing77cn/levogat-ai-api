@@ -2,6 +2,8 @@
 
 > Usa Levogat AI en la aplicación de escritorio Claude Desktop, con acceso a modelos Claude sin necesidad de VPN.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-desktop-guide&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## ¿Qué es Claude Desktop?
 
 Claude Desktop es el cliente de escritorio oficial de Anthropic, compatible con macOS y Windows. Mediante la configuración de variables de entorno, Claude Desktop puede acceder a los modelos Claude a través de Levogat AI como intermediario.

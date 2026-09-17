@@ -2,6 +2,8 @@
 
 > ¿Cómo elegir entre 366 modelos? Esta guía te ayuda a encontrar el modelo más adecuado.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=model-selection-guide&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## Selección por Caso de Uso
 
 ### 🧑‍💻 Programación con IA

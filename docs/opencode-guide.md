@@ -2,6 +2,8 @@
 
 > 在 OpenCode 中使用 Levogat AI 调用 366 个 AI 模型，无需翻墙。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=opencode-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 OpenCode
 
 OpenCode 是开源的 AI 编程助手（160K+ Stars），支持终端、桌面和 IDE 插件三种形态。通过配置 OpenAI 兼容的 API 端点，可以接入 Levogat AI。

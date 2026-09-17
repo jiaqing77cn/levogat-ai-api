@@ -2,6 +2,8 @@
 
 > AI API 호출 비용을 추정하고, 가장 저렴한 모델과 그룹 조합을 선택하세요.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cost-calculator-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## 빠른 비용 추정
 
 ### 기본 개념

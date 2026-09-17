@@ -2,6 +2,8 @@
 
 > 在 Grok Build 中使用 Levogat AI 中转调用 GPT/Claude/Gemini 等模型。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=grok-build-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 Grok Build
 
 Grok Build 是 xAI 推出的终端 AI 编程助手，支持交互式 TUI、无头模式和 ACP 协议。通过自定义模型配置，可以让 Grok Build 调用 Levogat AI 上的任意模型。

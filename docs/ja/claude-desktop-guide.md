@@ -2,6 +2,8 @@
 
 > Claude Desktop デスクトップアプリで Levogat AI を使用し、VPN なしで Claude モデルを直接呼び出します。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-desktop-guide&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## Claude Desktop とは
 
 Claude Desktop は Anthropic が公式提供するデスクトップクライアントで、macOS と Windows に対応しています。環境変数を設定することで、Claude Desktop が Levogat AI を経由して Claude モデルにアクセスするようにできます。

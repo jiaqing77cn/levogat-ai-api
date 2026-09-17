@@ -2,6 +2,8 @@
 
 > 如何检测 AI API 中转站是否用低价模型冒充高价模型。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=fraud-detection-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 为什么要检测
 
 部分中转站为了利润，会用 GLM-4 等便宜模型冒充 GPT-5，用 Haiku 冒充 Opus。用户付了高价模型的钱，得到的是低端模型的输出。

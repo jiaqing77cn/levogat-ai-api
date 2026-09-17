@@ -2,6 +2,8 @@
 
 > 366개 모델 중 무엇을 선택해야 할까? 이 가이드가 가장 적합한 모델을 찾아드립니다.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=model-selection-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## 시나리오별 선택
 
 ### 🧑‍💻 AI 프로그래밍

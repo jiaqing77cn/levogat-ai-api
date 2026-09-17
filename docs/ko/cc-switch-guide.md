@@ -2,6 +2,8 @@
 
 > CC Switch를 사용하여 Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw 등 도구의 Levogat AI 설정을 통합 관리하세요.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cc-switch-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## CC Switch란?
 
 CC Switch는 크로스 플랫폼 데스크톱 도구로, 여러 AI 프로그래밍 도구의 API 설정을 통합 관리합니다. Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build, OpenCode, OpenClaw, Hermes를 지원하며, 원클릭으로 API Provider를 전환할 수 있어 수동으로 설정 파일을 편집할 필요가 없습니다.

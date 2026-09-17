@@ -2,6 +2,8 @@
 
 > OpenAI Codex 配置第三方 API / 国内模型的完整教程：支持 GPT-6、DeepSeek V4、GLM-5.3，免翻墙直连，含 codex 配置文件详解。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=codex-setup&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 Codex CLI
 
 OpenAI Codex CLI 是 OpenAI 推出的终端 AI 编程助手，支持代码生成、重构、Bug 修复、测试编写等。类似 Claude Code，但基于 GPT 模型。

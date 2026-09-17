@@ -2,6 +2,8 @@
 
 > Verwenden Sie Levogat AI als Backend-Modellanbieter in OpenClaw.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=openclaw-guide&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Was ist OpenClaw?
 
 OpenClaw ist eine Open-Source-AI-Agent-Laufzeitumgebung und unterstützt Multi-Modell-Scheduling, ein Skill-System, zeitgesteuerte Aufgaben, ein Gedächtnissystem und mehr. Durch die Konfiguration eines OpenAI-kompatiblen API-Endpunkts kann Levogat AI eingebunden werden.

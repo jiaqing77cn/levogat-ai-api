@@ -2,6 +2,8 @@
 
 > Use Levogat AI with Grok Build to access GPT/Claude/Gemini and other models.
 
+> 👉 **Get your API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=grok-build-guide&utm_campaign=docs-funnel) (free trial credits — Alipay/WeChat/crypto accepted)
+
 ## What is Grok Build
 
 Grok Build is xAI's terminal AI coding assistant, supporting interactive TUI, headless mode, and the ACP protocol. With custom model configuration, Grok Build can call any model available on Levogat AI.

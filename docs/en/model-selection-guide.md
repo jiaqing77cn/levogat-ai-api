@@ -2,6 +2,8 @@
 
 > 366 models to choose from? This guide helps you find the right one.
 
+> 👉 **Get your API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=model-selection-guide&utm_campaign=docs-funnel) (free trial credits — Alipay/WeChat/crypto accepted)
+
 ## Choose by Use Case
 
 ### 🧑‍💻 AI Coding

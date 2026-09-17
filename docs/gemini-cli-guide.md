@@ -2,6 +2,8 @@
 
 > 在 Gemini CLI 中使用 Levogat AI 调用 Gemini 3.5 Pro / Flash 等模型，无需翻墙。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=gemini-cli-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 Gemini CLI
 
 Gemini CLI 是 Google 推出的终端 AI 助手，支持代码生成、文档分析、任务自动化等。通过 Levogat AI 中转，国内用户可以直接使用 Gemini 系列模型。

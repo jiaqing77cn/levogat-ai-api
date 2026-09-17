@@ -2,6 +2,8 @@
 
 > Estima los costos de tus llamadas a la API de IA y elige la combinación de modelo y grupo más económica.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cost-calculator-guide&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## Estimación Rápida de Costos
 
 ### Conceptos Básicos

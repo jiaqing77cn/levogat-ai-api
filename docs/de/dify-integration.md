@@ -2,6 +2,8 @@
 
 > Verbinde Dify mit Levogat AI – ein Key für 366 KI-Modelle.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=dify-integration&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Was ist Dify
 
 Dify ist eine Open-Source-LLM-Anwendungsentwicklungsplattform, die Wissensbankverwaltung, Agent-Orchestrierung und Workflow-Automatisierung unterstützt. Durch die Anbindung an Levogat AI kann Dify auf alle Modelle wie GPT-5.6, Claude 4.8, Gemini, DeepSeek und weitere zugreifen.

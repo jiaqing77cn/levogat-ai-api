@@ -2,6 +2,8 @@
 
 > Cursor 配置中转 API 的完整教程：支持 Claude Opus 5、GPT-6、DeepSeek V4，国内直连，一键配置 API Key。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cursor-setup&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 配置步骤
 
 ### 1. 打开 Cursor 设置

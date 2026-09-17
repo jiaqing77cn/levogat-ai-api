@@ -2,6 +2,8 @@
 
 > 在 Claude Desktop 桌面应用中使用 Levogat AI，无需翻墙直接调用 Claude 模型。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-desktop-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 Claude Desktop
 
 Claude Desktop 是 Anthropic 官方推出的桌面客户端，支持 macOS 和 Windows。通过配置环境变量，可以让 Claude Desktop 通过 Levogat AI 中转访问 Claude 模型。

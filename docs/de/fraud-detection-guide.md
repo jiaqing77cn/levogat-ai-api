@@ -2,6 +2,8 @@
 
 > So erkennst du, ob ein KI-API-Proxy günstige Modelle als teure Modelle ausgibt.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=fraud-detection-guide&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Warum ist das wichtig?
 
 Einige Proxys verwenden aus Profitgründen billige Modelle wie GLM-4 anstelle von GPT-5 oder Haiku anstelle von Opus. Nutzer zahlen für hochwertige Modelle, erhalten aber die Ausgabe von minderwertigen Modellen.

@@ -2,6 +2,8 @@
 
 > 估算你的 AI API 调用成本，选择最省钱的模型和分组组合。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cost-calculator-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 快速成本估算
 
 ### 基础概念

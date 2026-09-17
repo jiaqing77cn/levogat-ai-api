@@ -2,6 +2,8 @@
 
 > 366 Modelle – welches passt zu dir? Dieser Leitfaden hilft dir, das passende Modell zu finden.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=model-selection-guide&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Auswahl nach Anwendungsbereich
 
 ### 🧑‍💻 KI-Programmierung

@@ -2,6 +2,8 @@
 
 > Guía completa para configurar una API puente en Cursor: compatible con Claude Opus 5, GPT-6, DeepSeek V4. Acceso directo en China.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cursor-setup&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## Pasos de Configuración
 
 ### 1. Abrir la Configuración de Cursor

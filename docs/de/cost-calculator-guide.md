@@ -2,6 +2,8 @@
 
 > Schätze deine KI-API-Aufrufkosten ab und finde die günstigste Modell- und Gruppenkombination.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cost-calculator-guide&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Schnelle Kostenschätzung
 
 ### Grundlagen

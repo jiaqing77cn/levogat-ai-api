@@ -2,6 +2,8 @@
 
 > OpenCode에서 Levogat AI를 사용하여 500개 이상의 AI 모델을 호출하세요. VPN이 필요 없습니다.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=opencode-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## OpenCode란?
 
 OpenCode는 오픈소스 AI 프로그래밍 어시스턴트(160K+ Stars)로, 터미널, 데스크톱, IDE 플러그인 세 가지 형태를 지원합니다. OpenAI 호환 API 엔드포인트를 설정하여 Levogat AI를 연결할 수 있습니다.

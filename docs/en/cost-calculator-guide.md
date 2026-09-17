@@ -2,6 +2,8 @@
 
 > Estimate your AI API costs and find the most cost-effective model and group combination.
 
+> 👉 **Get your API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cost-calculator-guide&utm_campaign=docs-funnel) (free trial credits — Alipay/WeChat/crypto accepted)
+
 ## Quick Cost Estimation
 
 ### Basic Concepts

@@ -2,6 +2,8 @@
 
 > OpenCode で Levogat AI を使用し、500 以上の AI モデルを呼び出します。VPN は不要です。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=opencode-guide&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## OpenCode とは
 
 OpenCode はオープンソースの AI プログラミングアシスタント（160K+ Stars）で、ターミナル、デスクトップ、IDE プラグインの3つの形式をサポートしています。OpenAI 互換の API エンドポイントを設定することで、Levogat AI を連携できます。

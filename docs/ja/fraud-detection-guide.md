@@ -2,6 +2,8 @@
 
 > AI API プロキシが安価なモデルで高価なモデルを偽装していないか検出する方法。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=fraud-detection-guide&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## なぜ検出が必要か
 
 一部のプロキシは利益のために、GLM-4 などの安価なモデルで GPT-5 を偽装したり、Haiku で Opus を偽装したりしています。ユーザーは高価なモデルの料金を支払いながら、低品質なモデルの出力を受け取っています。

@@ -2,6 +2,8 @@
 
 > Use Levogat AI with Gemini CLI to access Gemini 3.5 Pro / Flash and other models without a VPN.
 
+> 👉 **Get your API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=gemini-cli-guide&utm_campaign=docs-funnel) (free trial credits — Alipay/WeChat/crypto accepted)
+
 ## What is Gemini CLI
 
 Gemini CLI is Google's terminal AI assistant, supporting code generation, document analysis, task automation, and more. Through Levogat AI proxy, users in China can directly use Gemini series models.

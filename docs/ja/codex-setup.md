@@ -2,6 +2,8 @@
 
 > OpenAI CodexにサードパーティAPI / 国内モデルを設定する完全ガイド：GPT-6、DeepSeek V4、GLM-5.3対応、VPN不要。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=codex-setup&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## Codex CLI とは
 
 OpenAI Codex CLI は OpenAI が提供するターミナル AI プログラミングアシスタントです。コード生成、リファクタリング、バグ修正、テスト作成などをサポートしています。Claude Code と似ていますが、GPT モデルをベースにしています。

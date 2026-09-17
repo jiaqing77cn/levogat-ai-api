@@ -2,6 +2,8 @@
 
 > Cursorに中継APIを設定する完全ガイド：Claude Opus 5、GPT-6、DeepSeek V4対応、中国国内直結。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cursor-setup&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## 設定手順
 
 ### 1. Cursor 設定を開く

@@ -2,6 +2,8 @@
 
 > Komplette Anleitung zur Einrichtung von Codex mit einer Drittanbieter-API — unterstützt GPT-6, DeepSeek V4, GLM-5.3. Ohne VPN, Direktzugang in China.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=codex-setup&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Was ist Codex CLI
 
 OpenAI Codex CLI ist der von OpenAI entwickelte KI-Programmierassistent für das Terminal, der Code-Generierung, Refactoring, Bug-Fixing und Test-Erstellung unterstützt. Ähnlich wie Claude Code, aber basierend auf GPT-Modellen.

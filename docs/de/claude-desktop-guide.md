@@ -2,6 +2,8 @@
 
 > Verwenden Sie Levogat AI in der Claude Desktop-App, um Claude-Modelle ohne VPN direkt aufzurufen.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-desktop-guide&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Was ist Claude Desktop?
 
 Claude Desktop ist der offizielle Desktop-Client von Anthropic und unterstützt macOS sowie Windows. Durch die Konfiguration von Umgebungsvariablen kann Claude Desktop über Levogat AI als Proxy auf Claude-Modelle zugreifen.

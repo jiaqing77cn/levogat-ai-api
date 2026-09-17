@@ -2,6 +2,8 @@
 
 > 国内配置 Claude Code 第三方 API Key 的完整方案：免翻墙、低延迟，支持 Claude Opus 5 / Sonnet 5，5 分钟完成配置。
 
+> 👉 **获取 API Key**：[api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-code-guide&utm_campaign=docs-funnel)（注册即送体验额度，支付宝/微信可充值）
+
 ## 什么是 Claude Code
 
 Claude Code 是 Anthropic 官方推出的 AI 编程助手，可以直接在终端中使用，支持代码生成、重构、Bug 修复、测试编写等。

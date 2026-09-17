@@ -2,6 +2,8 @@
 
 > Usa Levogat AI en Gemini CLI para invocar modelos como Gemini 3.5 Pro / Flash sin necesidad de VPN.
 
+> 👉 **Obtén tu API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=gemini-cli-guide&utm_campaign=docs-funnel) (créditos de prueba gratis — recarga con Alipay/WeChat/crypto)
+
 ## ¿Qué es Gemini CLI?
 
 Gemini CLI es el asistente de IA para terminal de Google, que soporta generación de código, análisis de documentos, automatización de tareas, etc. A través de Levogat AI, los usuarios en China pueden usar directamente los modelos de la serie Gemini.

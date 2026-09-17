@@ -2,6 +2,8 @@
 
 > Komplette Anleitung zur Einrichtung einer Relay-API in Cursor — unterstützt Claude Opus 5, GPT-6, DeepSeek V4. Direktzugang in China.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cursor-setup&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Konfigurationsschritte
 
 ### 1. Cursor-Einstellungen öffnen

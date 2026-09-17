@@ -2,6 +2,8 @@
 
 > Cursor에 중계 API를 설정하는 완전 가이드: Claude Opus 5, GPT-6, DeepSeek V4 지원, 중국 직결.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cursor-setup&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## 설정 단계
 
 ### 1. Cursor 설정 열기

@@ -2,6 +2,8 @@
 
 > The complete guide to configuring Claude Code with a third-party API key in China — no VPN, low latency, supports Claude Opus 5 / Sonnet 5. Done in 5 minutes.
 
+> 👉 **Get your API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=claude-code-guide&utm_campaign=docs-funnel) (free trial credits — Alipay/WeChat/crypto accepted)
+
 ## What is Claude Code
 
 Claude Code is an official AI programming assistant from Anthropic. It runs directly in the terminal and supports code generation, refactoring, bug fixing, test writing, and more.

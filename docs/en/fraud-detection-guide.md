@@ -2,6 +2,8 @@
 
 > How to detect whether an AI API proxy is substituting cheap models for premium ones.
 
+> 👉 **Get your API Key**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=fraud-detection-guide&utm_campaign=docs-funnel) (free trial credits — Alipay/WeChat/crypto accepted)
+
 ## Why Detection Matters
 
 Some API proxies substitute cheap models like GLM-4 for GPT-5, or Haiku for Opus, to maximize profit. Users pay premium model prices but receive output from low-end models.

@@ -2,6 +2,8 @@
 
 > AI API 呼び出しコストを見積もり、最もお得なモデルとグループの組み合わせを選ぶ。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=cost-calculator-guide&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## クイックコスト見積もり
 
 ### 基礎概念

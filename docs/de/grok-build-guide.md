@@ -2,6 +2,8 @@
 
 > Verwenden Sie Levogat AI als Proxy in Grok Build, um Modelle wie GPT/Claude/Gemini aufzurufen.
 
+> 👉 **API-Key holen**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=grok-build-guide&utm_campaign=docs-funnel) (kostenlose Testguthaben — Alipay/WeChat/Crypto)
+
 ## Was ist Grok Build?
 
 Grok Build ist der von xAI entwickelte Terminal-AI-Programmierassistent und unterstützt interaktives TUI, Headless-Modus und das ACP-Protokoll. Durch benutzerdefinierte Modellkonfiguration kann Grok Build beliebige Modelle von Levogat AI aufrufen.

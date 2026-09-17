@@ -2,6 +2,8 @@
 
 > 366個のモデルからどう選ぶ？このガイドが最適なモデルを見つけるお手伝いをします。
 
+> 👉 **API Keyを取得**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=model-selection-guide&utm_campaign=docs-funnel) (登録で無料トライアルクレジット、Alipay/WeChatでチャージ可)
+
 ## シーン別に選ぶ
 
 ### 🧑‍💻 AI プログラミング

@@ -2,6 +2,8 @@
 
 > Gemini CLI에서 Levogat AI를 사용하여 Gemini 3.5 Pro / Flash 등의 모델을 호출하세요. VPN이 필요 없습니다.
 
+> 👉 **API Key 발급**: [api.levogat.com](https://api.levogat.com/register?utm_source=github&utm_medium=gemini-cli-guide&utm_campaign=docs-funnel) (가입 즉시 체험 크레딧 지급, 알리페이/위챗페이 충전 가능)
+
 ## Gemini CLI란?
 
 Gemini CLI는 Google에서 출시한 터미널 AI 어시스턴트로, 코드 생성, 문서 분석, 작업 자동화 등을 지원합니다. Levogat AI를 통해 중계하면 한국 사용자도 Gemini 시리즈 모델을 직접 사용할 수 있습니다.
