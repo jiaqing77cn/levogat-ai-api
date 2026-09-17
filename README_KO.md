@@ -1,4 +1,4 @@
-<h1 align="center">🚀 중국 AI API 프록시 | VPN 없이 Claude/GPT/Gemini/DeepSeek 직접 연결 | Levolink AI</h1>
+<h1 align="center">🚀 중국 AI API 프록시 | VPN 없이 Claude/GPT/Gemini/DeepSeek 직접 연결 | Levogat AI</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/>
@@ -11,7 +11,7 @@
 
 **VPN 불필요 · 저지연 · 500+ 모델 · OpenAI Compatible · Claude Code Ready**
 
-[🌐 웹사이트](https://ai.levolink.com) · [📋 가격](https://ai.levolink.com/pricing) · [📖 API 문서](https://levolink.apifox.cn/) · [💬 문의](https://ai.levolink.com)
+[🌐 웹사이트](https://api.levogat.com) · [📋 가격](https://api.levogat.com/pricing) · [📖 API 문서](https://levogat.apifox.cn/) · [💬 문의](https://api.levogat.com)
 
 </div>
 
@@ -34,9 +34,9 @@
 
 ## 🖥️ 제품 미리보기
 
-![Levolink AI 홈페이지 - 500+ AI 모델 API 프록시 대시보드](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/homepage.jpg)
+![Levogat AI 홈페이지 - 500+ AI 모델 API 프록시 대시보드](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
-![Levolink AI 콘솔 - API 키 생성, 사용량 확인, 계정 충전](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/console.jpg)
+![Levogat AI 콘솔 - API 키 생성, 사용량 확인, 계정 충전](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 ## 💰 실시간 모델 가격
 
-> 가격은 GitHub Actions가 [Levolink API](https://ai.levolink.com/api/pricing)에서 자동으로 가져오며, 매시간 업데이트됩니다.
+> 가격은 GitHub Actions가 [Levogat API](https://api.levogat.com/api/pricing)에서 자동으로 가져오며, 매시간 업데이트됩니다.
 >
 > 단위: USD / Million Tokens | 출력/입력 비율 = 출력 가격 ÷ 입력 가격
 
@@ -180,7 +180,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 33개 그룹 및 228개 모델의 전체 가격표는 [Levolink AI 가격 페이지](https://ai.levolink.com/pricing)에서 확인하세요
+> 💡 33개 그룹 및 228개 모델의 전체 가격표는 [Levogat AI 가격 페이지](https://api.levogat.com/pricing)에서 확인하세요
 
 ### 그룹 등급
 
@@ -202,7 +202,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 ### 빠른 시작
 
-1. [Levolink AI](https://ai.levolink.com) 방문 -> 회원가입 -> 콘솔 -> 키 생성
+1. [Levogat AI](https://api.levogat.com) 방문 -> 회원가입 -> 콘솔 -> 키 생성
 2. 충전 (최소 1위안)
    - Alipay / WeChat Pay / Crypto Pay / Stripe / Global Pay
 3. 연동 방법 선택:
@@ -214,7 +214,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="***",
-    base_url="https://ai.levolink.com/v1"
+    base_url="https://api.levogat.com/v1"
 )
 
 # GPT-5.6 Sol
@@ -240,7 +240,7 @@ resp = client.chat.completions.create(
 ### Node.js / curl
 
 ```bash
-curl https://ai.levolink.com/v1/chat/completions \
+curl https://api.levogat.com/v1/chat/completions \
   -H "Authorization: Bearer ***" \
   -H "Content-Type: application/json" \
   -d '{
@@ -257,7 +257,7 @@ curl https://ai.levolink.com/v1/chat/completions \
 npm install -g @anthropic-ai/claude-code
 
 echo 'export ANTHROPIC_AUTH_TOKEN="***"' >> ~/.bash_profile
-echo 'export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"' >> ~/.bash_profile
+echo 'export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"' >> ~/.bash_profile
 source ~/.bash_profile
 
 cd your-project && claude
@@ -270,7 +270,7 @@ cd your-project && claude
 ```bash
 npm install -g @openai/codex
 export OPENAI_API_KEY="***"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 ```
 
 📖 전체 가이드: [Codex 설정](docs/ko/codex-setup.md)
@@ -280,7 +280,7 @@ export OPENAI_API_BASE="https://ai.levolink.com/v1"
 ```bash
 npm install -g @google/gemini-cli
 export GEMINI_API_KEY="***"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 ```
 
 📖 전체 가이드: [Cursor IDE 설정](docs/ko/cursor-setup.md) (Gemini CLI에도 동일하게 적용)
@@ -289,12 +289,12 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 | 도구 | 설정 |
 |------|------|
-| **Dify / FastGPT** | API Key + Base URL: `https://ai.levolink.com/v1` |
-| **n8n** | HTTP Request -> URL: `https://ai.levolink.com/v1/chat/completions` |
-| **LangChain** | `ChatOpenAI(openai_api_key="key", openai_api_base="https://ai.levolink.com/v1")` |
-| **NextChat** | 설정 -> 커스텀 API -> URL: `https://ai.levolink.com/v1` |
-| **Cursor IDE** | 설정 -> 환경변수 -> `ANTHROPIC_BASE_URL=https://ai.levolink.com/v1` |
-| **OpenClaw** | `openai_api_key: key` + `openai_api_base: https://ai.levolink.com/v1` |
+| **Dify / FastGPT** | API Key + Base URL: `https://api.levogat.com/v1` |
+| **n8n** | HTTP Request -> URL: `https://api.levogat.com/v1/chat/completions` |
+| **LangChain** | `ChatOpenAI(openai_api_key="key", openai_api_base="https://api.levogat.com/v1")` |
+| **NextChat** | 설정 -> 커스텀 API -> URL: `https://api.levogat.com/v1` |
+| **Cursor IDE** | 설정 -> 환경변수 -> `ANTHROPIC_BASE_URL=https://api.levogat.com/v1` |
+| **OpenClaw** | `openai_api_key: key` + `openai_api_base: https://api.levogat.com/v1` |
 
 ### 사용 사례
 
@@ -310,7 +310,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 > 2026-07-29 기준 공개 정보를 바탕으로 합니다. 참고용입니다.
 
-| | [Levolink AI](https://ai.levolink.com) | OpenRouter | SiliconFlow | 기타 프록시 | 자체 구축 |
+| | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | 기타 프록시 | 자체 구축 |
 |--|-------------|-----------|-------------|---------------|------------|
 | 모델 수 | **228+** | ~400 | ~200 | ~100 | 수동 |
 | 그룹 옵션 | **33개 그룹** | 없음 (공급자별) | 없음 | 1-3개 | - |
@@ -329,11 +329,11 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 **응답이 공식 API와 동일한가요?**
 
-네. Levolink AI는 요청을 공식 모델로 전달하기만 하므로 응답은 공식 API와 일치합니다.
+네. Levogat AI는 요청을 공식 모델로 전달하기만 하므로 응답은 공식 API와 일치합니다.
 
 **계정이 정지될 위험이 있나요?**
 
-아니요. 공식 계정 시스템이 아닌 Levolink AI의 키를 사용하므로 공식 계정이 정지될 위험이 없습니다.
+아니요. 공식 계정 시스템이 아닌 Levogat AI의 키를 사용하므로 공식 계정이 정지될 위험이 없습니다.
 
 **그룹 간 차이는 무엇인가요?**
 
@@ -369,15 +369,15 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 | 가이드 | 내용 |
 |--------|------|
 | [Claude Code 설정 가이드](docs/ko/claude-code-guide.md) | 중국에서 Claude Code 완전 설정 |
-| [Claude Desktop 가이드](docs/ko/claude-desktop-guide.md) | Claude Desktop에 Levolink AI 설정 |
+| [Claude Desktop 가이드](docs/ko/claude-desktop-guide.md) | Claude Desktop에 Levogat AI 설정 |
 | [Codex 설정 가이드](docs/ko/codex-setup.md) | 중국에서 OpenAI Codex CLI 설정 |
-| [Gemini CLI 가이드](docs/ko/gemini-cli-guide.md) | Gemini CLI로 Levolink AI 통해 Gemini 모델 사용 |
+| [Gemini CLI 가이드](docs/ko/gemini-cli-guide.md) | Gemini CLI로 Levogat AI 통해 Gemini 모델 사용 |
 | [Cursor IDE 설정](docs/ko/cursor-setup.md) | Cursor에서 GPT-5.6 / Claude 4.8 / Gemini 사용 |
-| [Grok Build 가이드](docs/ko/grok-build-guide.md) | xAI Grok Build에 Levolink AI 커스텀 모델 설정 |
-| [OpenCode 가이드](docs/ko/opencode-guide.md) | OpenCode 오픈소스 에이전트에 Levolink AI 설정 |
-| [OpenClaw 가이드](docs/ko/openclaw-guide.md) | OpenClaw Agent 런타임에 Levolink AI 설정 |
-| [CC Switch 가이드](docs/ko/cc-switch-guide.md) | 여러 AI 도구의 Levolink AI 설정 통합 관리 |
-| [Dify 연동 가이드](docs/ko/dify-integration.md) | Dify와 Levolink AI 연결 |
+| [Grok Build 가이드](docs/ko/grok-build-guide.md) | xAI Grok Build에 Levogat AI 커스텀 모델 설정 |
+| [OpenCode 가이드](docs/ko/opencode-guide.md) | OpenCode 오픈소스 에이전트에 Levogat AI 설정 |
+| [OpenClaw 가이드](docs/ko/openclaw-guide.md) | OpenClaw Agent 런타임에 Levogat AI 설정 |
+| [CC Switch 가이드](docs/ko/cc-switch-guide.md) | 여러 AI 도구의 Levogat AI 설정 통합 관리 |
+| [Dify 연동 가이드](docs/ko/dify-integration.md) | Dify와 Levogat AI 연결 |
 | [모델 선택 가이드](docs/ko/model-selection-guide.md) | 228개 모델 중 무엇을 선택할까? 용도 및 예산별 |
 | [사기 감지 가이드](docs/ko/fraud-detection-guide.md) | API 프록시에서 모델 치환을 감지하는 5가지 방법 |
 | [비용 계산기 가이드](docs/ko/cost-calculator-guide.md) | API 비용 추정 및 지출 최적화 |
@@ -386,9 +386,9 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 ## 🤝 기여하기
 
-- 🐛 버그 신고 -> [이슈 열기](https://github.com/jiaqing77cn/levolink-ai-api/issues)
+- 🐛 버그 신고 -> [이슈 열기](https://github.com/jiaqing77cn/levogat-ai-api/issues)
 - 📝 문서 개선 -> PR 제출
-- 💡 기능 제안 -> [디스커션 시작](https://github.com/jiaqing77cn/levolink-ai-api/discussions)
+- 💡 기능 제안 -> [디스커션 시작](https://github.com/jiaqing77cn/levogat-ai-api/discussions)
 - 📄 기여 가이드 -> [CONTRIBUTING.md](./CONTRIBUTING.md) 참조
 - 📋 변경 이력 -> [CHANGELOG.md](./CHANGELOG.md) 참조
 
@@ -396,7 +396,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 ## 📜 라이선스
 
-MIT License · Copyright (c) 2026 [Levolink AI](https://ai.levolink.com)
+MIT License · Copyright (c) 2026 [Levogat AI](https://api.levogat.com)
 
 ## 📢 상표 표시
 

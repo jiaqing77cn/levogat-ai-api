@@ -1,11 +1,11 @@
-# Contributing to Levolink AI
+# Contributing to Levogat AI
 
 First off, thanks for taking the time to contribute! 👋
 
 ## 🐛 Reporting Bugs
 
 Before submitting a bug report:
-1. Search existing [Issues](https://github.com/jiaqing77cn/levolink-ai-api/issues) to avoid duplicates
+1. Search existing [Issues](https://github.com/jiaqing77cn/levogat-ai-api/issues) to avoid duplicates
 2. Collect information: OS, model name, error message, request/response
 
 Submit a new issue with:
@@ -22,7 +22,7 @@ Documentation improvements are always welcome:
 
 ## 💡 Feature Requests
 
-Open a [Discussion](https://github.com/jiaqing77cn/levolink-ai-api/discussions) with:
+Open a [Discussion](https://github.com/jiaqing77cn/levogat-ai-api/discussions) with:
 - Use case description
 - Why this feature would help
 - Suggested implementation (optional)
@@ -42,8 +42,8 @@ Open a [Discussion](https://github.com/jiaqing77cn/levolink-ai-api/discussions) 
 
 ## 💰 Sponsorship
 
-If your company uses Levolink AI, consider [sponsoring](https://ai.levolink.com) to support ongoing development.
+If your company uses Levogat AI, consider [sponsoring](https://api.levogat.com) to support ongoing development.
 
 ---
 
-MIT License · Copyright (c) 2026 [Levolink AI](https://ai.levolink.com)
+MIT License · Copyright (c) 2026 [Levogat AI](https://api.levogat.com)

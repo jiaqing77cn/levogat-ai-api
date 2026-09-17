@@ -1,6 +1,6 @@
 # Guía de Configuración de OpenAI Codex
 
-> La mejor solución para usar OpenAI Codex CLI en China, sin necesidad de VPN, a través del proxy de Levolink AI.
+> La mejor solución para usar OpenAI Codex CLI en China, sin necesidad de VPN, a través del proxy de Levogat AI.
 
 ## ¿Qué es Codex CLI?
 
@@ -18,8 +18,8 @@ npm install -g @openai/codex
 
 ```bash
 # Añadir a ~/.bash_profile o ~/.zshrc
-export OPENAI_API_KEY="Tu Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="Tu Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 # Aplicar cambios
 source ~/.bash_profile
@@ -46,8 +46,8 @@ codex
 ### PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="Tu Levolink API Key"
-$env:OPENAI_API_BASE="https://ai.levolink.com/v1"
+$env:OPENAI_API_KEY="Tu Levogat API Key"
+$env:OPENAI_API_BASE="https://api.levogat.com/v1"
 codex
 ```
 
@@ -55,7 +55,7 @@ codex
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("OPENAI_API_KEY", "TuKey", "User")
-[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## Preguntas Frecuentes
@@ -86,11 +86,11 @@ Sí. Especifica el modelo en Codex con `--model gpt-5.6-sol`.
 | Contexto | 128K | 200K |
 | Casos de uso | Prototipos rápidos, scripts | Refactorización compleja, diseño de arquitectura |
 
-Ambos se usan a través del proxy de Levolink AI, con una sola Key puedes alternar entre ellos.
+Ambos se usan a través del proxy de Levogat AI, con una sola Key puedes alternar entre ellos.
 
 ## Enlaces Relacionados
 
-- [Levolink AI - Sitio Oficial](https://ai.levolink.com)
+- [Levogat AI - Sitio Oficial](https://api.levogat.com)
 - [Documentación Oficial de Codex CLI](https://github.com/openai/codex)
-- [Documentación de la API](https://levolink.apifox.cn/)
+- [Documentación de la API](https://levogat.apifox.cn/)
 - [Guía de Selección de Modelos](./model-selection-guide.md)

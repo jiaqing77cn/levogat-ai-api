@@ -1,16 +1,16 @@
 # Dify 연결 튜토리얼
 
-> Dify를 Levolink AI에 연결하여 하나의 Key로 500+ AI 모델을 호출.
+> Dify를 Levogat AI에 연결하여 하나의 Key로 500+ AI 모델을 호출.
 
 ## Dify란?
 
-Dify는 오픈소스 LLM 애플리케이션 개발 플랫폼으로, 지식베이스 관리, Agent 오케스트레이션, 워크플로우 자동화를 지원합니다. Levolink AI와 연결하면 Dify에서 GPT-5.6, Claude 4.8, Gemini, DeepSeek 등 모든 모델을 호출할 수 있습니다.
+Dify는 오픈소스 LLM 애플리케이션 개발 플랫폼으로, 지식베이스 관리, Agent 오케스트레이션, 워크플로우 자동화를 지원합니다. Levogat AI와 연결하면 Dify에서 GPT-5.6, Claude 4.8, Gemini, DeepSeek 등 모든 모델을 호출할 수 있습니다.
 
 ## 설정 단계
 
-### 1. Levolink API Key 받기
+### 1. Levogat API Key 받기
 
-[Levolink AI](https://ai.levolink.com)로 이동 -> 회원가입 -> 콘솔 -> Key 생성
+[Levogat AI](https://api.levogat.com)로 이동 -> 회원가입 -> 콘솔 -> Key 생성
 
 ### 2. Dify에서 모델 공급자 설정
 
@@ -18,8 +18,8 @@ Dify -> 설정 -> 모델 공급자 -> **OpenAI API 호환** 선택:
 
 | 설정 항목 | 값 |
 |--------|-----|
-| API Key | 당신의 Levolink API Key |
-| API endpoint | `https://ai.levolink.com/v1` |
+| API Key | 당신의 Levogat API Key |
+| API endpoint | `https://api.levogat.com/v1` |
 | 모델 이름 | `gpt-5.6-sol` / `claude-sonnet-4-6` / `deepseek-reasoner` 등 |
 
 ### 3. 여러 모델 추가
@@ -42,9 +42,9 @@ Dify의「모델」페이지에서 필요한 모델을 순서대로 추가하세
 
 ## RAG 지식베이스 설정
 
-Dify의 지식베이스 기능을 Levolink AI와 함께 사용:
+Dify의 지식베이스 기능을 Levogat AI와 함께 사용:
 
-1. **Embedding 모델**: `text-embedding-3-large` 사용 (Levolink 지원)
+1. **Embedding 모델**: `text-embedding-3-large` 사용 (Levogat 지원)
 2. **Rerank 모델**: 현재 미지원, rerank 비활성화 가능
 3. **대화 모델**: `claude-sonnet-4-6` 또는 `gpt-5.6-sol` 추천
 
@@ -58,7 +58,7 @@ Dify의 지식베이스 기능을 Levolink AI와 함께 사용:
 
 ## Agent 워크플로우 설정
 
-Dify Agent + Levolink AI의 일반적인 워크플로우:
+Dify Agent + Levogat AI의 일반적인 워크플로우:
 
 ```
 사용자 입력 -> Claude Sonnet 4.6 (의도 인식)
@@ -76,19 +76,19 @@ Docker로 Dify를 배포한 경우, `docker-compose.yml`에서 환경 변수를 
 services:
   api:
     environment:
-      - OPENAI_API_KEY=당신의Levolink Key
-      - OPENAI_API_BASE=https://ai.levolink.com/v1
+      - OPENAI_API_KEY=당신의Levogat Key
+      - OPENAI_API_BASE=https://api.levogat.com/v1
 ```
 
 ## 자주 묻는 질문
 
 ### Q: Dify에서 "model not found" 오류가 발생합니다
 
-모델 이름이 정확히 일치하는지 확인하세요. Levolink가 지원하는 모델 목록은 [README 가격표](../../README_KO.md#-실시간-모델-가격)를 참조하세요.
+모델 이름이 정확히 일치하는지 확인하세요. Levogat가 지원하는 모델 목록은 [README 가격표](../../README_KO.md#-실시간-모델-가격)를 참조하세요.
 
 ### Q: 스트리밍 출력이 작동하지 않습니다
 
-Dify 모델 설정에서「스트리밍 출력」옵션을 활성화하세요. Levolink의 모든 모델은 streaming을 지원합니다.
+Dify 모델 설정에서「스트리밍 출력」옵션을 활성화하세요. Levogat의 모든 모델은 streaming을 지원합니다.
 
 ### Q: 비용을 어떻게 관리하나요?
 
@@ -99,8 +99,8 @@ Dify 모델 설정에서「스트리밍 출력」옵션을 활성화하세요. L
 
 ## 관련 링크
 
-- [Levolink AI 공식 웹사이트](https://ai.levolink.com)
+- [Levogat AI 공식 웹사이트](https://api.levogat.com)
 - [Dify 공식 문서](https://docs.dify.ai)
-- [API 문서](https://levolink.apifox.cn/)
+- [API 문서](https://levogat.apifox.cn/)
 - [모델 선택 가이드](./model-selection-guide.md)
 - [비용 계산기](./cost-calculator-guide.md)

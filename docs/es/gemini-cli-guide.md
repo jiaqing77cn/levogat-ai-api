@@ -1,10 +1,10 @@
 # Guía de Integración con Gemini CLI
 
-> Usa Levolink AI en Gemini CLI para invocar modelos como Gemini 3.5 Pro / Flash sin necesidad de VPN.
+> Usa Levogat AI en Gemini CLI para invocar modelos como Gemini 3.5 Pro / Flash sin necesidad de VPN.
 
 ## ¿Qué es Gemini CLI?
 
-Gemini CLI es el asistente de IA para terminal de Google, que soporta generación de código, análisis de documentos, automatización de tareas, etc. A través de Levolink AI, los usuarios en China pueden usar directamente los modelos de la serie Gemini.
+Gemini CLI es el asistente de IA para terminal de Google, que soporta generación de código, análisis de documentos, automatización de tareas, etc. A través de Levogat AI, los usuarios en China pueden usar directamente los modelos de la serie Gemini.
 
 ## Pasos de Configuración
 
@@ -18,8 +18,8 @@ npm install -g @google/gemini-cli
 
 ```bash
 # Añadir a ~/.bash_profile o ~/.zshrc
-export GEMINI_API_KEY="tu Levolink API Key"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_KEY="tu Levogat API Key"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 # Aplicar cambios
 source ~/.bash_profile
@@ -54,8 +54,8 @@ gemini --model gemini-2.5-pro
 ## Configuración en Windows
 
 ```powershell
-$env:GEMINI_API_KEY="tu Levolink API Key"
-$env:GEMINI_API_BASE="https://ai.levolink.com/v1"
+$env:GEMINI_API_KEY="tu Levogat API Key"
+$env:GEMINI_API_BASE="https://api.levogat.com/v1"
 gemini
 ```
 
@@ -63,7 +63,7 @@ Configuración permanente:
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "tuKey", "User")
-[System.Environment]::SetEnvironmentVariable("GEMINI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("GEMINI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## Preguntas Frecuentes
@@ -88,7 +88,7 @@ Sí. Usa `--model gemini-3-pro-image` o cámbialo en el modo interactivo.
 
 ## Enlaces Relacionados
 
-- [Levolink AI - Sitio Oficial](https://ai.levolink.com)
+- [Levogat AI - Sitio Oficial](https://api.levogat.com)
 - [Documentación Oficial de Gemini CLI](https://github.com/google-gemini/gemini-cli)
-- [Documentación API](https://levolink.apifox.cn/)
+- [Documentación API](https://levogat.apifox.cn/)
 - [Guía de Selección de Modelos](./model-selection-guide.md)

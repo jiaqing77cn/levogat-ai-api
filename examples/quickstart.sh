@@ -1,10 +1,10 @@
 #!/bin/bash
-# Levolink AI - curl Quickstart
+# Levogat AI - curl Quickstart
 # Access 500+ AI models via one OpenAI-compatible API.
-# Docs: https://levolink.apifox.cn/
+# Docs: https://levogat.apifox.cn/
 
-API_KEY="${LEVOLINK_API_KEY:-your-api-key}"
-BASE_URL="https://ai.levolink.com/v1"
+API_KEY="${LEVOGAT_API_KEY:-your-api-key}"
+BASE_URL="https://api.levogat.com/v1"
 
 echo "=== GPT-5.6 Sol ==="
 curl -s "$BASE_URL/chat/completions" \

@@ -18,8 +18,8 @@ npm install -g @anthropic-ai/claude-code
 
 ```bash
 # Añadir a ~/.bash_profile o ~/.zshrc
-export ANTHROPIC_AUTH_TOKEN="Tu Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_AUTH_TOKEN="Tu Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # Aplicar cambios
 source ~/.bash_profile
@@ -60,6 +60,6 @@ Sí. Escribe `/model` en Claude Code para cambiar de modelo.
 
 ## Enlaces Relacionados
 
-- [Levolink AI - Sitio Oficial](https://ai.levolink.com)
+- [Levogat AI - Sitio Oficial](https://api.levogat.com)
 - [Documentación Oficial de Claude Code](https://docs.anthropic.com/en/docs/claude-code)
-- [Documentación de la API](https://levolink.apifox.cn/)
+- [Documentación de la API](https://levogat.apifox.cn/)

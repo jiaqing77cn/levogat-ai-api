@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Proxy de IA API en China | Claude/GPT/Gemini/DeepSeek sin VPN | Levolink AI</h1>
+<h1 align="center">🚀 Proxy de IA API en China | Claude/GPT/Gemini/DeepSeek sin VPN | Levogat AI</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/>
@@ -11,7 +11,7 @@
 
 **Sin VPN · Baja Latencia · 500+ Modelos · OpenAI Compatible · Claude Code Ready**
 
-[🌐 Sitio Web](https://ai.levolink.com) · [📋 Precios](https://ai.levolink.com/pricing) · [📖 Docs API](https://levolink.apifox.cn/) · [💬 Contacto](https://ai.levolink.com)
+[🌐 Sitio Web](https://api.levogat.com) · [📋 Precios](https://api.levogat.com/pricing) · [📖 Docs API](https://levogat.apifox.cn/) · [💬 Contacto](https://api.levogat.com)
 
 </div>
 
@@ -34,9 +34,9 @@
 
 ## 🖥️ Vista previa del producto
 
-![Página principal de Levolink AI - panel de proxy de API con 500+ modelos de IA](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/homepage.jpg)
+![Página principal de Levogat AI - panel de proxy de API con 500+ modelos de IA](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
-![Panel de Levolink AI - crear claves API, ver uso, recargar cuenta](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/console.jpg)
+![Panel de Levogat AI - crear claves API, ver uso, recargar cuenta](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 ## 💰 Precios de modelos en tiempo real
 
-> Los precios se obtienen automáticamente desde [Levolink API](https://ai.levolink.com/api/pricing) mediante GitHub Actions, actualizados cada hora.
+> Los precios se obtienen automáticamente desde [Levogat API](https://api.levogat.com/api/pricing) mediante GitHub Actions, actualizados cada hora.
 >
 > Unidad: USD / Millón de Tokens | Relación Salida/Entrada = precio de salida ÷ precio de entrada
 
@@ -180,7 +180,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 Precios completos con los 33 grupos y 228 modelos en [Levolink AI Pricing](https://ai.levolink.com/pricing)
+> 💡 Precios completos con los 33 grupos y 228 modelos en [Levogat AI Pricing](https://api.levogat.com/pricing)
 
 ### Niveles de grupos
 
@@ -202,7 +202,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 ### Inicio rápido
 
-1. Visita [Levolink AI](https://ai.levolink.com) -> Regístrate -> Consola -> Crear Key
+1. Visita [Levogat AI](https://api.levogat.com) -> Regístrate -> Consola -> Crear Key
 2. Recarga (mínimo 1 yuan)
    - Alipay / WeChat Pay / Crypto Pay / Stripe / Global Pay
 3. Elige tu método de integración:
@@ -214,7 +214,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="***",
-    base_url="https://ai.levolink.com/v1"
+    base_url="https://api.levogat.com/v1"
 )
 
 # GPT-5.6 Sol
@@ -240,7 +240,7 @@ resp = client.chat.completions.create(
 ### Node.js / curl
 
 ```bash
-curl https://ai.levolink.com/v1/chat/completions \
+curl https://api.levogat.com/v1/chat/completions \
   -H "Authorization: Bearer ***" \
   -H "Content-Type: application/json" \
   -d '{
@@ -257,7 +257,7 @@ Ejemplos completos en el directorio [`examples/`](./examples/) (incluye [Python]
 npm install -g @anthropic-ai/claude-code
 
 echo 'export ANTHROPIC_AUTH_TOKEN="***"' >> ~/.bash_profile
-echo 'export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"' >> ~/.bash_profile
+echo 'export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"' >> ~/.bash_profile
 source ~/.bash_profile
 
 cd your-project && claude
@@ -270,7 +270,7 @@ cd your-project && claude
 ```bash
 npm install -g @openai/codex
 export OPENAI_API_KEY="***"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 ```
 
 📖 Guía completa: [Configuración de Codex](docs/es/codex-setup.md)
@@ -280,7 +280,7 @@ export OPENAI_API_BASE="https://ai.levolink.com/v1"
 ```bash
 npm install -g @google/gemini-cli
 export GEMINI_API_KEY="***"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 ```
 
 📖 Guía completa: [Configuración de Cursor IDE](docs/es/cursor-setup.md) (también aplica para Gemini CLI)
@@ -289,12 +289,12 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 | Herramienta | Configuración |
 |------|-------|
-| **Dify / FastGPT** | API Key + Base URL: `https://ai.levolink.com/v1` |
-| **n8n** | HTTP Request -> URL: `https://ai.levolink.com/v1/chat/completions` |
-| **LangChain** | `ChatOpenAI(openai_api_key="key", openai_api_base="https://ai.levolink.com/v1")` |
-| **NextChat** | Ajustes -> API personalizada -> URL: `https://ai.levolink.com/v1` |
-| **Cursor IDE** | Ajustes -> Variables de entorno -> `ANTHROPIC_BASE_URL=https://ai.levolink.com/v1` |
-| **OpenClaw** | `openai_api_key: key` + `openai_api_base: https://ai.levolink.com/v1` |
+| **Dify / FastGPT** | API Key + Base URL: `https://api.levogat.com/v1` |
+| **n8n** | HTTP Request -> URL: `https://api.levogat.com/v1/chat/completions` |
+| **LangChain** | `ChatOpenAI(openai_api_key="key", openai_api_base="https://api.levogat.com/v1")` |
+| **NextChat** | Ajustes -> API personalizada -> URL: `https://api.levogat.com/v1` |
+| **Cursor IDE** | Ajustes -> Variables de entorno -> `ANTHROPIC_BASE_URL=https://api.levogat.com/v1` |
+| **OpenClaw** | `openai_api_key: key` + `openai_api_base: https://api.levogat.com/v1` |
 
 ### Casos de uso
 
@@ -310,7 +310,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 > Basado en información pública al 2026-07-29. Solo como referencia.
 
-| | [Levolink AI](https://ai.levolink.com) | OpenRouter | SiliconFlow | Otros proxies | Autoconstruido |
+| | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | Otros proxies | Autoconstruido |
 |--|-------------|-----------|-------------|---------------|------------|
 | Número de modelos | **228+** | ~400 | ~200 | ~100 | Manual |
 | Opciones de grupos | **33 grupos** | Ninguna (por proveedor) | Ninguna | 1-3 | - |
@@ -329,11 +329,11 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 **¿Las respuestas son idénticas a las de la API oficial?**
 
-Sí. Levolink AI solo reenvía las solicitudes a los modelos oficiales: las respuestas son consistentes con la API oficial.
+Sí. Levogat AI solo reenvía las solicitudes a los modelos oficiales: las respuestas son consistentes con la API oficial.
 
 **¿Mi cuenta puede ser baneada?**
 
-No. Usas la clave de Levolink AI, no el sistema de cuentas oficial, tu cuenta oficial no está en riesgo.
+No. Usas la clave de Levogat AI, no el sistema de cuentas oficial, tu cuenta oficial no está en riesgo.
 
 **¿Cuál es la diferencia entre los grupos?**
 
@@ -369,15 +369,15 @@ Sí. Ajustes -> Verificación de identidad -> Billetera -> Factura. Factura elec
 | Guía | Contenido |
 |-------|---------|
 | [Guía de Claude Code](docs/es/claude-code-guide.md) | Configuración completa de Claude Code para China |
-| [Guía de Claude Desktop](docs/es/claude-desktop-guide.md) | Configurar Claude Desktop con Levolink AI |
+| [Guía de Claude Desktop](docs/es/claude-desktop-guide.md) | Configurar Claude Desktop con Levogat AI |
 | [Guía de Codex](docs/es/codex-setup.md) | Configuración de OpenAI Codex CLI para China |
-| [Guía de Gemini CLI](docs/es/gemini-cli-guide.md) | Gemini CLI con Levolink AI para modelos Gemini |
+| [Guía de Gemini CLI](docs/es/gemini-cli-guide.md) | Gemini CLI con Levogat AI para modelos Gemini |
 | [Configuración de Cursor IDE](docs/es/cursor-setup.md) | Usar GPT-5.6 / Claude 4.8 / Gemini en Cursor |
-| [Guía de Grok Build](docs/es/grok-build-guide.md) | xAI Grok Build con modelos personalizados de Levolink AI |
-| [Guía de OpenCode](docs/es/opencode-guide.md) | OpenCode agente open-source con Levolink AI |
-| [Guía de OpenClaw](docs/es/openclaw-guide.md) | OpenClaw Agent runtime con Levolink AI |
+| [Guía de Grok Build](docs/es/grok-build-guide.md) | xAI Grok Build con modelos personalizados de Levogat AI |
+| [Guía de OpenCode](docs/es/opencode-guide.md) | OpenCode agente open-source con Levogat AI |
+| [Guía de OpenClaw](docs/es/openclaw-guide.md) | OpenClaw Agent runtime con Levogat AI |
 | [Guía de CC Switch](docs/es/cc-switch-guide.md) | Gestión unificada de configuración para múltiples herramientas IA |
-| [Guía de integración con Dify](docs/es/dify-integration.md) | Conectar Dify con Levolink AI |
+| [Guía de integración con Dify](docs/es/dify-integration.md) | Conectar Dify con Levogat AI |
 | [Guía de selección de modelos](docs/es/model-selection-guide.md) | ¿Cuál de los 228 modelos elegir? Por caso de uso y presupuesto |
 | [Guía de detección de fraude](docs/es/fraud-detection-guide.md) | 5 métodos para detectar sustitución de modelos en proxies de API |
 | [Guía de calculadora de costos](docs/es/cost-calculator-guide.md) | Estima costos de API y optimiza el gasto |
@@ -386,9 +386,9 @@ Sí. Ajustes -> Verificación de identidad -> Billetera -> Factura. Factura elec
 
 ## 🤝 Contribuir
 
-- 🐛 Reportar bug -> [Abrir un Issue](https://github.com/jiaqing77cn/levolink-ai-api/issues)
+- 🐛 Reportar bug -> [Abrir un Issue](https://github.com/jiaqing77cn/levogat-ai-api/issues)
 - 📝 Mejorar docs -> Enviar un PR
-- 💡 Solicitud de función -> [Iniciar una Discussion](https://github.com/jiaqing77cn/levolink-ai-api/discussions)
+- 💡 Solicitud de función -> [Iniciar una Discussion](https://github.com/jiaqing77cn/levogat-ai-api/discussions)
 - 📄 Guía de contribución -> Ver [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 📋 Registro de cambios -> Ver [CHANGELOG.md](./CHANGELOG.md)
 
@@ -396,7 +396,7 @@ Sí. Ajustes -> Verificación de identidad -> Billetera -> Factura. Factura elec
 
 ## 📜 Licencia
 
-MIT License · Copyright (c) 2026 [Levolink AI](https://ai.levolink.com)
+MIT License · Copyright (c) 2026 [Levogat AI](https://api.levogat.com)
 
 ## 📢 Aviso de Marcas Registradas
 

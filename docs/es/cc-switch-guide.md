@@ -1,6 +1,6 @@
 # Guía de Integración con CC Switch
 
-> Usa CC Switch para gestionar centralmente las configuraciones de Levolink AI para Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw y otras herramientas.
+> Usa CC Switch para gestionar centralmente las configuraciones de Levogat AI para Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw y otras herramientas.
 
 ## ¿Qué es CC Switch?
 
@@ -23,7 +23,7 @@ Descarga el instalador desde [ccswitch.io](https://ccswitch.io).
 
 Descarga el AppImage desde [GitHub Releases](https://github.com/farion1231/cc-switch/releases).
 
-## Configurar Levolink AI
+## Configurar Levogat AI
 
 ### 1. Añadir Provider
 
@@ -31,9 +31,9 @@ Abre CC Switch -> Haz clic en「Añadir Provider」-> Selecciona「Personalizado
 
 | Campo | Valor |
 |--------|-----|
-| Nombre | Levolink AI |
-| API Key | tu Levolink API Key |
-| Base URL | `https://ai.levolink.com/v1` |
+| Nombre | Levogat AI |
+| API Key | tu Levogat API Key |
+| Base URL | `https://api.levogat.com/v1` |
 | Formato | OpenAI Compatible |
 
 ### 2. Configurar cada Herramienta
@@ -43,28 +43,28 @@ CC Switch generará automáticamente la configuración para cada herramienta:
 **Claude Code:**
 ```bash
 export ANTHROPIC_AUTH_TOKEN="tuKey"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 ```
 
 **Codex:**
 ```bash
 export OPENAI_API_KEY="tuKey"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 ```
 
 **Gemini CLI:**
 ```bash
 export GEMINI_API_KEY="tuKey"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 ```
 
 **OpenCode:**
 ```json
 {
   "provider": {
-    "levolink": {
+    "levogat": {
       "api_key": "tuKey",
-      "base_url": "https://ai.levolink.com/v1"
+      "base_url": "https://api.levogat.com/v1"
     }
   }
 }
@@ -72,7 +72,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 ### 3. Cambio con un Solo Clic
 
-Selecciona la herramienta objetivo en la interfaz de CC Switch -> Selecciona「Levolink AI」-> Haz clic en「Aplicar」. CC Switch modificará automáticamente el archivo de configuración de la herramienta correspondiente.
+Selecciona la herramienta objetivo en la interfaz de CC Switch -> Selecciona「Levogat AI」-> Haz clic en「Aplicar」. CC Switch modificará automáticamente el archivo de configuración de la herramienta correspondiente.
 
 ## Configuración Recomendada
 
@@ -88,9 +88,9 @@ Selecciona la herramienta objetivo en la interfaz de CC Switch -> Selecciona「L
 
 CC Switch permite configurar múltiples Providers simultáneamente, facilitando pruebas comparativas:
 
-1. Añadir「Levolink AI - Oferta especial」(0.6x)
-2. Añadir「Levolink AI - Por defecto」(1.0x)
-3. Añadir「Levolink AI - CC exclusivo」(2.4x)
+1. Añadir「Levogat AI - Oferta especial」(0.6x)
+2. Añadir「Levogat AI - Por defecto」(1.0x)
+3. Añadir「Levogat AI - CC exclusivo」(2.4x)
 
 Cambia con un solo clic en la interfaz, sin necesidad de modificar código o variables de entorno.
 
@@ -110,7 +110,7 @@ CC Switch es una herramienta de código abierto, gratuita de usar.
 
 ## Enlaces Relacionados
 
-- [Levolink AI - Sitio Oficial](https://ai.levolink.com)
+- [Levogat AI - Sitio Oficial](https://api.levogat.com)
 - [Sitio Oficial de CC Switch](https://ccswitch.io)
 - [GitHub de CC Switch](https://github.com/farion1231/cc-switch)
-- [Documentación API](https://levolink.apifox.cn/)
+- [Documentación API](https://levogat.apifox.cn/)

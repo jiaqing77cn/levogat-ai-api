@@ -1,6 +1,6 @@
 # OpenAI Codex セットアップガイド
 
-> 中国国内で OpenAI Codex CLI を使う最適なソリューション。VPN 不要、Levolink AI 経由で利用。
+> 中国国内で OpenAI Codex CLI を使う最適なソリューション。VPN 不要、Levogat AI 経由で利用。
 
 ## Codex CLI とは
 
@@ -18,8 +18,8 @@ npm install -g @openai/codex
 
 ```bash
 # ~/.bash_profile または ~/.zshrc に追加
-export OPENAI_API_KEY="あなたの Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="あなたの Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 # 反映
 source ~/.bash_profile
@@ -46,8 +46,8 @@ codex
 ### PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="あなたの Levolink API Key"
-$env:OPENAI_API_BASE="https://ai.levolink.com/v1"
+$env:OPENAI_API_KEY="あなたの Levogat API Key"
+$env:OPENAI_API_BASE="https://api.levogat.com/v1"
 codex
 ```
 
@@ -55,7 +55,7 @@ codex
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("OPENAI_API_KEY", "あなたのKey", "User")
-[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## よくある質問
@@ -86,11 +86,11 @@ Codex 専用グループ（0.8x）に切り替えてください。このグル�
 | コンテキスト | 128K | 200K |
 | 適したシーン | 高速プロトタイピング、スクリプト | 複雑なリファクタリング、アーキテクチャ設計 |
 
-どちらも Levolink AI 経由で利用でき、1つの Key で切り替え可能です。
+どちらも Levogat AI 経由で利用でき、1つの Key で切り替え可能です。
 
 ## 関連リンク
 
-- [Levolink AI 公式サイト](https://ai.levolink.com)
+- [Levogat AI 公式サイト](https://api.levogat.com)
 - [Codex CLI 公式ドキュメント](https://github.com/openai/codex)
-- [API ドキュメント](https://levolink.apifox.cn/)
+- [API ドキュメント](https://levogat.apifox.cn/)
 - [モデル選択ガイド](./model-selection-guide.md)

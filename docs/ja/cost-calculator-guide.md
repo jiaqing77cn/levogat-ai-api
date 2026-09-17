@@ -93,7 +93,7 @@
 
 ### 3. キャッシュ活用
 
-Levolink はキャッシュ価格（標準 10%）をサポートしています。同じコンテキストを繰り返し送信するシーン（Claude Code など）では、キャッシュによりコストを大幅に削減できます。
+Levogat はキャッシュ価格（標準 10%）をサポートしています。同じコンテキストを繰り返し送信するシーン（Claude Code など）では、キャッシュによりコストを大幅に削減できます。
 
 ### 4. Token 制限の設定
 
@@ -104,7 +104,7 @@ Levolink はキャッシュ価格（標準 10%）をサポートしています�
 リポジトリに価格計算スクリプトが付属しています：
 
 ```bash
-cd levolink-ai-api
+cd levogat-ai-api
 python scripts/cost_calculator.py
 ```
 
@@ -114,4 +114,4 @@ python scripts/cost_calculator.py
 
 - [完全価格表](../../README_JA.md#-リアルタイムモデル料金)
 - [モデル選択ガイド](./model-selection-guide.md)
-- [Levolink AI 料金ページ](https://ai.levolink.com/pricing)
+- [Levogat AI 料金ページ](https://api.levogat.com/pricing)

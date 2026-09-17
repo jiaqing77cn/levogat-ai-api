@@ -15,7 +15,7 @@ Los modelos premium (GPT-5.6/Claude Opus 4.8) y los modelos económicos tienen u
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="TuKey", base_url="https://ai.levolink.com/v1")
+client = OpenAI(api_key="TuKey", base_url="https://api.levogat.com/v1")
 
 # Prueba 1: Problema clásico de razonamiento
 resp = client.chat.completions.create(
@@ -105,9 +105,9 @@ elapsed = time.time() - start
 print(f"Latencia: {elapsed:.2f}s")
 ```
 
-## Transparencia de Levolink AI
+## Transparencia de Levogat AI
 
-Levolink AI ofrece 33 grupos, cada uno con el canal backend claramente etiquetado:
+Levogat AI ofrece 33 grupos, cada uno con el canal backend claramente etiquetado:
 
 | Grupo | Backend | Multiplicador | Transparencia |
 |-------|---------|---------------|---------------|

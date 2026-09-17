@@ -95,7 +95,7 @@
 
 ### 3. 캐시 활용
 
-Levolink는 캐시 가격(표준 10%)을 지원합니다. 동일한 컨텍스트를 반복적으로 전송하는 시나리오(예: Claude Code)에서 캐시를 통해 비용을 크게 절감할 수 있습니다.
+Levogat는 캐시 가격(표준 10%)을 지원합니다. 동일한 컨텍스트를 반복적으로 전송하는 시나리오(예: Claude Code)에서 캐시를 통해 비용을 크게 절감할 수 있습니다.
 
 ### 4. Token 제한 설정
 
@@ -106,7 +106,7 @@ Levolink는 캐시 가격(표준 10%)을 지원합니다. 동일한 컨텍스트
 저장소에 가격 계산기 스크립트가 포함되어 있습니다:
 
 ```bash
-cd levolink-ai-api
+cd levogat-ai-api
 python scripts/cost_calculator.py
 ```
 
@@ -116,4 +116,4 @@ python scripts/cost_calculator.py
 
 - [전체 가격표](../../README_KO.md#-실시간-모델-가격)
 - [모델 선택 가이드](./model-selection-guide.md)
-- [Levolink AI 가격 페이지](https://ai.levolink.com/pricing)
+- [Levogat AI 가격 페이지](https://api.levogat.com/pricing)

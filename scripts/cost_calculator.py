@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Levolink AI Cost Calculator
+Levogat AI Cost Calculator
 估算 API 调用成本
 
 Usage:
@@ -13,7 +13,7 @@ import urllib.request
 import argparse
 import sys
 
-API_URL = "https://ai.levolink.com/api/pricing"
+API_URL = "https://api.levogat.com/api/pricing"
 
 # Group name aliases (user-friendly -> API key)
 GROUP_ALIASES = {
@@ -87,7 +87,7 @@ def calculate_cost(data, model, group_alias, input_tokens, output_tokens):
     short_name = display_name[:20] + "…" if len(display_name) > 20 else display_name
 
     print(f"\n{'='*50}")
-    print(f"📊 Levolink AI 费用估算")
+    print(f"📊 Levogat AI 费用估算")
     print(f"{'='*50}")
     print(f"模型: {model}")
     print(f"分组: {short_name} ({group_ratio}x)")
@@ -105,7 +105,7 @@ def calculate_cost(data, model, group_alias, input_tokens, output_tokens):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Levolink AI 费用计算器")
+    parser = argparse.ArgumentParser(description="Levogat AI 费用计算器")
     parser.add_argument("--model", required=True, help="模型名 (如 gpt-5.6-sol)")
     parser.add_argument("--group", required=True, help="分组名 (flash/codex/default/cc/anti/azure/aws)")
     parser.add_argument("--input-tokens", type=int, default=1000000, help="输入 token 数 (默认 1M)")

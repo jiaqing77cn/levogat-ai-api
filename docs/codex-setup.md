@@ -1,6 +1,6 @@
 # OpenAI Codex 接入教程
 
-> 国内使用 OpenAI Codex CLI 的最佳方案，无需翻墙，通过 Levolink AI 中转。
+> 国内使用 OpenAI Codex CLI 的最佳方案，无需翻墙，通过 Levogat AI 中转。
 
 ## 什么是 Codex CLI
 
@@ -18,8 +18,8 @@ npm install -g @openai/codex
 
 ```bash
 # 添加到 ~/.bash_profile 或 ~/.zshrc
-export OPENAI_API_KEY="你的 Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="你的 Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 # 生效
 source ~/.bash_profile
@@ -46,8 +46,8 @@ codex
 ### PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="你的 Levolink API Key"
-$env:OPENAI_API_BASE="https://ai.levolink.com/v1"
+$env:OPENAI_API_KEY="你的 Levogat API Key"
+$env:OPENAI_API_BASE="https://api.levogat.com/v1"
 codex
 ```
 
@@ -55,7 +55,7 @@ codex
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("OPENAI_API_KEY", "你的Key", "User")
-[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## 常见问题
@@ -86,11 +86,11 @@ echo $OPENAI_API_BASE
 | 上下文 | 128K | 200K |
 | 适合场景 | 快速原型、脚本 | 复杂重构、架构设计 |
 
-两者都通过 Levolink AI 中转使用，一个 Key 即可切换。
+两者都通过 Levogat AI 中转使用，一个 Key 即可切换。
 
 ## 相关链接
 
-- [Levolink AI 官网](https://ai.levolink.com)
+- [Levogat AI 官网](https://api.levogat.com)
 - [Codex CLI 官方文档](https://github.com/openai/codex)
-- [API 文档](https://levolink.apifox.cn/)
+- [API 文档](https://levogat.apifox.cn/)
 - [模型选择指南](./model-selection-guide.md)

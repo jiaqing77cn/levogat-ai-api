@@ -1,6 +1,6 @@
 # OpenAI Codex 연결 튜토리얼
 
-> 중국에서 OpenAI Codex CLI를 사용하는 최적의 방법, VPN 없이 Levolink AI를 통해 이용.
+> 중국에서 OpenAI Codex CLI를 사용하는 최적의 방법, VPN 없이 Levogat AI를 통해 이용.
 
 ## Codex CLI란?
 
@@ -18,8 +18,8 @@ npm install -g @openai/codex
 
 ```bash
 # ~/.bash_profile 또는 ~/.zshrc에 추가
-export OPENAI_API_KEY="당신의 Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="당신의 Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 # 적용
 source ~/.bash_profile
@@ -46,8 +46,8 @@ codex
 ### PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="당신의 Levolink API Key"
-$env:OPENAI_API_BASE="https://ai.levolink.com/v1"
+$env:OPENAI_API_KEY="당신의 Levogat API Key"
+$env:OPENAI_API_BASE="https://api.levogat.com/v1"
 codex
 ```
 
@@ -55,7 +55,7 @@ codex
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("OPENAI_API_KEY", "당신의Key", "User")
-[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## 자주 묻는 질문
@@ -86,11 +86,11 @@ Codex 전용 그룹(0.8x)으로 전환하세요. 해당 그룹은 GPT 프로그�
 | 컨텍스트 | 128K | 200K |
 | 적합한 상황 | 빠른 프로토타입, 스크립트 | 복잡한 리팩토링, 아키텍처 설계 |
 
-두 도구 모두 Levolink AI를 통해 사용할 수 있으며, 하나의 Key로 전환할 수 있습니다.
+두 도구 모두 Levogat AI를 통해 사용할 수 있으며, 하나의 Key로 전환할 수 있습니다.
 
 ## 관련 링크
 
-- [Levolink AI 공식 웹사이트](https://ai.levolink.com)
+- [Levogat AI 공식 웹사이트](https://api.levogat.com)
 - [Codex CLI 공식 문서](https://github.com/openai/codex)
-- [API 문서](https://levolink.apifox.cn/)
+- [API 문서](https://levogat.apifox.cn/)
 - [모델 선택 가이드](./model-selection-guide.md)

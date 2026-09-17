@@ -1,10 +1,10 @@
 # OpenCode 接入教程
 
-> 在 OpenCode 中使用 Levolink AI 调用 500+ AI 模型，无需翻墙。
+> 在 OpenCode 中使用 Levogat AI 调用 500+ AI 模型，无需翻墙。
 
 ## 什么是 OpenCode
 
-OpenCode 是开源的 AI 编程助手（160K+ Stars），支持终端、桌面和 IDE 插件三种形态。通过配置 OpenAI 兼容的 API 端点，可以接入 Levolink AI。
+OpenCode 是开源的 AI 编程助手（160K+ Stars），支持终端、桌面和 IDE 插件三种形态。通过配置 OpenAI 兼容的 API 端点，可以接入 Levogat AI。
 
 ## 配置步骤
 
@@ -20,17 +20,17 @@ curl -fsSL https://opencode.ai/install | bash
 npm install -g opencode-ai
 ```
 
-### 2. 配置 Levolink AI 为 Provider
+### 2. 配置 Levogat AI 为 Provider
 
 在项目根目录创建 `opencode.json`：
 
 ```json
 {
   "provider": {
-    "levolink": {
-      "name": "Levolink AI",
-      "api_key": "你的 Levolink API Key",
-      "base_url": "https://ai.levolink.com/v1",
+    "levogat": {
+      "name": "Levogat AI",
+      "api_key": "你的 Levogat API Key",
+      "base_url": "https://api.levogat.com/v1",
       "models": {
         "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
         "claude-sonnet-4-6": { "name": "Claude Sonnet 4.6" },
@@ -39,7 +39,7 @@ npm install -g opencode-ai
       }
     }
   },
-  "model": "levolink/gpt-5.6-sol"
+  "model": "levogat/gpt-5.6-sol"
 }
 ```
 
@@ -57,8 +57,8 @@ opencode
 ```
 
 选择 "Custom OpenAI Compatible"，填入：
-- **API Key**: 你的 Levolink API Key
-- **Base URL**: `https://ai.levolink.com/v1`
+- **API Key**: 你的 Levogat API Key
+- **Base URL**: `https://api.levogat.com/v1`
 
 ### 4. 初始化项目
 
@@ -99,7 +99,7 @@ OpenCode 会分析项目结构并生成 `AGENTS.md` 文件。
 
 ### Q: 如何切换模型
 
-在 TUI 中输入 `/model levolink/claude-sonnet-4-6` 切换模型。
+在 TUI 中输入 `/model levogat/claude-sonnet-4-6` 切换模型。
 
 ### Q: 支持 Plan 模式吗
 
@@ -111,7 +111,7 @@ OpenCode 会分析项目结构并生成 `AGENTS.md` 文件。
 
 ## 相关链接
 
-- [Levolink AI 官网](https://ai.levolink.com)
+- [Levogat AI 官网](https://api.levogat.com)
 - [OpenCode 官方文档](https://opencode.ai/docs/)
-- [API 文档](https://levolink.apifox.cn/)
+- [API 文档](https://levogat.apifox.cn/)
 - [模型选择指南](./model-selection-guide.md)

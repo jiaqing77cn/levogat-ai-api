@@ -1,18 +1,18 @@
 /**
- * Levolink AI - Node.js Quickstart
+ * Levogat AI - Node.js Quickstart
  * =================================
  * Access 500+ AI models (Claude/GPT/Gemini/DeepSeek) via one OpenAI-compatible API.
  *
  * Install:  npm install openai
  * Usage:    node quickstart.js
- * Docs:     https://levolink.apifox.cn/
+ * Docs:     https://levogat.apifox.cn/
  */
 
 import OpenAI from "openai";
 
 const client = new OpenAI({
-  apiKey: process.env.LEVOLINK_API_KEY || "your-api-key",
-  baseURL: "https://ai.levolink.com/v1",
+  apiKey: process.env.LEVOGAT_API_KEY || "your-api-key",
+  baseURL: "https://api.levogat.com/v1",
 });
 
 async function chat(model, message, options = {}) {

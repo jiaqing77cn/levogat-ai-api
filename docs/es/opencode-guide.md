@@ -1,10 +1,10 @@
 # Guía de Integración con OpenCode
 
-> Usa Levolink AI en OpenCode para acceder a más de 500 modelos de IA, sin necesidad de VPN.
+> Usa Levogat AI en OpenCode para acceder a más de 500 modelos de IA, sin necesidad de VPN.
 
 ## ¿Qué es OpenCode?
 
-OpenCode es un asistente de programación con IA de código abierto (160K+ Stars), que soporta terminal, escritorio y plugin de IDE. Mediante la configuración de un endpoint compatible con OpenAI, se puede integrar Levolink AI.
+OpenCode es un asistente de programación con IA de código abierto (160K+ Stars), que soporta terminal, escritorio y plugin de IDE. Mediante la configuración de un endpoint compatible con OpenAI, se puede integrar Levogat AI.
 
 ## Pasos de Configuración
 
@@ -20,17 +20,17 @@ curl -fsSL https://opencode.ai/install | bash
 npm install -g opencode-ai
 ```
 
-### 2. Configurar Levolink AI como Provider
+### 2. Configurar Levogat AI como Provider
 
 Crea un archivo `opencode.json` en el directorio raíz del proyecto:
 
 ```json
 {
   "provider": {
-    "levolink": {
-      "name": "Levolink AI",
-      "api_key": "tu Levolink API Key",
-      "base_url": "https://ai.levolink.com/v1",
+    "levogat": {
+      "name": "Levogat AI",
+      "api_key": "tu Levogat API Key",
+      "base_url": "https://api.levogat.com/v1",
       "models": {
         "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
         "claude-sonnet-4-6": { "name": "Claude Sonnet 4.6" },
@@ -39,7 +39,7 @@ Crea un archivo `opencode.json` en el directorio raíz del proyecto:
       }
     }
   },
-  "model": "levolink/gpt-5.6-sol"
+  "model": "levogat/gpt-5.6-sol"
 }
 ```
 
@@ -57,8 +57,8 @@ Ejecuta en el TUI de OpenCode:
 ```
 
 Selecciona "Custom OpenAI Compatible" e introduce:
-- **API Key**: tu Levolink API Key
-- **Base URL**: `https://ai.levolink.com/v1`
+- **API Key**: tu Levogat API Key
+- **Base URL**: `https://api.levogat.com/v1`
 
 ### 4. Inicializar Proyecto
 
@@ -99,7 +99,7 @@ Verifica que `opencode.json` esté en el directorio raíz del proyecto y que el 
 
 ### P: ¿Cómo cambiar de modelo?
 
-Escribe `/model levolink/claude-sonnet-4-6` en el TUI para cambiar de modelo.
+Escribe `/model levogat/claude-sonnet-4-6` en el TUI para cambiar de modelo.
 
 ### P: ¿Soporta el modo Plan?
 
@@ -111,7 +111,7 @@ Añade múltiples providers en `opencode.json` y cambia entre ellos con `/model 
 
 ## Enlaces Relacionados
 
-- [Levolink AI - Sitio Oficial](https://ai.levolink.com)
+- [Levogat AI - Sitio Oficial](https://api.levogat.com)
 - [Documentación Oficial de OpenCode](https://opencode.ai/docs/)
-- [Documentación API](https://levolink.apifox.cn/)
+- [Documentación API](https://levogat.apifox.cn/)
 - [Guía de Selección de Modelos](./model-selection-guide.md)

@@ -1,6 +1,6 @@
 # CC Switch 연결 튜토리얼
 
-> CC Switch를 사용하여 Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw 등 도구의 Levolink AI 설정을 통합 관리하세요.
+> CC Switch를 사용하여 Claude Code, Codex, Gemini CLI, OpenCode, OpenClaw 등 도구의 Levogat AI 설정을 통합 관리하세요.
 
 ## CC Switch란?
 
@@ -23,7 +23,7 @@ brew install --cask cc-switch
 
 [GitHub Releases](https://github.com/farion1231/cc-switch/releases)에서 AppImage를 다운로드하세요.
 
-## Levolink AI 설정
+## Levogat AI 설정
 
 ### 1. Provider 추가
 
@@ -31,9 +31,9 @@ CC Switch 열기 -> 「Provider 추가」 클릭 -> 「커스텀」 선택:
 
 | 설정 항목 | 값 |
 |--------|-----|
-| 이름 | Levolink AI |
-| API Key | 당신의 Levolink API Key |
-| Base URL | `https://ai.levolink.com/v1` |
+| 이름 | Levogat AI |
+| API Key | 당신의 Levogat API Key |
+| Base URL | `https://api.levogat.com/v1` |
 | 형식 | OpenAI Compatible |
 
 ### 2. 각 도구 설정
@@ -43,28 +43,28 @@ CC Switch가 각 도구의 설정을 자동으로 생성합니다:
 **Claude Code:**
 ```bash
 export ANTHROPIC_AUTH_TOKEN="당신의Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 ```
 
 **Codex:**
 ```bash
 export OPENAI_API_KEY="당신의Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 ```
 
 **Gemini CLI:**
 ```bash
 export GEMINI_API_KEY="당신의Key"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 ```
 
 **OpenCode:**
 ```json
 {
   "provider": {
-    "levolink": {
+    "levogat": {
       "api_key": "당신의Key",
-      "base_url": "https://ai.levolink.com/v1"
+      "base_url": "https://api.levogat.com/v1"
     }
   }
 }
@@ -72,7 +72,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 ### 3. 원클릭 전환
 
-CC Switch 인터페이스에서 대상 도구 선택 -> 「Levolink AI」 선택 -> 「적용」 클릭. CC Switch가 해당 도구의 설정 파일을 자동으로 수정합니다.
+CC Switch 인터페이스에서 대상 도구 선택 -> 「Levogat AI」 선택 -> 「적용」 클릭. CC Switch가 해당 도구의 설정 파일을 자동으로 수정합니다.
 
 ## 추천 설정
 
@@ -88,9 +88,9 @@ CC Switch 인터페이스에서 대상 도구 선택 -> 「Levolink AI」 선택
 
 CC Switch는 여러 Provider를 동시에 설정할 수 있어 비교 테스트에 편리합니다:
 
-1. 「Levolink AI - 한시적 특가」 추가 (0.6x)
-2. 「Levolink AI - 기본」 추가 (1.0x)
-3. 「Levolink AI - CC 전용」 추가 (2.4x)
+1. 「Levogat AI - 한시적 특가」 추가 (0.6x)
+2. 「Levogat AI - 기본」 추가 (1.0x)
+3. 「Levogat AI - CC 전용」 추가 (2.4x)
 
 인터페이스에서 원클릭으로 전환할 수 있으며, 코드나 환경 변수를 수정할 필요가 없습니다.
 
@@ -110,7 +110,7 @@ CC Switch는 오픈소스 도구로 무료로 사용할 수 있습니다.
 
 ## 관련 링크
 
-- [Levolink AI 공식 웹사이트](https://ai.levolink.com)
+- [Levogat AI 공식 웹사이트](https://api.levogat.com)
 - [CC Switch 공식 웹사이트](https://ccswitch.io)
 - [CC Switch GitHub](https://github.com/farion1231/cc-switch)
-- [API 문서](https://levolink.apifox.cn/)
+- [API 문서](https://levogat.apifox.cn/)

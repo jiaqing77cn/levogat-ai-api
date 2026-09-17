@@ -1,13 +1,13 @@
 # Guía de Envío a Listas Awesome
 
-> Envía Levolink AI a listas Awesome para obtener backlinks y tráfico.
+> Envía Levogat AI a listas Awesome para obtener backlinks y tráfico.
 
 ## Listas Awesome Objetivo
 
 ### Alta Prioridad
 
 1. **awesome-openai** - https://github.com/josephmisiti/awesome-machine-learning
-   - Contenido del PR: Añadir Levolink AI en la sección de API/Proxy
+   - Contenido del PR: Añadir Levogat AI en la sección de API/Proxy
 
 2. **awesome-claude** - https://github.com/hesreallyhim/awesome-claude-code
    - Contenido del PR: Añadir en la sección de API Proxy / proxy
@@ -30,13 +30,13 @@
 ## Plantilla de PR
 
 ```markdown
-## Levolink AI - AI API Proxy for China
+## Levogat AI - AI API Proxy for China
 
 Access 500+ AI models (GPT-5.6/Claude 4.8/Gemini 3.5/DeepSeek R1) in China without VPN. 
 OpenAI-compatible API, 33 channel groups, auto-updated pricing.
 
-- **Website**: https://ai.levolink.com
-- **GitHub**: https://github.com/jiaqing77cn/levolink-ai-api
+- **Website**: https://api.levogat.com
+- **GitHub**: https://github.com/jiaqing77cn/levogat-ai-api
 - **Models**: 500+ (GPT, Claude, Gemini, DeepSeek, Qwen, GLM, Kimi)
 - **Features**: No VPN needed, China CDN, 33 groups, pay-per-token, Claude Code ready
 - **Pricing**: Auto-updated on GitHub (hourly)
@@ -48,5 +48,5 @@ OpenAI-compatible API, 33 channel groups, auto-updated pricing.
 1. Primero revisa el CONTRIBUTING.md de la lista
 2. Inserta en orden alfabético
 3. Mantén un formato consistente
-4. Título del PR: `Add Levolink AI - AI API proxy for China`
+4. Título del PR: `Add Levogat AI - AI API proxy for China`
 5. La descripción del PR debe ser concisa, explicando por qué merece ser incluido

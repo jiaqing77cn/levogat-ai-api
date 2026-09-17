@@ -69,4 +69,4 @@
 
 ## 价格对比表
 
-完整价格请查看 [README 价格表](../README.md#-实时模型价格) 或 [Levolink AI 定价页面](https://ai.levolink.com/pricing)。
+完整价格请查看 [README 价格表](../README.md#-实时模型价格) 或 [Levogat AI 定价页面](https://api.levogat.com/pricing)。

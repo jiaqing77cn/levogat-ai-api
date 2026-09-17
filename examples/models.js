@@ -1,13 +1,13 @@
 /**
- * Levolink AI - Supported Models (JavaScript)
+ * Levogat AI - Supported Models (JavaScript)
  * ============================================
- * Complete list of AI models available through the Levolink AI API proxy.
+ * Complete list of AI models available through the Levogat AI API proxy.
  *
  * Usage:
  *   import { SUPPORTED_MODELS, getModelsByProvider } from "./models.js";
  *   console.log(getModelsByProvider("openai"));
  *
- * Docs: https://levolink.apifox.cn/
+ * Docs: https://levogat.apifox.cn/
  */
 
 export const SUPPORTED_MODELS = {

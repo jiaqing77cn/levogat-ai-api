@@ -1,10 +1,10 @@
 # OpenCode Setup Guide
 
-> Use Levolink AI with OpenCode to access 500+ AI models without a VPN.
+> Use Levogat AI with OpenCode to access 500+ AI models without a VPN.
 
 ## What is OpenCode
 
-OpenCode is an open-source AI coding assistant (160K+ Stars), available as a terminal app, desktop app, and IDE plugin. By configuring an OpenAI-compatible API endpoint, you can connect it to Levolink AI.
+OpenCode is an open-source AI coding assistant (160K+ Stars), available as a terminal app, desktop app, and IDE plugin. By configuring an OpenAI-compatible API endpoint, you can connect it to Levogat AI.
 
 ## Configuration Steps
 
@@ -20,17 +20,17 @@ curl -fsSL https://opencode.ai/install | bash
 npm install -g opencode-ai
 ```
 
-### 2. Configure Levolink AI as Provider
+### 2. Configure Levogat AI as Provider
 
 Create `opencode.json` in your project root:
 
 ```json
 {
   "provider": {
-    "levolink": {
-      "name": "Levolink AI",
-      "api_key": "your Levolink API Key",
-      "base_url": "https://ai.levolink.com/v1",
+    "levogat": {
+      "name": "Levogat AI",
+      "api_key": "your Levogat API Key",
+      "base_url": "https://api.levogat.com/v1",
       "models": {
         "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
         "claude-sonnet-4-6": { "name": "Claude Sonnet 4.6" },
@@ -39,7 +39,7 @@ Create `opencode.json` in your project root:
       }
     }
   },
-  "model": "levolink/gpt-5.6-sol"
+  "model": "levogat/gpt-5.6-sol"
 }
 ```
 
@@ -57,8 +57,8 @@ Run the following in the OpenCode TUI:
 ```
 
 Select "Custom OpenAI Compatible" and fill in:
-- **API Key**: your Levolink API Key
-- **Base URL**: `https://ai.levolink.com/v1`
+- **API Key**: your Levogat API Key
+- **Base URL**: `https://api.levogat.com/v1`
 
 ### 4. Initialize Project
 
@@ -99,7 +99,7 @@ Check that `opencode.json` is in the project root directory and the JSON format 
 
 ### Q: How do I switch models?
 
-Type `/model levolink/claude-sonnet-4-6` in the TUI to switch models.
+Type `/model levogat/claude-sonnet-4-6` in the TUI to switch models.
 
 ### Q: Does it support Plan mode?
 
@@ -111,7 +111,7 @@ Add multiple providers in `opencode.json` and switch using `/model provider/mode
 
 ## Related Links
 
-- [Levolink AI Official Site](https://ai.levolink.com)
+- [Levogat AI Official Site](https://api.levogat.com)
 - [OpenCode Official Documentation](https://opencode.ai/docs/)
-- [API Documentation](https://levolink.apifox.cn/)
+- [API Documentation](https://levogat.apifox.cn/)
 - [Model Selection Guide](./model-selection-guide.md)

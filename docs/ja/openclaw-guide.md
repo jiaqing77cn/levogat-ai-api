@@ -1,10 +1,10 @@
 # OpenClaw 連携ガイド
 
-> OpenClaw で Levolink AI をバックエンドモデルプロバイダーとして使用します。
+> OpenClaw で Levogat AI をバックエンドモデルプロバイダーとして使用します。
 
 ## OpenClaw とは
 
-OpenClaw はオープンソースの AI Agent ランタイムで、マルチモデルスケジューリング、スキルシステム、定期タスク、メモリシステムなどをサポートしています。OpenAI 互換の API エンドポイントを設定することで、Levolink AI を連携できます。
+OpenClaw はオープンソースの AI Agent ランタイムで、マルチモデルスケジューリング、スキルシステム、定期タスク、メモリシステムなどをサポートしています。OpenAI 互換の API エンドポイントを設定することで、Levogat AI を連携できます。
 
 ## 設定手順
 
@@ -30,9 +30,9 @@ model:
 
   # OpenAI 互換プロバイダー
   providers:
-    - name: levolink
-      api_key: "あなたの Levolink API Key"
-      base_url: "https://ai.levolink.com/v1"
+    - name: levogat
+      api_key: "あなたの Levogat API Key"
+      base_url: "https://api.levogat.com/v1"
       models:
         - gpt-5.6-sol
         - gpt-5.6-luna
@@ -46,8 +46,8 @@ model:
 
 ```bash
 # ~/.bash_profile または ~/.zshrc に追加
-export OPENAI_API_KEY="あなたの Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="あなたの Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 source ~/.bash_profile
 ```
@@ -91,12 +91,12 @@ OpenClaw は複数モデルの同時スケジューリングに対応してお�
 # 複数の provider を同時に使用する設定
 model:
   providers:
-    - name: levolink-gpt
+    - name: levogat-gpt
       api_key: "あなたのKey"
-      base_url: "https://ai.levolink.com/v1"
-    - name: levolink-claude
+      base_url: "https://api.levogat.com/v1"
+    - name: levogat-claude
       api_key: "あなたのKey"
-      base_url: "https://ai.levolink.com/v1"
+      base_url: "https://api.levogat.com/v1"
 ```
 
 ## よくある質問
@@ -126,8 +126,8 @@ openclaw models list
 
 ## 関連リンク
 
-- [Levolink AI 公式サイト](https://ai.levolink.com)
+- [Levogat AI 公式サイト](https://api.levogat.com)
 - [OpenClaw 公式ドキュメント](https://docs.openclaw.ai)
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
-- [API ドキュメント](https://levolink.apifox.cn/)
+- [API ドキュメント](https://levogat.apifox.cn/)
 - [モデル選択ガイド](./model-selection-guide.md)

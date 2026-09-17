@@ -15,7 +15,7 @@
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="あなたのKey", base_url="https://ai.levolink.com/v1")
+client = OpenAI(api_key="あなたのKey", base_url="https://api.levogat.com/v1")
 
 # テスト 1：古典的な推論問題
 resp = client.chat.completions.create(
@@ -105,9 +105,9 @@ elapsed = time.time() - start
 print(f"レイテンシ: {elapsed:.2f}s")
 ```
 
-## Levolink AI の透明性
+## Levogat AI の透明性
 
-Levolink AI は 33 のグループを提供し、各グループのバックエンドチャネルを明示しています：
+Levogat AI は 33 のグループを提供し、各グループのバックエンドチャネルを明示しています：
 
 | グループ | バックエンド | 倍率 | 透明性 |
 |------|------|------|--------|

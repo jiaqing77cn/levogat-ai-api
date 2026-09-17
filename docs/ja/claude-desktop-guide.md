@@ -1,10 +1,10 @@
 # Claude Desktop 連携ガイド
 
-> Claude Desktop デスクトップアプリで Levolink AI を使用し、VPN なしで Claude モデルを直接呼び出します。
+> Claude Desktop デスクトップアプリで Levogat AI を使用し、VPN なしで Claude モデルを直接呼び出します。
 
 ## Claude Desktop とは
 
-Claude Desktop は Anthropic が公式提供するデスクトップクライアントで、macOS と Windows に対応しています。環境変数を設定することで、Claude Desktop が Levolink AI を経由して Claude モデルにアクセスするようにできます。
+Claude Desktop は Anthropic が公式提供するデスクトップクライアントで、macOS と Windows に対応しています。環境変数を設定することで、Claude Desktop が Levogat AI を経由して Claude モデルにアクセスするようにできます。
 
 ## 設定手順
 
@@ -14,8 +14,8 @@ Claude Desktop は Anthropic が公式提供するデスクトップクライア
 
 ```bash
 # ~/.zshrc または ~/.bash_profile に追加
-export ANTHROPIC_API_KEY="あなたの Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_API_KEY="あなたの Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # 反映
 source ~/.zshrc
@@ -26,7 +26,7 @@ source ~/.zshrc
 ```powershell
 # PowerShell で永続的に設定
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "あなたのKey", "User")
-[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.levogat.com/v1", "User")
 ```
 
 ### 2. Claude Desktop の再起動
@@ -35,7 +35,7 @@ Claude Desktop を完全に終了（最小化ではなく）してから、再�
 
 ### 3. 接続確認
 
-Claude Desktop でメッセージを送信し、正常に返信が受信できれば、Levolink AI 経由の接続は成功です。
+Claude Desktop でメッセージを送信し、正常に返信が受信できれば、Levogat AI 経由の接続は成功です。
 
 ## MCP Server 設定
 
@@ -48,9 +48,9 @@ Claude Desktop は MCP（Model Context Protocol）に対応しており、追加
 ```json
 {
   "mcpServers": {
-    "levolink": {
+    "levogat": {
       "command": "curl",
-      "args": ["https://ai.levolink.com/v1/chat/completions"]
+      "args": ["https://api.levogat.com/v1/chat/completions"]
     }
   }
 }
@@ -84,6 +84,6 @@ API Key が正しいか、Base URL が `/v1` で終わっているかを確認�
 
 ## 関連リンク
 
-- [Levolink AI 公式サイト](https://ai.levolink.com)
+- [Levogat AI 公式サイト](https://api.levogat.com)
 - [Claude Desktop 公式ダウンロード](https://claude.ai/download)
-- [API ドキュメント](https://levolink.apifox.cn/)
+- [API ドキュメント](https://levogat.apifox.cn/)

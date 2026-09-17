@@ -1,10 +1,10 @@
 # Gemini CLI 연결 튜토리얼
 
-> Gemini CLI에서 Levolink AI를 사용하여 Gemini 3.5 Pro / Flash 등의 모델을 호출하세요. VPN이 필요 없습니다.
+> Gemini CLI에서 Levogat AI를 사용하여 Gemini 3.5 Pro / Flash 등의 모델을 호출하세요. VPN이 필요 없습니다.
 
 ## Gemini CLI란?
 
-Gemini CLI는 Google에서 출시한 터미널 AI 어시스턴트로, 코드 생성, 문서 분석, 작업 자동화 등을 지원합니다. Levolink AI를 통해 중계하면 한국 사용자도 Gemini 시리즈 모델을 직접 사용할 수 있습니다.
+Gemini CLI는 Google에서 출시한 터미널 AI 어시스턴트로, 코드 생성, 문서 분석, 작업 자동화 등을 지원합니다. Levogat AI를 통해 중계하면 한국 사용자도 Gemini 시리즈 모델을 직접 사용할 수 있습니다.
 
 ## 설정 단계
 
@@ -18,8 +18,8 @@ npm install -g @google/gemini-cli
 
 ```bash
 # ~/.bash_profile 또는 ~/.zshrc에 추가
-export GEMINI_API_KEY="당신의 Levolink API Key"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_KEY="당신의 Levogat API Key"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 # 적용
 source ~/.bash_profile
@@ -54,8 +54,8 @@ gemini --model gemini-2.5-pro
 ## Windows 설정
 
 ```powershell
-$env:GEMINI_API_KEY="당신의 Levolink API Key"
-$env:GEMINI_API_BASE="https://ai.levolink.com/v1"
+$env:GEMINI_API_KEY="당신의 Levogat API Key"
+$env:GEMINI_API_BASE="https://api.levogat.com/v1"
 gemini
 ```
 
@@ -63,7 +63,7 @@ gemini
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "당신의Key", "User")
-[System.Environment]::SetEnvironmentVariable("GEMINI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("GEMINI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## 자주 묻는 질문
@@ -88,7 +88,7 @@ Gemini-CLI 그룹(1.0x 배율)은 Gemini 모델에 최적화되어 있어 속도
 
 ## 관련 링크
 
-- [Levolink AI 공식 웹사이트](https://ai.levolink.com)
+- [Levogat AI 공식 웹사이트](https://api.levogat.com)
 - [Gemini CLI 공식 문서](https://github.com/google-gemini/gemini-cli)
-- [API 문서](https://levolink.apifox.cn/)
+- [API 문서](https://levogat.apifox.cn/)
 - [모델 선택 가이드](./model-selection-guide.md)

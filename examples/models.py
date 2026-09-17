@@ -1,13 +1,13 @@
 """
-Levolink AI - Supported Models List
+Levogat AI - Supported Models List
 ====================================
-Complete list of 500+ AI models available through the Levolink AI API proxy.
+Complete list of 500+ AI models available through the Levogat AI API proxy.
 
 Usage:
     from models import SUPPORTED_MODELS, get_models_by_provider
     print(get_models_by_provider("openai"))
 
-Docs: https://levolink.apifox.cn/
+Docs: https://levogat.apifox.cn/
 """
 
 SUPPORTED_MODELS = {

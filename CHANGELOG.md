@@ -27,8 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - README.md (Chinese) with SEO optimization
 - README_EN.md (English) with SEO optimization
 - CONTRIBUTING.md
-- API docs at https://levolink.apifox.cn/
+- API docs at https://levogat.apifox.cn/
 
 ---
 
-[1.0.0]: https://github.com/jiaqing77cn/levolink-ai-api/releases/tag/v1.0.0
+[1.0.0]: https://github.com/jiaqing77cn/levogat-ai-api/releases/tag/v1.0.0

@@ -1,13 +1,13 @@
 # Awesome List Submission Guide
 
-> Submit Levolink AI to Awesome lists to gain backlinks and traffic.
+> Submit Levogat AI to Awesome lists to gain backlinks and traffic.
 
 ## Target Awesome Lists
 
 ### High Priority
 
 1. **awesome-openai** - https://github.com/josephmisiti/awesome-machine-learning
-   - PR content: Add Levolink AI in the API/Proxy section
+   - PR content: Add Levogat AI in the API/Proxy section
 
 2. **awesome-claude** - https://github.com/hesreallyhim/awesome-claude-code
    - PR content: Add in the API Proxy section
@@ -30,13 +30,13 @@
 ## PR Template
 
 ```markdown
-## Levolink AI - AI API Proxy for China
+## Levogat AI - AI API Proxy for China
 
 Access 500+ AI models (GPT-5.6/Claude 4.8/Gemini 3.5/DeepSeek R1) in China without VPN. 
 OpenAI-compatible API, 33 channel groups, auto-updated pricing.
 
-- **Website**: https://ai.levolink.com
-- **GitHub**: https://github.com/jiaqing77cn/levolink-ai-api
+- **Website**: https://api.levogat.com
+- **GitHub**: https://github.com/jiaqing77cn/levogat-ai-api
 - **Models**: 500+ (GPT, Claude, Gemini, DeepSeek, Qwen, GLM, Kimi)
 - **Features**: No VPN needed, China CDN, 33 groups, pay-per-token, Claude Code ready
 - **Pricing**: Auto-updated on GitHub (hourly)
@@ -48,5 +48,5 @@ OpenAI-compatible API, 33 channel groups, auto-updated pricing.
 1. Read the list's CONTRIBUTING.md first
 2. Insert in alphabetical order
 3. Keep formatting consistent
-4. PR title: `Add Levolink AI - AI API proxy for China`
+4. PR title: `Add Levogat AI - AI API proxy for China`
 5. Keep the PR description concise and explain why it deserves to be included

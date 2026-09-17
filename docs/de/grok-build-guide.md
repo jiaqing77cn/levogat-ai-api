@@ -1,10 +1,10 @@
 # Grok Build Integrationsanleitung
 
-> Verwenden Sie Levolink AI als Proxy in Grok Build, um Modelle wie GPT/Claude/Gemini aufzurufen.
+> Verwenden Sie Levogat AI als Proxy in Grok Build, um Modelle wie GPT/Claude/Gemini aufzurufen.
 
 ## Was ist Grok Build?
 
-Grok Build ist der von xAI entwickelte Terminal-AI-Programmierassistent und unterstützt interaktives TUI, Headless-Modus und das ACP-Protokoll. Durch benutzerdefinierte Modellkonfiguration kann Grok Build beliebige Modelle von Levolink AI aufrufen.
+Grok Build ist der von xAI entwickelte Terminal-AI-Programmierassistent und unterstützt interaktives TUI, Headless-Modus und das ACP-Protokoll. Durch benutzerdefinierte Modellkonfiguration kann Grok Build beliebige Modelle von Levogat AI aufrufen.
 
 ## Konfigurationsschritte
 
@@ -29,33 +29,33 @@ irm https://x.ai/cli/install.ps1 | iex
 Bearbeiten Sie `~/.grok/config.toml` (Windows: `%USERPROFILE%\.grok\config.toml`):
 
 ```toml
-# Levolink AI als Backend verwenden
-[model.levolink-gpt]
+# Levogat AI als Backend verwenden
+[model.levogat-gpt]
 model = "gpt-5.6-sol"
-base_url = "https://ai.levolink.com/v1"
-name = "GPT-5.6 Sol (Levolink)"
-env_key = "LEVOLINK_API_KEY"
+base_url = "https://api.levogat.com/v1"
+name = "GPT-5.6 Sol (Levogat)"
+env_key = "LEVOGAT_API_KEY"
 
-[model.levolink-claude]
+[model.levogat-claude]
 model = "claude-sonnet-4-6"
-base_url = "https://ai.levolink.com/v1"
-name = "Claude Sonnet 4.6 (Levolink)"
-env_key = "LEVOLINK_API_KEY"
+base_url = "https://api.levogat.com/v1"
+name = "Claude Sonnet 4.6 (Levogat)"
+env_key = "LEVOGAT_API_KEY"
 
-[model.levolink-gemini]
+[model.levogat-gemini]
 model = "gemini-2.5-pro"
-base_url = "https://ai.levolink.com/v1"
-name = "Gemini 2.5 Pro (Levolink)"
-env_key = "LEVOLINK_API_KEY"
+base_url = "https://api.levogat.com/v1"
+name = "Gemini 2.5 Pro (Levogat)"
+env_key = "LEVOGAT_API_KEY"
 
 [models]
-default = "levolink-gpt"
+default = "levogat-gpt"
 ```
 
 ### 3. API Key festlegen
 
 ```bash
-export LEVOLINK_API_KEY="Ihr Levolink API Key"
+export LEVOGAT_API_KEY="Ihr Levogat API Key"
 ```
 
 ### 4. Verwendung starten
@@ -68,7 +68,7 @@ grok
 Im TUI mit `/model` das Modell wechseln:
 
 ```
-/model levolink-claude
+/model levogat-claude
 ```
 
 ## Empfohlene Modellkonfiguration
@@ -83,11 +83,11 @@ Im TUI mit `/model` das Modell wechseln:
 ## Headless-Modus
 
 ```bash
-# Aufgabe mit Levolink-Modell ausführen
-grok -p "Explain this codebase" -m levolink-claude
+# Aufgabe mit Levogat-Modell ausführen
+grok -p "Explain this codebase" -m levogat-claude
 
 # JSON-Ausgabe
-grok -p "Analyze architecture" -m levolink-gpt --output-format streaming-json
+grok -p "Analyze architecture" -m levogat-gpt --output-format streaming-json
 ```
 
 ## Häufig gestellte Fragen
@@ -100,17 +100,17 @@ Führen Sie `grok inspect` aus, um zu überprüfen, ob die Konfiguration korrekt
 grok inspect
 ```
 
-### F: Wie kann ich gleichzeitig Grok-Modelle und Levolink-Modelle verwenden?
+### F: Wie kann ich gleichzeitig Grok-Modelle und Levogat-Modelle verwenden?
 
-Fügen Sie in `config.toml` sowohl die offiziellen xAI-Modelle als auch die Levolink-Modelle hinzu und wechseln Sie mit dem Befehl `/model`.
+Fügen Sie in `config.toml` sowohl die offiziellen xAI-Modelle als auch die Levogat-Modelle hinzu und wechseln Sie mit dem Befehl `/model`.
 
 ### F: Wird Streaming-Ausgabe unterstützt?
 
-Ja. Alle Modelle von Levolink AI unterstützen Streaming-Ausgabe.
+Ja. Alle Modelle von Levogat AI unterstützen Streaming-Ausgabe.
 
 ## Verwandte Links
 
-- [Levolink AI Webseite](https://ai.levolink.com)
+- [Levogat AI Webseite](https://api.levogat.com)
 - [Grok Build offizielle Dokumentation](https://docs.x.ai/build/overview)
 - [Grok Build GitHub](https://github.com/xai-org/grok-build)
-- [API Dokumentation](https://levolink.apifox.cn/)
+- [API Dokumentation](https://levogat.apifox.cn/)

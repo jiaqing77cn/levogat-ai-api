@@ -1,10 +1,10 @@
 # Grok Build 接入教程
 
-> 在 Grok Build 中使用 Levolink AI 中转调用 GPT/Claude/Gemini 等模型。
+> 在 Grok Build 中使用 Levogat AI 中转调用 GPT/Claude/Gemini 等模型。
 
 ## 什么是 Grok Build
 
-Grok Build 是 xAI 推出的终端 AI 编程助手，支持交互式 TUI、无头模式和 ACP 协议。通过自定义模型配置，可以让 Grok Build 调用 Levolink AI 上的任意模型。
+Grok Build 是 xAI 推出的终端 AI 编程助手，支持交互式 TUI、无头模式和 ACP 协议。通过自定义模型配置，可以让 Grok Build 调用 Levogat AI 上的任意模型。
 
 ## 配置步骤
 
@@ -29,33 +29,33 @@ irm https://x.ai/cli/install.ps1 | iex
 编辑 `~/.grok/config.toml`（Windows: `%USERPROFILE%\.grok\config.toml`）：
 
 ```toml
-# 使用 Levolink AI 作为后端
-[model.levolink-gpt]
+# 使用 Levogat AI 作为后端
+[model.levogat-gpt]
 model = "gpt-5.6-sol"
-base_url = "https://ai.levolink.com/v1"
-name = "GPT-5.6 Sol (Levolink)"
-env_key = "LEVOLINK_API_KEY"
+base_url = "https://api.levogat.com/v1"
+name = "GPT-5.6 Sol (Levogat)"
+env_key = "LEVOGAT_API_KEY"
 
-[model.levolink-claude]
+[model.levogat-claude]
 model = "claude-sonnet-4-6"
-base_url = "https://ai.levolink.com/v1"
-name = "Claude Sonnet 4.6 (Levolink)"
-env_key = "LEVOLINK_API_KEY"
+base_url = "https://api.levogat.com/v1"
+name = "Claude Sonnet 4.6 (Levogat)"
+env_key = "LEVOGAT_API_KEY"
 
-[model.levolink-gemini]
+[model.levogat-gemini]
 model = "gemini-2.5-pro"
-base_url = "https://ai.levolink.com/v1"
-name = "Gemini 2.5 Pro (Levolink)"
-env_key = "LEVOLINK_API_KEY"
+base_url = "https://api.levogat.com/v1"
+name = "Gemini 2.5 Pro (Levogat)"
+env_key = "LEVOGAT_API_KEY"
 
 [models]
-default = "levolink-gpt"
+default = "levogat-gpt"
 ```
 
 ### 3. 设置 API Key
 
 ```bash
-export LEVOLINK_API_KEY="你的 Levolink API Key"
+export LEVOGAT_API_KEY="你的 Levogat API Key"
 ```
 
 ### 4. 开始使用
@@ -68,7 +68,7 @@ grok
 在 TUI 中使用 `/model` 切换模型：
 
 ```
-/model levolink-claude
+/model levogat-claude
 ```
 
 ## 推荐模型配置
@@ -83,11 +83,11 @@ grok
 ## 无头模式
 
 ```bash
-# 使用 Levolink 模型执行任务
-grok -p "Explain this codebase" -m levolink-claude
+# 使用 Levogat 模型执行任务
+grok -p "Explain this codebase" -m levogat-claude
 
 # 输出 JSON
-grok -p "Analyze architecture" -m levolink-gpt --output-format streaming-json
+grok -p "Analyze architecture" -m levogat-gpt --output-format streaming-json
 ```
 
 ## 常见问题
@@ -100,17 +100,17 @@ grok -p "Analyze architecture" -m levolink-gpt --output-format streaming-json
 grok inspect
 ```
 
-### Q: 如何同时使用 Grok 模型和 Levolink 模型？
+### Q: 如何同时使用 Grok 模型和 Levogat 模型？
 
-在 `config.toml` 中添加 xAI 官方模型和 Levolink 模型，通过 `/model` 命令切换。
+在 `config.toml` 中添加 xAI 官方模型和 Levogat 模型，通过 `/model` 命令切换。
 
 ### Q: 支持流式输出吗
 
-支持。Levolink AI 所有模型均支持流式输出。
+支持。Levogat AI 所有模型均支持流式输出。
 
 ## 相关链接
 
-- [Levolink AI 官网](https://ai.levolink.com)
+- [Levogat AI 官网](https://api.levogat.com)
 - [Grok Build 官方文档](https://docs.x.ai/build/overview)
 - [Grok Build GitHub](https://github.com/xai-org/grok-build)
-- [API 文档](https://levolink.apifox.cn/)
+- [API 文档](https://levogat.apifox.cn/)

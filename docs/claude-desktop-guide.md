@@ -1,10 +1,10 @@
 # Claude Desktop 接入教程
 
-> 在 Claude Desktop 桌面应用中使用 Levolink AI，无需翻墙直接调用 Claude 模型。
+> 在 Claude Desktop 桌面应用中使用 Levogat AI，无需翻墙直接调用 Claude 模型。
 
 ## 什么是 Claude Desktop
 
-Claude Desktop 是 Anthropic 官方推出的桌面客户端，支持 macOS 和 Windows。通过配置环境变量，可以让 Claude Desktop 通过 Levolink AI 中转访问 Claude 模型。
+Claude Desktop 是 Anthropic 官方推出的桌面客户端，支持 macOS 和 Windows。通过配置环境变量，可以让 Claude Desktop 通过 Levogat AI 中转访问 Claude 模型。
 
 ## 配置步骤
 
@@ -14,8 +14,8 @@ Claude Desktop 是 Anthropic 官方推出的桌面客户端，支持 macOS 和 W
 
 ```bash
 # 添加到 ~/.zshrc 或 ~/.bash_profile
-export ANTHROPIC_API_KEY="你的 Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_API_KEY="你的 Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # 生效
 source ~/.zshrc
@@ -26,7 +26,7 @@ source ~/.zshrc
 ```powershell
 # PowerShell 永久设置
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "你的Key", "User")
-[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.levogat.com/v1", "User")
 ```
 
 ### 2. 重启 Claude Desktop
@@ -35,7 +35,7 @@ source ~/.zshrc
 
 ### 3. 验证连接
 
-在 Claude Desktop 中发送一条消息，如果能正常收到回复，说明已通过 Levolink AI 中转成功。
+在 Claude Desktop 中发送一条消息，如果能正常收到回复，说明已通过 Levogat AI 中转成功。
 
 ## MCP Server 配置
 
@@ -48,9 +48,9 @@ Claude Desktop 支持 MCP（Model Context Protocol），可以接入更多工具
 ```json
 {
   "mcpServers": {
-    "levolink": {
+    "levogat": {
       "command": "curl",
-      "args": ["https://ai.levolink.com/v1/chat/completions"]
+      "args": ["https://api.levogat.com/v1/chat/completions"]
     }
   }
 }
@@ -84,6 +84,6 @@ open -a "Claude"
 
 ## 相关链接
 
-- [Levolink AI 官网](https://ai.levolink.com)
+- [Levogat AI 官网](https://api.levogat.com)
 - [Claude Desktop 官方下载](https://claude.ai/download)
-- [API 文档](https://levolink.apifox.cn/)
+- [API 文档](https://levogat.apifox.cn/)

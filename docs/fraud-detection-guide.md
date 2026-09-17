@@ -15,7 +15,7 @@
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="你的Key", base_url="https://ai.levolink.com/v1")
+client = OpenAI(api_key="你的Key", base_url="https://api.levogat.com/v1")
 
 # 测试 1：经典推理题
 resp = client.chat.completions.create(
@@ -105,9 +105,9 @@ elapsed = time.time() - start
 print(f"延迟: {elapsed:.2f}s")
 ```
 
-## Levolink AI 的透明度
+## Levogat AI 的透明度
 
-Levolink AI 提供 33 个分组，每个分组明确标注后端渠道：
+Levogat AI 提供 33 个分组，每个分组明确标注后端渠道：
 
 | 分组 | 后端 | 倍率 | 透明度 |
 |------|------|------|--------|

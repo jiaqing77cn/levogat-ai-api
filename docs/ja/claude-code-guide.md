@@ -18,8 +18,8 @@ npm install -g @anthropic-ai/claude-code
 
 ```bash
 # ~/.bash_profile または ~/.zshrc に追加
-export ANTHROPIC_AUTH_TOKEN="あなたの Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_AUTH_TOKEN="あなたの Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # 反映
 source ~/.bash_profile
@@ -60,6 +60,6 @@ echo $ANTHROPIC_BASE_URL
 
 ## 関連リンク
 
-- [Levolink AI 公式サイト](https://ai.levolink.com)
+- [Levogat AI 公式サイト](https://api.levogat.com)
 - [Claude Code 公式ドキュメント](https://docs.anthropic.com/en/docs/claude-code)
-- [API ドキュメント](https://levolink.apifox.cn/)
+- [API ドキュメント](https://levogat.apifox.cn/)

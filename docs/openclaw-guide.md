@@ -1,10 +1,10 @@
 # OpenClaw 接入教程
 
-> 在 OpenClaw 中使用 Levolink AI 作为后端模型提供商。
+> 在 OpenClaw 中使用 Levogat AI 作为后端模型提供商。
 
 ## 什么是 OpenClaw
 
-OpenClaw 是开源的 AI Agent 运行时，支持多模型调度、技能系统、定时任务、记忆系统等。通过配置 OpenAI 兼容的 API 端点，可以接入 Levolink AI。
+OpenClaw 是开源的 AI Agent 运行时，支持多模型调度、技能系统、定时任务、记忆系统等。通过配置 OpenAI 兼容的 API 端点，可以接入 Levogat AI。
 
 ## 配置步骤
 
@@ -30,9 +30,9 @@ model:
 
   # OpenAI 兼容提供商
   providers:
-    - name: levolink
-      api_key: "你的 Levolink API Key"
-      base_url: "https://ai.levolink.com/v1"
+    - name: levogat
+      api_key: "你的 Levogat API Key"
+      base_url: "https://api.levogat.com/v1"
       models:
         - gpt-5.6-sol
         - gpt-5.6-luna
@@ -46,8 +46,8 @@ model:
 
 ```bash
 # 添加到 ~/.bash_profile 或 ~/.zshrc
-export OPENAI_API_KEY="你的 Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="你的 Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 source ~/.bash_profile
 ```
@@ -91,12 +91,12 @@ OpenClaw 支持同时调度多个模型，适合 Agent 并行任务：
 # 配置多个 provider 同时使用
 model:
   providers:
-    - name: levolink-gpt
+    - name: levogat-gpt
       api_key: "你的Key"
-      base_url: "https://ai.levolink.com/v1"
-    - name: levolink-claude
+      base_url: "https://api.levogat.com/v1"
+    - name: levogat-claude
       api_key: "你的Key"
-      base_url: "https://ai.levolink.com/v1"
+      base_url: "https://api.levogat.com/v1"
 ```
 
 ## 常见问题
@@ -126,8 +126,8 @@ openclaw models list
 
 ## 相关链接
 
-- [Levolink AI 官网](https://ai.levolink.com)
+- [Levogat AI 官网](https://api.levogat.com)
 - [OpenClaw 官方文档](https://docs.openclaw.ai)
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
-- [API 文档](https://levolink.apifox.cn/)
+- [API 文档](https://levogat.apifox.cn/)
 - [模型选择指南](./model-selection-guide.md)

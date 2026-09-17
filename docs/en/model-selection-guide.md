@@ -69,4 +69,4 @@
 
 ## Price Comparison Table
 
-For full pricing, see the [README pricing table](../../README_EN.md#-live-model-pricing) or the [Levolink AI pricing page](https://ai.levolink.com/pricing).
+For full pricing, see the [README pricing table](../../README_EN.md#-live-model-pricing) or the [Levogat AI pricing page](https://api.levogat.com/pricing).

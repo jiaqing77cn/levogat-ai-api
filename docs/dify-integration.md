@@ -1,16 +1,16 @@
 # Dify 接入教程
 
-> 将 Dify 对接 Levolink AI，一个 Key 调用 500+ AI 模型。
+> 将 Dify 对接 Levogat AI，一个 Key 调用 500+ AI 模型。
 
 ## 什么是 Dify
 
-Dify 是开源的 LLM 应用开发平台，支持知识库管理、Agent 编排、工作流自动化。通过对接 Levolink AI，Dify 可以调用 GPT-5.6、Claude 4.8、Gemini、DeepSeek 等全部模型。
+Dify 是开源的 LLM 应用开发平台，支持知识库管理、Agent 编排、工作流自动化。通过对接 Levogat AI，Dify 可以调用 GPT-5.6、Claude 4.8、Gemini、DeepSeek 等全部模型。
 
 ## 配置步骤
 
-### 1. 获取 Levolink API Key
+### 1. 获取 Levogat API Key
 
-前往 [Levolink AI](https://ai.levolink.com) -> 注册 -> 控制台 -> 创建 Key
+前往 [Levogat AI](https://api.levogat.com) -> 注册 -> 控制台 -> 创建 Key
 
 ### 2. 在 Dify 中配置模型供应商
 
@@ -18,8 +18,8 @@ Dify 是开源的 LLM 应用开发平台，支持知识库管理、Agent 编排�
 
 | 配置项 | 值 |
 |--------|-----|
-| API Key | 你的 Levolink API Key |
-| API endpoint | `https://ai.levolink.com/v1` |
+| API Key | 你的 Levogat API Key |
+| API endpoint | `https://api.levogat.com/v1` |
 | 模型名称 | `gpt-5.6-sol` / `claude-sonnet-4-6` / `deepseek-reasoner` 等 |
 
 ### 3. 添加多个模型
@@ -42,9 +42,9 @@ Dify 是开源的 LLM 应用开发平台，支持知识库管理、Agent 编排�
 
 ## RAG 知识库配置
 
-Dify 的知识库功能配合 Levolink AI 使用：
+Dify 的知识库功能配合 Levogat AI 使用：
 
-1. **Embedding 模型**：使用 `text-embedding-3-large`（Levolink 支持）
+1. **Embedding 模型**：使用 `text-embedding-3-large`（Levogat 支持）
 2. ** rerank 模型**：暂不支持，可关闭 rerank
 3. **对话模型**：推荐 `claude-sonnet-4-6` 或 `gpt-5.6-sol`
 
@@ -58,7 +58,7 @@ Dify 的知识库功能配合 Levolink AI 使用：
 
 ## Agent 工作流配置
 
-Dify Agent + Levolink AI 的典型工作流：
+Dify Agent + Levogat AI 的典型工作流：
 
 ```
 用户输入 -> Claude Sonnet 4.6（意图识别）
@@ -76,19 +76,19 @@ Dify Agent + Levolink AI 的典型工作流：
 services:
   api:
     environment:
-      - OPENAI_API_KEY=你的Levolink Key
-      - OPENAI_API_BASE=https://ai.levolink.com/v1
+      - OPENAI_API_KEY=你的Levogat Key
+      - OPENAI_API_BASE=https://api.levogat.com/v1
 ```
 
 ## 常见问题
 
 ### Q: Dify 报错 "model not found"
 
-确保模型名称完全匹配。Levolink 支持的模型列表见 [README 价格表](../README.md#-实时模型价格)。
+确保模型名称完全匹配。Levogat 支持的模型列表见 [README 价格表](../README.md#-实时模型价格)。
 
 ### Q: 流式输出不工作
 
-在 Dify 模型设置中开启「流式输出」选项。Levolink 所有模型都支持 streaming。
+在 Dify 模型设置中开启「流式输出」选项。Levogat 所有模型都支持 streaming。
 
 ### Q: 如何控制成本
 
@@ -99,8 +99,8 @@ services:
 
 ## 相关链接
 
-- [Levolink AI 官网](https://ai.levolink.com)
+- [Levogat AI 官网](https://api.levogat.com)
 - [Dify 官方文档](https://docs.dify.ai)
-- [API 文档](https://levolink.apifox.cn/)
+- [API 文档](https://levogat.apifox.cn/)
 - [模型选择指南](./model-selection-guide.md)
 - [成本计算器](./cost-calculator-guide.md)

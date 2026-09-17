@@ -1,6 +1,6 @@
 # Cursor IDE Anleitung
 
-> Verwende Levolink AI in Cursor IDE, um GPT-5.6 / Claude 4.8 / Gemini 3.5 aufzurufen.
+> Verwende Levogat AI in Cursor IDE, um GPT-5.6 / Claude 4.8 / Gemini 3.5 aufzurufen.
 
 ## Konfigurationsschritte
 
@@ -10,15 +10,15 @@
 
 ### 2. Konfiguration eintragen
 
-- **API Key**: Dein Levolink API Key
-- **Base URL**: `https://ai.levolink.com/v1`
+- **API Key**: Dein Levogat API Key
+- **Base URL**: `https://api.levogat.com/v1`
 
 ### 3. ~/.cursor/settings.json anpassen
 
 ```json
 {
-  "openai.apiKey": "Dein Levolink API Key",
-  "openai.baseUrl": "https://ai.levolink.com/v1",
+  "openai.apiKey": "Dein Levogat API Key",
+  "openai.baseUrl": "https://api.levogat.com/v1",
   "openai.model": "gpt-5.6-sol"
 }
 ```

@@ -1,10 +1,10 @@
 # Gemini CLI Setup Guide
 
-> Use Levolink AI with Gemini CLI to access Gemini 3.5 Pro / Flash and other models without a VPN.
+> Use Levogat AI with Gemini CLI to access Gemini 3.5 Pro / Flash and other models without a VPN.
 
 ## What is Gemini CLI
 
-Gemini CLI is Google's terminal AI assistant, supporting code generation, document analysis, task automation, and more. Through Levolink AI proxy, users in China can directly use Gemini series models.
+Gemini CLI is Google's terminal AI assistant, supporting code generation, document analysis, task automation, and more. Through Levogat AI proxy, users in China can directly use Gemini series models.
 
 ## Configuration Steps
 
@@ -18,8 +18,8 @@ npm install -g @google/gemini-cli
 
 ```bash
 # Add to ~/.bash_profile or ~/.zshrc
-export GEMINI_API_KEY="your Levolink API Key"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_KEY="your Levogat API Key"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 # Apply changes
 source ~/.bash_profile
@@ -54,8 +54,8 @@ gemini --model gemini-2.5-pro
 ## Windows Configuration
 
 ```powershell
-$env:GEMINI_API_KEY="your Levolink API Key"
-$env:GEMINI_API_BASE="https://ai.levolink.com/v1"
+$env:GEMINI_API_KEY="your Levogat API Key"
+$env:GEMINI_API_BASE="https://api.levogat.com/v1"
 gemini
 ```
 
@@ -63,7 +63,7 @@ Permanent setting:
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "your-key", "User")
-[System.Environment]::SetEnvironmentVariable("GEMINI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("GEMINI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## FAQ
@@ -88,7 +88,7 @@ Yes. Use `--model gemini-3-pro-image` or switch in interactive mode.
 
 ## Related Links
 
-- [Levolink AI Official Site](https://ai.levolink.com)
+- [Levogat AI Official Site](https://api.levogat.com)
 - [Gemini CLI Official Documentation](https://github.com/google-gemini/gemini-cli)
-- [API Documentation](https://levolink.apifox.cn/)
+- [API Documentation](https://levogat.apifox.cn/)
 - [Model Selection Guide](./model-selection-guide.md)

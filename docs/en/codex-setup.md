@@ -1,6 +1,6 @@
 # OpenAI Codex Setup Guide
 
-> The best solution for using OpenAI Codex CLI in China — no VPN required, proxied through Levolink AI.
+> The best solution for using OpenAI Codex CLI in China — no VPN required, proxied through Levogat AI.
 
 ## What is Codex CLI
 
@@ -18,8 +18,8 @@ npm install -g @openai/codex
 
 ```bash
 # Add to ~/.bash_profile or ~/.zshrc
-export OPENAI_API_KEY="your Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="your Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 # Apply changes
 source ~/.bash_profile
@@ -46,8 +46,8 @@ codex
 ### PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="your Levolink API Key"
-$env:OPENAI_API_BASE="https://ai.levolink.com/v1"
+$env:OPENAI_API_KEY="your Levogat API Key"
+$env:OPENAI_API_BASE="https://api.levogat.com/v1"
 codex
 ```
 
@@ -55,7 +55,7 @@ codex
 
 ```powershell
 [System.Environment]::SetEnvironmentVariable("OPENAI_API_KEY", "your Key", "User")
-[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("OPENAI_API_BASE", "https://api.levogat.com/v1", "User")
 ```
 
 ## FAQ
@@ -86,11 +86,11 @@ Yes. Specify the model in Codex with `--model gpt-5.6-sol`.
 | Context | 128K | 200K |
 | Best for | Quick prototyping, scripts | Complex refactoring, architecture design |
 
-Both can be used through Levolink AI — one API Key lets you switch between them.
+Both can be used through Levogat AI — one API Key lets you switch between them.
 
 ## Related Links
 
-- [Levolink AI Website](https://ai.levolink.com)
+- [Levogat AI Website](https://api.levogat.com)
 - [Codex CLI Official Docs](https://github.com/openai/codex)
-- [API Documentation](https://levolink.apifox.cn/)
+- [API Documentation](https://levogat.apifox.cn/)
 - [Model Selection Guide](./model-selection-guide.md)

@@ -1,10 +1,10 @@
 # Guía de Integración con Claude Desktop
 
-> Usa Levolink AI en la aplicación de escritorio Claude Desktop, con acceso a modelos Claude sin necesidad de VPN.
+> Usa Levogat AI en la aplicación de escritorio Claude Desktop, con acceso a modelos Claude sin necesidad de VPN.
 
 ## ¿Qué es Claude Desktop?
 
-Claude Desktop es el cliente de escritorio oficial de Anthropic, compatible con macOS y Windows. Mediante la configuración de variables de entorno, Claude Desktop puede acceder a los modelos Claude a través de Levolink AI como intermediario.
+Claude Desktop es el cliente de escritorio oficial de Anthropic, compatible con macOS y Windows. Mediante la configuración de variables de entorno, Claude Desktop puede acceder a los modelos Claude a través de Levogat AI como intermediario.
 
 ## Pasos de Configuración
 
@@ -14,8 +14,8 @@ Claude Desktop es el cliente de escritorio oficial de Anthropic, compatible con 
 
 ```bash
 # Añadir a ~/.zshrc o ~/.bash_profile
-export ANTHROPIC_API_KEY="tu Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_API_KEY="tu Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # Aplicar cambios
 source ~/.zshrc
@@ -26,7 +26,7 @@ source ~/.zshrc
 ```powershell
 # Configuración permanente en PowerShell
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "tuKey", "User")
-[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.levogat.com/v1", "User")
 ```
 
 ### 2. Reiniciar Claude Desktop
@@ -35,7 +35,7 @@ Cierra completamente Claude Desktop (no minimizar), luego reinicia la aplicació
 
 ### 3. Verificar Conexión
 
-Envía un mensaje en Claude Desktop. Si recibes una respuesta correctamente, significa que la conexión a través de Levolink AI se ha establecido correctamente.
+Envía un mensaje en Claude Desktop. Si recibes una respuesta correctamente, significa que la conexión a través de Levogat AI se ha establecido correctamente.
 
 ## Configuración de MCP Server
 
@@ -48,9 +48,9 @@ Edita el archivo de configuración:
 ```json
 {
   "mcpServers": {
-    "levolink": {
+    "levogat": {
       "command": "curl",
-      "args": ["https://ai.levolink.com/v1/chat/completions"]
+      "args": ["https://api.levogat.com/v1/chat/completions"]
     }
   }
 }
@@ -84,6 +84,6 @@ Sí. Escribe `/model claude-opus-4-8` en la conversación para cambiar de modelo
 
 ## Enlaces Relacionados
 
-- [Levolink AI - Sitio Oficial](https://ai.levolink.com)
+- [Levogat AI - Sitio Oficial](https://api.levogat.com)
 - [Descarga Oficial de Claude Desktop](https://claude.ai/download)
-- [Documentación API](https://levolink.apifox.cn/)
+- [Documentación API](https://levogat.apifox.cn/)

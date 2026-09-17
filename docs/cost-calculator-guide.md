@@ -95,7 +95,7 @@
 
 ### 3. 缓存利用
 
-Levolink 支持缓存价格（标准 10%）。对于重复发送相同上下文的场景（如 Claude Code），缓存可以大幅降低成本。
+Levogat 支持缓存价格（标准 10%）。对于重复发送相同上下文的场景（如 Claude Code），缓存可以大幅降低成本。
 
 ### 4. 设置 Token 限制
 
@@ -106,7 +106,7 @@ Levolink 支持缓存价格（标准 10%）。对于重复发送相同上下文�
 仓库自带价格计算器脚本：
 
 ```bash
-cd levolink-ai-api
+cd levogat-ai-api
 python scripts/cost_calculator.py
 ```
 
@@ -116,4 +116,4 @@ python scripts/cost_calculator.py
 
 - [完整价格表](../README.md#-实时模型价格)
 - [模型选择指南](./model-selection-guide.md)
-- [Levolink AI 定价页面](https://ai.levolink.com/pricing)
+- [Levogat AI 定价页面](https://api.levogat.com/pricing)

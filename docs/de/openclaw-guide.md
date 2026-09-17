@@ -1,10 +1,10 @@
 # OpenClaw Integrationsanleitung
 
-> Verwenden Sie Levolink AI als Backend-Modellanbieter in OpenClaw.
+> Verwenden Sie Levogat AI als Backend-Modellanbieter in OpenClaw.
 
 ## Was ist OpenClaw?
 
-OpenClaw ist eine Open-Source-AI-Agent-Laufzeitumgebung und unterstützt Multi-Modell-Scheduling, ein Skill-System, zeitgesteuerte Aufgaben, ein Gedächtnissystem und mehr. Durch die Konfiguration eines OpenAI-kompatiblen API-Endpunkts kann Levolink AI eingebunden werden.
+OpenClaw ist eine Open-Source-AI-Agent-Laufzeitumgebung und unterstützt Multi-Modell-Scheduling, ein Skill-System, zeitgesteuerte Aufgaben, ein Gedächtnissystem und mehr. Durch die Konfiguration eines OpenAI-kompatiblen API-Endpunkts kann Levogat AI eingebunden werden.
 
 ## Konfigurationsschritte
 
@@ -30,9 +30,9 @@ model:
 
   # OpenAI-kompatibler Provider
   providers:
-    - name: levolink
-      api_key: "Ihr Levolink API Key"
-      base_url: "https://ai.levolink.com/v1"
+    - name: levogat
+      api_key: "Ihr Levogat API Key"
+      base_url: "https://api.levogat.com/v1"
       models:
         - gpt-5.6-sol
         - gpt-5.6-luna
@@ -46,8 +46,8 @@ model:
 
 ```bash
 # Zu ~/.bash_profile oder ~/.zshrc hinzufügen
-export OPENAI_API_KEY="Ihr Levolink API Key"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_KEY="Ihr Levogat API Key"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 
 source ~/.bash_profile
 ```
@@ -91,12 +91,12 @@ OpenClaw unterstützt die gleichzeitige Steuerung mehrerer Modelle, ideal für p
 # Mehrere Provider gleichzeitig verwenden
 model:
   providers:
-    - name: levolink-gpt
+    - name: levogat-gpt
       api_key: "IhrKey"
-      base_url: "https://ai.levolink.com/v1"
-    - name: levolink-claude
+      base_url: "https://api.levogat.com/v1"
+    - name: levogat-claude
       api_key: "IhrKey"
-      base_url: "https://ai.levolink.com/v1"
+      base_url: "https://api.levogat.com/v1"
 ```
 
 ## Häufig gestellte Fragen
@@ -126,8 +126,8 @@ Ja. OpenClaw verwendet standardmäßig Streaming-Ausgabe.
 
 ## Verwandte Links
 
-- [Levolink AI Webseite](https://ai.levolink.com)
+- [Levogat AI Webseite](https://api.levogat.com)
 - [OpenClaw offizielle Dokumentation](https://docs.openclaw.ai)
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
-- [API Dokumentation](https://levolink.apifox.cn/)
+- [API Dokumentation](https://levogat.apifox.cn/)
 - [Modell-Auswahlleitfaden](./model-selection-guide.md)

@@ -69,4 +69,4 @@
 
 ## Tabla de Comparación de Precios
 
-Para la lista completa de precios, consulta la [tabla de precios del README](../../README_ES.md#-precios-de-modelos-en-tiempo-real) o la [página de precios de Levolink AI](https://ai.levolink.com/pricing).
+Para la lista completa de precios, consulta la [tabla de precios del README](../../README_ES.md#-precios-de-modelos-en-tiempo-real) o la [página de precios de Levogat AI](https://api.levogat.com/pricing).

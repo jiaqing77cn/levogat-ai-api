@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability, please **do not** open a public issue.
 
-Instead, email us at security@levolink.com with:
+Instead, email us at security@levogat.com with:
 - Description of the vulnerability
 - Steps to reproduce
 - Potential impact
@@ -25,4 +25,4 @@ We follow responsible disclosure practices. Security researchers who report vali
 
 ---
 
-MIT License · Copyright (c) 2026 [Levolink AI](https://ai.levolink.com)
+MIT License · Copyright (c) 2026 [Levogat AI](https://api.levogat.com)

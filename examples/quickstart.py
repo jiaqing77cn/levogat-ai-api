@@ -1,19 +1,19 @@
 """
-Levolink AI - Python Quickstart
+Levogat AI - Python Quickstart
 ================================
 Access 500+ AI models (Claude/GPT/Gemini/DeepSeek) via one OpenAI-compatible API.
 
 Install:  pip install openai
 Usage:    python quickstart.py
-Docs:     https://levolink.apifox.cn/
+Docs:     https://levogat.apifox.cn/
 """
 
 import os
 from openai import OpenAI
 
 # --- Configuration ---
-API_KEY = os.environ.get("LEVOLINK_API_KEY", "your-api-key")
-BASE_URL = "https://ai.levolink.com/v1"
+API_KEY = os.environ.get("LEVOGAT_API_KEY", "your-api-key")
+BASE_URL = "https://api.levogat.com/v1"
 
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 

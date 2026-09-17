@@ -1,10 +1,10 @@
 # Claude Desktop Setup Guide
 
-> Use Levolink AI with the Claude Desktop app to access Claude models directly without a VPN.
+> Use Levogat AI with the Claude Desktop app to access Claude models directly without a VPN.
 
 ## What is Claude Desktop
 
-Claude Desktop is Anthropic's official desktop client, available for macOS and Windows. By configuring environment variables, you can route Claude Desktop through Levolink AI to access Claude models.
+Claude Desktop is Anthropic's official desktop client, available for macOS and Windows. By configuring environment variables, you can route Claude Desktop through Levogat AI to access Claude models.
 
 ## Configuration Steps
 
@@ -14,8 +14,8 @@ Claude Desktop is Anthropic's official desktop client, available for macOS and W
 
 ```bash
 # Add to ~/.zshrc or ~/.bash_profile
-export ANTHROPIC_API_KEY="your Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_API_KEY="your Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # Apply changes
 source ~/.zshrc
@@ -26,7 +26,7 @@ source ~/.zshrc
 ```powershell
 # PowerShell permanent setting
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "your-key", "User")
-[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.levogat.com/v1", "User")
 ```
 
 ### 2. Restart Claude Desktop
@@ -35,7 +35,7 @@ Fully quit Claude Desktop (not minimize), then relaunch it. The app will read th
 
 ### 3. Verify Connection
 
-Send a message in Claude Desktop. If you receive a normal response, the connection through Levolink AI is successful.
+Send a message in Claude Desktop. If you receive a normal response, the connection through Levogat AI is successful.
 
 ## MCP Server Configuration
 
@@ -48,9 +48,9 @@ Edit the configuration file:
 ```json
 {
   "mcpServers": {
-    "levolink": {
+    "levogat": {
       "command": "curl",
-      "args": ["https://ai.levolink.com/v1/chat/completions"]
+      "args": ["https://api.levogat.com/v1/chat/completions"]
     }
   }
 }
@@ -84,6 +84,6 @@ Yes. Type `/model claude-opus-4-8` in the chat to switch models.
 
 ## Related Links
 
-- [Levolink AI Official Site](https://ai.levolink.com)
+- [Levogat AI Official Site](https://api.levogat.com)
 - [Claude Desktop Official Download](https://claude.ai/download)
-- [API Documentation](https://levolink.apifox.cn/)
+- [API Documentation](https://levogat.apifox.cn/)

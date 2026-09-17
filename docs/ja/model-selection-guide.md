@@ -69,4 +69,4 @@
 
 ## 価格比較表
 
-完全な価格は [README 価格表](../../README_JA.md#-リアルタイムモデル料金) または [Levolink AI 料金ページ](https://ai.levolink.com/pricing) をご覧ください。
+完全な価格は [README 価格表](../../README_JA.md#-リアルタイムモデル料金) または [Levogat AI 料金ページ](https://api.levogat.com/pricing) をご覧ください。

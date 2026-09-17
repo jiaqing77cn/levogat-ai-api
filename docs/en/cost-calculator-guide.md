@@ -95,7 +95,7 @@ Don't rely on just one model. Recommended strategy:
 
 ### 3. Cache Utilization
 
-Levolink supports cached pricing (standard 10%). For scenarios with repeated identical context (like Claude Code), caching can significantly reduce costs.
+Levogat supports cached pricing (standard 10%). For scenarios with repeated identical context (like Claude Code), caching can significantly reduce costs.
 
 ### 4. Set Token Limits
 
@@ -106,7 +106,7 @@ Set max_tokens limits at the application layer to avoid unexpected overspending.
 The repository includes a cost calculator script:
 
 ```bash
-cd levolink-ai-api
+cd levogat-ai-api
 python scripts/cost_calculator.py
 ```
 
@@ -116,4 +116,4 @@ Enter your estimated usage to automatically calculate monthly costs across model
 
 - [Full Pricing Table](../../README_EN.md#-live-model-pricing)
 - [Model Selection Guide](./model-selection-guide.md)
-- [Levolink AI Pricing Page](https://ai.levolink.com/pricing)
+- [Levogat AI Pricing Page](https://api.levogat.com/pricing)

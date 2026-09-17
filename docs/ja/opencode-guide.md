@@ -1,10 +1,10 @@
 # OpenCode 連携ガイド
 
-> OpenCode で Levolink AI を使用し、500 以上の AI モデルを呼び出します。VPN は不要です。
+> OpenCode で Levogat AI を使用し、500 以上の AI モデルを呼び出します。VPN は不要です。
 
 ## OpenCode とは
 
-OpenCode はオープンソースの AI プログラミングアシスタント（160K+ Stars）で、ターミナル、デスクトップ、IDE プラグインの3つの形式をサポートしています。OpenAI 互換の API エンドポイントを設定することで、Levolink AI を連携できます。
+OpenCode はオープンソースの AI プログラミングアシスタント（160K+ Stars）で、ターミナル、デスクトップ、IDE プラグインの3つの形式をサポートしています。OpenAI 互換の API エンドポイントを設定することで、Levogat AI を連携できます。
 
 ## 設定手順
 
@@ -20,17 +20,17 @@ curl -fsSL https://opencode.ai/install | bash
 npm install -g opencode-ai
 ```
 
-### 2. Levolink AI を Provider として設定
+### 2. Levogat AI を Provider として設定
 
 プロジェクトルートに `opencode.json` を作成：
 
 ```json
 {
   "provider": {
-    "levolink": {
-      "name": "Levolink AI",
-      "api_key": "あなたの Levolink API Key",
-      "base_url": "https://ai.levolink.com/v1",
+    "levogat": {
+      "name": "Levogat AI",
+      "api_key": "あなたの Levogat API Key",
+      "base_url": "https://api.levogat.com/v1",
       "models": {
         "gpt-5.6-sol": { "name": "GPT-5.6 Sol" },
         "claude-sonnet-4-6": { "name": "Claude Sonnet 4.6" },
@@ -39,7 +39,7 @@ npm install -g opencode-ai
       }
     }
   },
-  "model": "levolink/gpt-5.6-sol"
+  "model": "levogat/gpt-5.6-sol"
 }
 ```
 
@@ -57,8 +57,8 @@ OpenCode TUI で以下を実行：
 ```
 
 「Custom OpenAI Compatible」を選択し、以下を入力：
-- **API Key**: あなたの Levolink API Key
-- **Base URL**: `https://ai.levolink.com/v1`
+- **API Key**: あなたの Levogat API Key
+- **Base URL**: `https://api.levogat.com/v1`
 
 ### 4. プロジェクトの初期化
 
@@ -99,7 +99,7 @@ OpenCode がプロジェクト構造を分析し、`AGENTS.md` ファイルを�
 
 ### Q: モデルを切り替える方法
 
-TUI で `/model levolink/claude-sonnet-4-6` と入力してモデルを切り替えてください。
+TUI で `/model levogat/claude-sonnet-4-6` と入力してモデルを切り替えてください。
 
 ### Q: Plan モードに対応していますか
 
@@ -111,7 +111,7 @@ TUI で `/model levolink/claude-sonnet-4-6` と入力してモデルを切り替
 
 ## 関連リンク
 
-- [Levolink AI 公式サイト](https://ai.levolink.com)
+- [Levogat AI 公式サイト](https://api.levogat.com)
 - [OpenCode 公式ドキュメント](https://opencode.ai/docs/)
-- [API ドキュメント](https://levolink.apifox.cn/)
+- [API ドキュメント](https://levogat.apifox.cn/)
 - [モデル選択ガイド](./model-selection-guide.md)

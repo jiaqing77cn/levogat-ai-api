@@ -69,4 +69,4 @@
 
 ## 가격 비교표
 
-전체 가격은 [README 가격표](../../README_KO.md#-실시간-모델-가격) 또는 [Levolink AI 가격 페이지](https://ai.levolink.com/pricing)를 참조하세요.
+전체 가격은 [README 가격표](../../README_KO.md#-실시간-모델-가격) 또는 [Levogat AI 가격 페이지](https://api.levogat.com/pricing)를 참조하세요.

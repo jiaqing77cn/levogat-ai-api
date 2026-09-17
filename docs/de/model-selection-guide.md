@@ -69,4 +69,4 @@
 
 ## Preisvergleichstabelle
 
-Die vollständige Preisliste findest du in der [README-Preistabelle](../../README_DE.md#-live-modellpreise) oder auf der [Levolink AI-Preisseite](https://ai.levolink.com/pricing).
+Die vollständige Preisliste findest du in der [README-Preistabelle](../../README_DE.md#-live-modellpreise) oder auf der [Levogat AI-Preisseite](https://api.levogat.com/pricing).

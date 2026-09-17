@@ -15,7 +15,7 @@ Premium models (GPT-5.6/Claude Opus 4.8) and low-end models have a clear gap in 
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="your Key", base_url="https://ai.levolink.com/v1")
+client = OpenAI(api_key="your Key", base_url="https://api.levogat.com/v1")
 
 # Test 1: Classic reasoning puzzle
 resp = client.chat.completions.create(
@@ -105,9 +105,9 @@ elapsed = time.time() - start
 print(f"Latency: {elapsed:.2f}s")
 ```
 
-## Levolink AI Transparency
+## Levogat AI Transparency
 
-Levolink AI provides 33 channel groups, each clearly labeled with its backend provider:
+Levogat AI provides 33 channel groups, each clearly labeled with its backend provider:
 
 | Group | Backend | Multiplier | Transparency |
 |-------|---------|-----------|-------------|

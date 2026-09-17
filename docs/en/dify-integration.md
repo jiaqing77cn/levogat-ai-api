@@ -1,16 +1,16 @@
 # Dify Integration Guide
 
-> Connect Dify to Levolink AI — one API Key to access 500+ AI models.
+> Connect Dify to Levogat AI — one API Key to access 500+ AI models.
 
 ## What is Dify
 
-Dify is an open-source LLM application development platform that supports knowledge base management, agent orchestration, and workflow automation. By connecting to Levolink AI, Dify can access GPT-5.6, Claude 4.8, Gemini, DeepSeek, and all other supported models.
+Dify is an open-source LLM application development platform that supports knowledge base management, agent orchestration, and workflow automation. By connecting to Levogat AI, Dify can access GPT-5.6, Claude 4.8, Gemini, DeepSeek, and all other supported models.
 
 ## Configuration Steps
 
-### 1. Get Your Levolink API Key
+### 1. Get Your Levogat API Key
 
-Go to [Levolink AI](https://ai.levolink.com) -> Register -> Dashboard -> Create Key
+Go to [Levogat AI](https://api.levogat.com) -> Register -> Dashboard -> Create Key
 
 ### 2. Configure Model Provider in Dify
 
@@ -18,8 +18,8 @@ In Dify, go to Settings -> Model Providers -> Select **OpenAI API Compatible**:
 
 | Setting | Value |
 |---------|-------|
-| API Key | Your Levolink API Key |
-| API endpoint | `https://ai.levolink.com/v1` |
+| API Key | Your Levogat API Key |
+| API endpoint | `https://api.levogat.com/v1` |
 | Model name | `gpt-5.6-sol` / `claude-sonnet-4-6` / `deepseek-reasoner`, etc. |
 
 ### 3. Add Multiple Models
@@ -42,9 +42,9 @@ When creating an app, simply select the added model from the "Model" dropdown.
 
 ## RAG Knowledge Base Configuration
 
-Using Dify's knowledge base feature with Levolink AI:
+Using Dify's knowledge base feature with Levogat AI:
 
-1. **Embedding model**: Use `text-embedding-3-large` (supported by Levolink)
+1. **Embedding model**: Use `text-embedding-3-large` (supported by Levogat)
 2. **Rerank model**: Not currently supported; you can disable reranking
 3. **Chat model**: Recommend `claude-sonnet-4-6` or `gpt-5.6-sol`
 
@@ -58,7 +58,7 @@ Using Dify's knowledge base feature with Levolink AI:
 
 ## Agent Workflow Configuration
 
-A typical Dify Agent + Levolink AI workflow:
+A typical Dify Agent + Levogat AI workflow:
 
 ```
 User input -> Claude Sonnet 4.6 (intent recognition)
@@ -76,8 +76,8 @@ If you deployed Dify with Docker, set environment variables in `docker-compose.y
 services:
   api:
     environment:
-      - OPENAI_API_KEY=your Levolink Key
-      - OPENAI_API_BASE=https://ai.levolink.com/v1
+      - OPENAI_API_KEY=your Levogat Key
+      - OPENAI_API_BASE=https://api.levogat.com/v1
 ```
 
 ## FAQ
@@ -88,7 +88,7 @@ Make sure the model name matches exactly. See the [README pricing table](../../R
 
 ### Q: Streaming output doesn't work
 
-Enable the "Streaming output" option in Dify's model settings. All Levolink models support streaming.
+Enable the "Streaming output" option in Dify's model settings. All Levogat models support streaming.
 
 ### Q: How to control costs
 
@@ -99,8 +99,8 @@ Enable the "Streaming output" option in Dify's model settings. All Levolink mode
 
 ## Related Links
 
-- [Levolink AI Website](https://ai.levolink.com)
+- [Levogat AI Website](https://api.levogat.com)
 - [Dify Official Docs](https://docs.dify.ai)
-- [API Documentation](https://levolink.apifox.cn/)
+- [API Documentation](https://levogat.apifox.cn/)
 - [Model Selection Guide](./model-selection-guide.md)
 - [Cost Calculator](./cost-calculator-guide.md)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Levolink AI Pricing Generator
+Levogat AI Pricing Generator
 从 API 拉取实时价格，生成 Markdown 表格写入所有语言 README (中/英/韩/日/西/德)
 """
 
@@ -11,7 +11,7 @@ import os
 import re
 from datetime import datetime, timezone, timedelta
 
-API_URL = "https://ai.levolink.com/api/pricing"
+API_URL = "https://api.levogat.com/api/pricing"
 README_PATH = os.environ.get("README_PATH", "README.md")
 
 

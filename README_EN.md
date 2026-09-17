@@ -1,4 +1,4 @@
-<h1 align="center">🚀 AI API Proxy in China Without VPN | Claude/GPT/Gemini/DeepSeek | Levolink AI</h1>
+<h1 align="center">🚀 AI API Proxy in China Without VPN | Claude/GPT/Gemini/DeepSeek | Levogat AI</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/>
@@ -11,7 +11,7 @@
 
 **No VPN · Low Latency · 500+ Models · OpenAI Compatible · Claude Code Ready**
 
-[🌐 Website](https://ai.levolink.com) · [📋 Pricing](https://ai.levolink.com/pricing) · [📖 API Docs](https://levolink.apifox.cn/) · [💬 Contact](https://ai.levolink.com)
+[🌐 Website](https://api.levogat.com) · [📋 Pricing](https://api.levogat.com/pricing) · [📖 API Docs](https://levogat.apifox.cn/) · [💬 Contact](https://api.levogat.com)
 
 </div>
 
@@ -34,9 +34,9 @@
 
 ## 🖥️ Product Preview
 
-![Levolink AI homepage - 500+ AI model API proxy dashboard](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/homepage.jpg)
+![Levogat AI homepage - 500+ AI model API proxy dashboard](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
-![Levolink AI dashboard - create API keys, view usage, top up account](https://raw.githubusercontent.com/jiaqing77cn/levolink-ai-api/main/assets/console.jpg)
+![Levogat AI dashboard - create API keys, view usage, top up account](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 ## 💰 Live Model Pricing
 
-> Prices are automatically fetched from [Levolink API](https://ai.levolink.com/api/pricing) by GitHub Actions, updated hourly.
+> Prices are automatically fetched from [Levogat API](https://api.levogat.com/api/pricing) by GitHub Actions, updated hourly.
 >
 > Unit: USD / Million Tokens | Output/Input ratio = output price ÷ input price
 
@@ -180,7 +180,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 Full pricing with all 33 groups and 228 models at [Levolink AI Pricing](https://ai.levolink.com/pricing)
+> 💡 Full pricing with all 33 groups and 228 models at [Levogat AI Pricing](https://api.levogat.com/pricing)
 
 ### Group Tiers
 
@@ -202,7 +202,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 ### Quick Start
 
-1. Visit [Levolink AI](https://ai.levolink.com) -> Register -> Console -> Create Key
+1. Visit [Levogat AI](https://api.levogat.com) -> Register -> Console -> Create Key
 2. Top up (min 1 yuan)
    - Alipay / WeChat Pay / Crypto Pay / Stripe / Global Pay
 3. Choose your integration method:
@@ -214,7 +214,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="***",
-    base_url="https://ai.levolink.com/v1"
+    base_url="https://api.levogat.com/v1"
 )
 
 # GPT-5.6 Sol
@@ -240,7 +240,7 @@ resp = client.chat.completions.create(
 ### Node.js / curl
 
 ```bash
-curl https://ai.levolink.com/v1/chat/completions \
+curl https://api.levogat.com/v1/chat/completions \
   -H "Authorization: Bearer ***" \
   -H "Content-Type: application/json" \
   -d '{
@@ -257,7 +257,7 @@ Full examples in [`examples/`](./examples/) directory (incl. [Python](examples/q
 npm install -g @anthropic-ai/claude-code
 
 echo 'export ANTHROPIC_AUTH_TOKEN="***"' >> ~/.bash_profile
-echo 'export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"' >> ~/.bash_profile
+echo 'export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"' >> ~/.bash_profile
 source ~/.bash_profile
 
 cd your-project && claude
@@ -270,7 +270,7 @@ cd your-project && claude
 ```bash
 npm install -g @openai/codex
 export OPENAI_API_KEY="***"
-export OPENAI_API_BASE="https://ai.levolink.com/v1"
+export OPENAI_API_BASE="https://api.levogat.com/v1"
 ```
 
 📖 Full guide: [Codex Setup](docs/en/codex-setup.md)
@@ -280,7 +280,7 @@ export OPENAI_API_BASE="https://ai.levolink.com/v1"
 ```bash
 npm install -g @google/gemini-cli
 export GEMINI_API_KEY="***"
-export GEMINI_API_BASE="https://ai.levolink.com/v1"
+export GEMINI_API_BASE="https://api.levogat.com/v1"
 ```
 
 📖 Full guide: [Cursor IDE Setup](docs/en/cursor-setup.md) (also applies to Gemini CLI)
@@ -289,12 +289,12 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 | Tool | Setup |
 |------|-------|
-| **Dify / FastGPT** | API Key + Base URL: `https://ai.levolink.com/v1` |
-| **n8n** | HTTP Request -> URL: `https://ai.levolink.com/v1/chat/completions` |
-| **LangChain** | `ChatOpenAI(openai_api_key="key", openai_api_base="https://ai.levolink.com/v1")` |
-| **NextChat** | Settings -> Custom API -> URL: `https://ai.levolink.com/v1` |
-| **Cursor IDE** | Settings -> Env Vars -> `ANTHROPIC_BASE_URL=https://ai.levolink.com/v1` |
-| **OpenClaw** | `openai_api_key: key` + `openai_api_base: https://ai.levolink.com/v1` |
+| **Dify / FastGPT** | API Key + Base URL: `https://api.levogat.com/v1` |
+| **n8n** | HTTP Request -> URL: `https://api.levogat.com/v1/chat/completions` |
+| **LangChain** | `ChatOpenAI(openai_api_key="key", openai_api_base="https://api.levogat.com/v1")` |
+| **NextChat** | Settings -> Custom API -> URL: `https://api.levogat.com/v1` |
+| **Cursor IDE** | Settings -> Env Vars -> `ANTHROPIC_BASE_URL=https://api.levogat.com/v1` |
+| **OpenClaw** | `openai_api_key: key` + `openai_api_base: https://api.levogat.com/v1` |
 
 ### Use Cases
 
@@ -310,7 +310,7 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 > Based on publicly available information as of 2026-07-29. For reference only.
 
-| | [Levolink AI](https://ai.levolink.com) | OpenRouter | SiliconFlow | Other Proxies | Self-Built |
+| | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | Other Proxies | Self-Built |
 |--|-------------|-----------|-------------|---------------|------------|
 | Model count | **228+** | ~400 | ~200 | ~100 | Manual |
 | Group options | **33 groups** | None (per-provider) | None | 1-3 | - |
@@ -329,11 +329,11 @@ export GEMINI_API_BASE="https://ai.levolink.com/v1"
 
 **Are responses identical to the official API?**
 
-Yes. Levolink AI only forwards requests to official models - responses are consistent with the official API.
+Yes. Levogat AI only forwards requests to official models - responses are consistent with the official API.
 
 **Can my account get banned?**
 
-No. You use Levolink AI's key, not the official account system - your official account is not at risk.
+No. You use Levogat AI's key, not the official account system - your official account is not at risk.
 
 **What's the difference between groups?**
 
@@ -369,15 +369,15 @@ Yes. Settings -> Identity Verification -> Wallet -> Invoice. E-invoice issued wi
 | Guide | Content |
 |-------|---------|
 | [Claude Code Setup Guide](docs/en/claude-code-guide.md) | Complete Claude Code configuration for China |
-| [Claude Desktop Guide](docs/en/claude-desktop-guide.md) | Configure Claude Desktop with Levolink AI |
+| [Claude Desktop Guide](docs/en/claude-desktop-guide.md) | Configure Claude Desktop with Levogat AI |
 | [Codex Setup Guide](docs/en/codex-setup.md) | OpenAI Codex CLI configuration for China |
-| [Gemini CLI Guide](docs/en/gemini-cli-guide.md) | Gemini CLI with Levolink AI for Gemini models |
+| [Gemini CLI Guide](docs/en/gemini-cli-guide.md) | Gemini CLI with Levogat AI for Gemini models |
 | [Cursor IDE Setup](docs/en/cursor-setup.md) | Use GPT-5.6 / Claude 4.8 / Gemini in Cursor |
-| [Grok Build Guide](docs/en/grok-build-guide.md) | xAI Grok Build with custom Levolink AI models |
-| [OpenCode Guide](docs/en/opencode-guide.md) | OpenCode open-source agent with Levolink AI |
-| [OpenClaw Guide](docs/en/openclaw-guide.md) | OpenClaw Agent runtime with Levolink AI |
+| [Grok Build Guide](docs/en/grok-build-guide.md) | xAI Grok Build with custom Levogat AI models |
+| [OpenCode Guide](docs/en/opencode-guide.md) | OpenCode open-source agent with Levogat AI |
+| [OpenClaw Guide](docs/en/openclaw-guide.md) | OpenClaw Agent runtime with Levogat AI |
 | [CC Switch Guide](docs/en/cc-switch-guide.md) | Unified config management for multiple AI tools |
-| [Dify Integration Guide](docs/en/dify-integration.md) | Connect Dify with Levolink AI |
+| [Dify Integration Guide](docs/en/dify-integration.md) | Connect Dify with Levogat AI |
 | [Model Selection Guide](docs/en/model-selection-guide.md) | Which of 228 models to choose? By use case & budget |
 | [Fraud Detection Guide](docs/en/fraud-detection-guide.md) | 5 methods to detect model swapping in API proxies |
 | [Cost Calculator Guide](docs/en/cost-calculator-guide.md) | Estimate API costs and optimize spending |
@@ -386,9 +386,9 @@ Yes. Settings -> Identity Verification -> Wallet -> Invoice. E-invoice issued wi
 
 ## 🤝 Contributing
 
-- 🐛 Bug report -> [Open an Issue](https://github.com/jiaqing77cn/levolink-ai-api/issues)
+- 🐛 Bug report -> [Open an Issue](https://github.com/jiaqing77cn/levogat-ai-api/issues)
 - 📝 Improve docs -> Submit a PR
-- 💡 Feature request -> [Start a Discussion](https://github.com/jiaqing77cn/levolink-ai-api/discussions)
+- 💡 Feature request -> [Start a Discussion](https://github.com/jiaqing77cn/levogat-ai-api/discussions)
 - 📄 Contributing guide -> See [CONTRIBUTING.md](./CONTRIBUTING.md)
 - 📋 Changelog -> See [CHANGELOG.md](./CHANGELOG.md)
 
@@ -396,7 +396,7 @@ Yes. Settings -> Identity Verification -> Wallet -> Invoice. E-invoice issued wi
 
 ## 📜 License
 
-MIT License · Copyright (c) 2026 [Levolink AI](https://ai.levolink.com)
+MIT License · Copyright (c) 2026 [Levogat AI](https://api.levogat.com)
 
 ## 📢 Trademark Notice
 

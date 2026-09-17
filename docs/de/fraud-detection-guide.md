@@ -15,7 +15,7 @@ Hochwertige Modelle (GPT-5.6/Claude Opus 4.8) und minderwertige Modelle untersch
 ```python
 from openai import OpenAI
 
-client = OpenAI(api_key="Dein Key", base_url="https://ai.levolink.com/v1")
+client = OpenAI(api_key="Dein Key", base_url="https://api.levogat.com/v1")
 
 # Test 1: Klassisches Reasoning-Problem
 resp = client.chat.completions.create(
@@ -105,9 +105,9 @@ elapsed = time.time() - start
 print(f"Latenz: {elapsed:.2f}s")
 ```
 
-## Transparenz von Levolink AI
+## Transparenz von Levogat AI
 
-Levolink AI bietet 33 Gruppen, wobei jede Gruppe das Backend klar ausweist:
+Levogat AI bietet 33 Gruppen, wobei jede Gruppe das Backend klar ausweist:
 
 | Gruppe | Backend | Multiplikator | Transparenz |
 |------|------|------|--------|

@@ -1,10 +1,10 @@
 # Claude Desktop 연결 튜토리얼
 
-> Claude Desktop 데스크톱 앱에서 Levolink AI를 사용하여 VPN 없이 Claude 모델을 호출하세요.
+> Claude Desktop 데스크톱 앱에서 Levogat AI를 사용하여 VPN 없이 Claude 모델을 호출하세요.
 
 ## Claude Desktop이란?
 
-Claude Desktop은 Anthropic에서 공식 출시한 데스크톱 클라이언트로, macOS와 Windows를 지원합니다. 환경 변수를 설정하면 Claude Desktop이 Levolink AI를 통해 Claude 모델에 접근할 수 있습니다.
+Claude Desktop은 Anthropic에서 공식 출시한 데스크톱 클라이언트로, macOS와 Windows를 지원합니다. 환경 변수를 설정하면 Claude Desktop이 Levogat AI를 통해 Claude 모델에 접근할 수 있습니다.
 
 ## 설정 단계
 
@@ -14,8 +14,8 @@ Claude Desktop은 Anthropic에서 공식 출시한 데스크톱 클라이언트�
 
 ```bash
 # ~/.zshrc 또는 ~/.bash_profile에 추가
-export ANTHROPIC_API_KEY="당신의 Levolink API Key"
-export ANTHROPIC_BASE_URL="https://ai.levolink.com/v1"
+export ANTHROPIC_API_KEY="당신의 Levogat API Key"
+export ANTHROPIC_BASE_URL="https://api.levogat.com/v1"
 
 # 적용
 source ~/.zshrc
@@ -26,7 +26,7 @@ source ~/.zshrc
 ```powershell
 # PowerShell 영구 설정
 [System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "당신의Key", "User")
-[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://ai.levolink.com/v1", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.levogat.com/v1", "User")
 ```
 
 ### 2. Claude Desktop 재시작
@@ -35,7 +35,7 @@ Claude Desktop을 완전히 종료한 후(최소화가 아님) 다시 시작하�
 
 ### 3. 연결 확인
 
-Claude Desktop에서 메시지를 보내서 정상적으로 응답을 받으면 Levolink AI를 통한 중계가 성공적으로 설정된 것입니다.
+Claude Desktop에서 메시지를 보내서 정상적으로 응답을 받으면 Levogat AI를 통한 중계가 성공적으로 설정된 것입니다.
 
 ## MCP Server 설정
 
@@ -48,9 +48,9 @@ Claude Desktop은 MCP(Model Context Protocol)를 지원하여 더 많은 도구�
 ```json
 {
   "mcpServers": {
-    "levolink": {
+    "levogat": {
       "command": "curl",
-      "args": ["https://ai.levolink.com/v1/chat/completions"]
+      "args": ["https://api.levogat.com/v1/chat/completions"]
     }
   }
 }
@@ -84,6 +84,6 @@ API Key가 올바른지, Base URL이 `/v1`로 끝나는지 확인하세요.
 
 ## 관련 링크
 
-- [Levolink AI 공식 웹사이트](https://ai.levolink.com)
+- [Levogat AI 공식 웹사이트](https://api.levogat.com)
 - [Claude Desktop 공식 다운로드](https://claude.ai/download)
-- [API 문서](https://levolink.apifox.cn/)
+- [API 문서](https://levogat.apifox.cn/)
