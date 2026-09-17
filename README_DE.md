@@ -337,7 +337,6 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | Claude Code ready | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI compatible | ✅ | ✅ | ✅ | ✅ | Adapter nötig |
 | Preistransparenz | ✅ 81 Gruppen | Pro Modell, eingeschränkte Wahl | Einzelpreis | Einzelpreis | - |
-| Rechnung | ✅ | ❌ Keine CN-Rechnung | ✅ | ❌ | - |
 | GitHub Open Source | ✅ Auto-Pricing | ❌ | ❌ | ❌ | - |
 
 ---
@@ -367,10 +366,6 @@ China CDN-Knoten, Latenz typischerweise 40-200ms - deutlich schneller als direkt
 **Gibt es eine kostenlose Stufe?**
 
 Neue Nutzer erhalten Testguthaben. Kostenlos starten, bei Bedarf aufladen.
-
-**Kann ich eine Rechnung erhalten?**
-
-Ja. Settings -> Identitätsverifizierung -> Wallet -> Rechnung. E-Rechnung wird innerhalb von 5 Werktagen ausgestellt.
 
 **Welche Gruppe soll ich wählen?**
 

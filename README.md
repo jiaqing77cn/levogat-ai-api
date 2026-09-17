@@ -338,7 +338,6 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | Claude Code 兼容 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI 格式 | ✅ | ✅ | ✅ | ✅ | 需适配 |
 | 价格透明 | ✅ 33 分组可选 | 按供应商，可选少 | 单一价格 | 单一价格 | - |
-| 支持发票 | ✅ | ❌ 无国内发票 | ✅ | ❌ | - |
 | GitHub 开源 | ✅ 价格自动更新 | ❌ | ❌ | ❌ | - |
 
 ---

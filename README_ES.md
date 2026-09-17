@@ -337,7 +337,6 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | Claude Code ready | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI compatible | ✅ | ✅ | ✅ | ✅ | Necesita adaptador |
 | Transparencia de precios | ✅ 81 grupos | Por modelo, elección limitada | Precio único | Precio único | - |
-| Factura | ✅ | ❌ Sin factura china | ✅ | ❌ | - |
 | Código abierto en GitHub | ✅ Precios automáticos | ❌ | ❌ | ❌ | - |
 
 ---
@@ -367,10 +366,6 @@ Nodos CDN en China, latencia típicamente de 40-200ms, mucho más rápido que co
 **¿Hay una capa gratuita?**
 
 Los nuevos usuarios reciben créditos de prueba. Empieza gratis, recarga cuando quieras.
-
-**¿Puedo obtener factura?**
-
-Sí. Ajustes -> Verificación de identidad -> Billetera -> Factura. Factura electrónica emitida en un plazo de 5 días hábiles.
 
 **¿Qué grupo debería elegir?**
 

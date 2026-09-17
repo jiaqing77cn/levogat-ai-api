@@ -337,7 +337,6 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | Claude Code ready | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI compatible | ✅ | ✅ | ✅ | ✅ | Needs adapter |
 | Price transparency | ✅ 81 groups | Per-model, limited choice | Single price | Single price | - |
-| Invoice | ✅ | ❌ No CN invoice | ✅ | ❌ | - |
 | GitHub open source | ✅ Auto-pricing | ❌ | ❌ | ❌ | - |
 
 ---
@@ -367,10 +366,6 @@ China CDN nodes, latency typically 40-200ms - much faster than connecting to off
 **Is there a free tier?**
 
 New users get trial credits. Start free, top up when ready.
-
-**Can I get an invoice?**
-
-Yes. Settings -> Identity Verification -> Wallet -> Invoice. E-invoice issued within 5 business days.
 
 **Which group should I choose?**
 
