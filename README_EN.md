@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-09-20 19:04 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
+> Last updated: 2026-09-20 23:51 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
 
 ---
 
@@ -150,11 +150,11 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `deepseek-v4.1-flash` | Self-Deploye… | 1x | $0.30 | $1.20 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
 | `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
-| `deepseek-v4-pro-0813` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
+| `deepseek-v4-pro-0813` | Self-Deploye… | 0.6x | $0.79 | $2.38 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-flash` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
-| `deepseek-v4-flash-0731` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
+| `deepseek-v4-flash-0731` | Self-Deploye… | 0.6x | $0.26 | $0.79 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
 | `deepseek-v3.2` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
 | `deepseek-v3.2-exp` | Alibaba-1 | 1x | $0.29 | $0.43 | Alibaba-3 | 2.2x | $0.64 | $0.96 | 1.5x |
 | `deepseek-v3.1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Alibaba-3 | 2.2x | $1.28 | $3.83 | 3x |
