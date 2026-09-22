@@ -22,7 +22,10 @@ def fetch_pricing():
     instead of a dict with model_info/model_group/model_completion_ratio.
     We transform it back to the expected internal structure.
     """
-    req = urllib.request.Request(API_URL)
+    # Cloudflare WAF 拦截 Python urllib 默认 UA (403), 需带浏览器 UA
+    req = urllib.request.Request(API_URL, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+    })
     with urllib.request.urlopen(req, timeout=30) as resp:
         raw = json.load(resp)
     
