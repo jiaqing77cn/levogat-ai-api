@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-09-24 05:21 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-09-24 12:16 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -98,13 +98,13 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.6-luna` | Azure-Gpt-2 | 0.2x | $0.04 | $0.24 | Azure-Gpt-6 | 1.8x | $0.36 | $2.16 | 6x |
 | `gpt-5.6-terra` | Codex-Gpt-1 | 0.07x | $0.15 | $0.88 | Azure-Gpt-6 | 1.8x | $3.60 | $21.60 | 6x |
 | `gpt-5.5` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
-| `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
+| `gpt-5.5-pro` | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-1 | 0.09x | $2.64 | $15.84 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
-| `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.2x | $6.00 | $36.00 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
+| `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.2x | $6.00 | $36.00 | Azure-Gpt-5 | 1.2x | $36.00 | $216.00 | 6x |
 | `gpt-5.4-mini` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
-| `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Openai-Gpt-2 | 1.47x | $1.10 | $6.62 | 6x |
+| `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-5 | 1.2x | $0.90 | $5.40 | 6x |
 | `gpt-5.4-nano` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Azure-Gpt-6 | 1.8x | $0.36 | $2.25 | 6.25x |
-| `gpt-5.4-nano-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Openai-Gpt-2 | 1.47x | $0.29 | $1.84 | 6.25x |
+| `gpt-5.4-nano-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Azure-Gpt-5 | 1.2x | $0.24 | $1.50 | 6.25x |
 | `gpt-5.3-codex` | Azure-Gpt-2 | 0.2x | $0.35 | $2.80 | Openai-Gpt-2 | 1.47x | $2.57 | $20.59 | 8x |
 
 <!-- GPT_PRICE_TABLE_END -->
@@ -151,7 +151,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
-| `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
+| `deepseek-v4-pro` | Self-Deploye… | 0.6x | $0.79 | $2.38 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-pro-0813` | Self-Deploye… | 0.6x | $0.79 | $2.38 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-flash` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
 | `deepseek-v4-flash-0731` | Self-Deploye… | 0.6x | $0.26 | $0.79 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
@@ -186,8 +186,8 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `glm-5.3-flash` | Self-Deploye… | 0.6x | $0.09 | $0.30 | Self-Deploye… | 1.5x | $0.22 | $0.75 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
-| `kimi-k3` | Self-Deploye… | 1x | $3.00 | $15.00 | Self-Deploye… | 1.5x | $4.50 | $22.50 | 5x |
-| `kimi-k2.7-code` | Self-Deploye… | 1x | $0.95 | $3.95 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
+| `kimi-k3` | Self-Deploye… | 0.6x | $1.80 | $9.00 | Self-Deploye… | 1.5x | $4.50 | $22.50 | 5x |
+| `kimi-k2.7-code` | Self-Deploye… | 0.6x | $0.57 | $2.37 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
 | `kimi-k2.5` | Alibaba-1 | 1x | $0.60 | $3.15 | Alibaba-3 | 2.2x | $1.32 | $6.93 | 5.25x |
 | `doubao-seed-2-1-pro-260628` | Doubao-2 | 1.5x | $1.35 | $6.75 | Doubao-3 | 2.2x | $1.98 | $9.90 | 5x |
 | `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
