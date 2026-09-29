@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-09-29 13:18 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | Deutsch
+> Last updated: 2026-09-29 20:32 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | Deutsch
 
 ---
 
@@ -150,7 +150,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 1x | $0.30 | $1.20 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
 | `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-pro-0813` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-flash` | Self-Deploye… | 1x | $0.44 | $1.32 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
@@ -184,7 +184,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `qwen3-max` | Self-Deploye… | 0.6x | $0.72 | $3.60 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
 | `qwen3-coder-plus` | Self-Deploye… | 0.6x | $0.60 | $3.00 | Self-Deploye… | 1x | $1.00 | $5.00 | 5x |
 | `glm-5.3` | Self-Deploye… | 0.6x | $0.84 | $2.64 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
-| `glm-5.3-flash` | Self-Deploye… | 0.6x | $0.09 | $0.30 | Self-Deploye… | 1.5x | $0.22 | $0.75 | 3.33x |
+| `glm-5.3-flash` | Self-Deploye… | 1x | $0.15 | $0.50 | Self-Deploye… | 1.5x | $0.22 | $0.75 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `kimi-k3` | Self-Deploye… | 1x | $3.00 | $15.00 | Kimi-1 | 1.5x | $4.50 | $22.50 | 5x |
 | `kimi-k2.7-code` | Self-Deploye… | 1x | $0.95 | $3.95 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
