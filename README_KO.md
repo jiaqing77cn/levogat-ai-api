@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-10-09 13:40 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-09 20:58 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -181,8 +181,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `qwen3.8-max` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
-| `qwen3-max` | Self-Deploye… | 0.6x | $0.72 | $3.60 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
-| `qwen3-coder-plus` | Self-Deploye… | 0.6x | $0.60 | $3.00 | Self-Deploye… | 1x | $1.00 | $5.00 | 5x |
+| `qwen3-max` | Alibaba-1 | 1x | $1.20 | $6.00 | Alibaba-3 | 2.2x | $2.64 | $13.20 | 5x |
 | `glm-5.3` | Self-Deploye… | 0.6x | $0.84 | $2.64 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `glm-5.3-flash` | Self-Deploye… | 1x | $0.15 | $0.50 | Self-Deploye… | 1.5x | $0.22 | $0.75 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
@@ -194,6 +193,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `MiniMax-M2.7` | Self-Deploye… | 1.5x | $0.45 | $1.80 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
+| `qwen3.8-max-0902` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
