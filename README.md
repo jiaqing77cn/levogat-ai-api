@@ -15,7 +15,7 @@
 
 </div>
 
-> 最后更新：2026-10-12 13:29 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-10-12 23:03 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 ---
 
@@ -150,8 +150,8 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | deepseek-1 | 2.2x | $0.66 | $2.64 | 4x |
-| `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
+| `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | Self-Deploye… | 1.5x | $1.98 | $5.94 | 3x |
 | `deepseek-v4-pro-0813` | Self-Deploye… | 0.6x | $0.79 | $2.38 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
 | `deepseek-v4-flash` | Self-Deploye… | 1x | $0.44 | $1.32 | Self-Deploye… | 1.5x | $0.66 | $1.98 | 3x |
 | `deepseek-v4-flash-0731` | Self-Deploye… | 0.6x | $0.26 | $0.79 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
