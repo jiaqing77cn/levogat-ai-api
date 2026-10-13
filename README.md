@@ -15,7 +15,7 @@
 
 </div>
 
-> 最后更新：2026-10-13 08:27 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-10-13 21:57 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 ---
 
@@ -191,7 +191,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | `MiniMax-M2.7` | Self-Deploye… | 1.5x | $0.45 | $1.80 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
 | `qwen3.8-max-0902` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
-| `qwen3.8-27b` | Self-Deploye… | 1.5x | $0.75 | $4.50 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
+| `qwen3.8-27b` | Alibaba-3 | 2.2x | $1.10 | $6.60 | - | - | - | - | 6x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
