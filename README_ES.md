@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-10-15 12:10 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-15 19:13 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
 
 ---
 
@@ -150,10 +150,10 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
-| `deepseek-v4-pro` | Self-Deploye… | 1x | $1.32 | $3.96 | Self-Deploye… | 1.5x | $1.98 | $5.94 | 3x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | deepseek-1 | 2.2x | $0.66 | $2.64 | 4x |
+| `deepseek-v4-pro` | Self-Deploye… | 0.6x | $0.79 | $2.38 | Self-Deploye… | 1.5x | $1.98 | $5.94 | 3x |
 | `deepseek-v4-pro-0813` | Self-Deploye… | 0.6x | $0.79 | $2.38 | deepseek-1 | 2.2x | $2.90 | $8.71 | 3x |
-| `deepseek-v4-flash` | Self-Deploye… | 1x | $0.30 | $1.20 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
+| `deepseek-v4-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Self-Deploye… | 1.5x | $0.45 | $1.80 | 4x |
 | `deepseek-v4-flash-0731` | Self-Deploye… | 0.6x | $0.26 | $0.79 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
 | `deepseek-v3-1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Self-Deploye… | 1x | $0.58 | $1.74 | 3x |
 
@@ -180,10 +180,10 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `qwen3.8-max` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 | `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
-| `glm-5.3-flash` | Self-Deploye… | 1x | $0.15 | $0.50 | glm-1 | 2.2x | $0.33 | $1.10 | 3.33x |
+| `glm-5.3-flash` | Self-Deploye… | 0.6x | $0.09 | $0.30 | glm-1 | 2.2x | $0.33 | $1.10 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `kimi-k3` | Self-Deploye… | 0.6x | $1.80 | $9.00 | Kimi-1 | 1.5x | $4.50 | $22.50 | 5x |
-| `kimi-k2.7-code` | Self-Deploye… | 1x | $0.95 | $3.95 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
+| `kimi-k2.7-code` | Self-Deploye… | 0.6x | $0.57 | $2.37 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
 | `kimi-k2.5` | Alibaba-1 | 1x | $0.60 | $3.15 | Alibaba-3 | 2.2x | $1.32 | $6.93 | 5.25x |
 | `doubao-seed-2-1-pro-260628` | Doubao-2 | 1.5x | $1.35 | $6.75 | Doubao-3 | 2.2x | $1.98 | $9.90 | 5x |
 | `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
