@@ -9,13 +9,13 @@
 
 <div align="center">
 
-**No VPN · Low Latency · 366 Models · OpenAI Compatible · Claude Code Ready**
+**No VPN · Low Latency · 336 Models · OpenAI Compatible · Claude Code Ready**
 
 [🌐 Website](https://api.levogat.com) · [📋 Pricing](https://api.levogat.com/pricing) · [📖 API Docs](https://levogat.apifox.cn/) · [💬 Contact](https://api.levogat.com)
 
 </div>
 
-> Last updated: 2026-10-28 06:01 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
+> Last updated: 2026-10-28 11:35 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 🖥️ Product Preview
 
-![Levogat AI homepage - 366 AI model API proxy dashboard](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
+![Levogat AI homepage - 336 AI model API proxy dashboard](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
 ![Levogat AI dashboard - create API keys, view usage, top up account](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
@@ -164,6 +164,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GROK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
+| `grok-4.7` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.6` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.5` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.3` | Azure-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
@@ -195,7 +196,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 Full pricing with all 81 groups and 366 models at [Levogat AI Pricing](https://api.levogat.com/pricing)
+> 💡 Full pricing with all 89 groups and 336 models at [Levogat AI Pricing](https://api.levogat.com/pricing)
 
 ### Group Tiers
 
@@ -327,14 +328,14 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | Other Proxies | Self-Built |
 |--|-------------|-----------|-------------|---------------|------------|
-| Model count | **366** | ~400 | ~200 | ~100 | Manual |
-| Group options | **81 groups** | None (per-provider) | None | 1-3 | - |
+| Model count | **336** | ~400 | ~200 | ~100 | Manual |
+| Group options | **89 groups** | None (per-provider) | None | 1-3 | - |
 | China CDN | ✅ Multi-node | ❌ No China nodes | ✅ Single | ✅ | ❌ |
 | Min top-up | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | Pay-as-you-go | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude Code ready | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI compatible | ✅ | ✅ | ✅ | ✅ | Needs adapter |
-| Price transparency | ✅ 81 groups | Per-model, limited choice | Single price | Single price | - |
+| Price transparency | ✅ 89 groups | Per-model, limited choice | Single price | Single price | - |
 | GitHub open source | ✅ Auto-pricing | ❌ | ❌ | ❌ | - |
 
 ---
@@ -388,7 +389,7 @@ New users get trial credits. Start free, top up when ready.
 | [OpenClaw Guide](docs/en/openclaw-guide.md) | OpenClaw Agent runtime with Levogat AI |
 | [CC Switch Guide](docs/en/cc-switch-guide.md) | Unified config management for multiple AI tools |
 | [Dify Integration Guide](docs/en/dify-integration.md) | Connect Dify with Levogat AI |
-| [Model Selection Guide](docs/en/model-selection-guide.md) | Which of 366 models to choose? By use case & budget |
+| [Model Selection Guide](docs/en/model-selection-guide.md) | Which of 336 models to choose? By use case & budget |
 | [Fraud Detection Guide](docs/en/fraud-detection-guide.md) | 5 methods to detect model swapping in API proxies |
 | [Cost Calculator Guide](docs/en/cost-calculator-guide.md) | Estimate API costs and optimize spending |
 

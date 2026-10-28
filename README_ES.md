@@ -9,13 +9,13 @@
 
 <div align="center">
 
-**Sin VPN · Baja Latencia · 366 Modelos · OpenAI Compatible · Claude Code Ready**
+**Sin VPN · Baja Latencia · 336 Modelos · OpenAI Compatible · Claude Code Ready**
 
 [🌐 Sitio Web](https://api.levogat.com) · [📋 Precios](https://api.levogat.com/pricing) · [📖 Docs API](https://levogat.apifox.cn/) · [💬 Contacto](https://api.levogat.com)
 
 </div>
 
-> Last updated: 2026-10-28 06:01 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-28 11:35 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 🖥️ Vista previa del producto
 
-![Página principal de Levogat AI - panel de proxy de API con 366 modelos de IA](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
+![Página principal de Levogat AI - panel de proxy de API con 336 modelos de IA](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
 ![Panel de Levogat AI - crear claves API, ver uso, recargar cuenta](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
@@ -164,6 +164,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GROK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
+| `grok-4.7` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.6` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.5` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.3` | Azure-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
@@ -195,7 +196,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 Precios completos con los 81 grupos y 366 modelos en [Levogat AI Pricing](https://api.levogat.com/pricing)
+> 💡 Precios completos con los 89 grupos y 336 modelos en [Levogat AI Pricing](https://api.levogat.com/pricing)
 
 ### Niveles de grupos
 
@@ -327,14 +328,14 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | Otros proxies | Autoconstruido |
 |--|-------------|-----------|-------------|---------------|------------|
-| Número de modelos | **366** | ~400 | ~200 | ~100 | Manual |
-| Opciones de grupos | **81 grupos** | Ninguna (por proveedor) | Ninguna | 1-3 | - |
+| Número de modelos | **336** | ~400 | ~200 | ~100 | Manual |
+| Opciones de grupos | **89 grupos** | Ninguna (por proveedor) | Ninguna | 1-3 | - |
 | CDN en China | ✅ Multi-nodo | ❌ Sin nodos en China | ✅ Único | ✅ | ❌ |
 | Recarga mínima | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | Pago por uso | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude Code ready | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI compatible | ✅ | ✅ | ✅ | ✅ | Necesita adaptador |
-| Transparencia de precios | ✅ 81 grupos | Por modelo, elección limitada | Precio único | Precio único | - |
+| Transparencia de precios | ✅ 89 grupos | Por modelo, elección limitada | Precio único | Precio único | - |
 | Código abierto en GitHub | ✅ Precios automáticos | ❌ | ❌ | ❌ | - |
 
 ---
@@ -388,7 +389,7 @@ Los nuevos usuarios reciben créditos de prueba. Empieza gratis, recarga cuando 
 | [Guía de OpenClaw](docs/es/openclaw-guide.md) | OpenClaw Agent runtime con Levogat AI |
 | [Guía de CC Switch](docs/es/cc-switch-guide.md) | Gestión unificada de configuración para múltiples herramientas IA |
 | [Guía de integración con Dify](docs/es/dify-integration.md) | Conectar Dify con Levogat AI |
-| [Guía de selección de modelos](docs/es/model-selection-guide.md) | ¿Cuál de los 366 modelos elegir? Por caso de uso y presupuesto |
+| [Guía de selección de modelos](docs/es/model-selection-guide.md) | ¿Cuál de los 336 modelos elegir? Por caso de uso y presupuesto |
 | [Guía de detección de fraude](docs/es/fraud-detection-guide.md) | 5 métodos para detectar sustitución de modelos en proxies de API |
 | [Guía de calculadora de costos](docs/es/cost-calculator-guide.md) | Estima costos de API y optimiza el gasto |
 

@@ -567,9 +567,9 @@ def main():
     grok_from_groups = extract_models_from_groups(data, "grok")
     grok_all = list(dict.fromkeys(grok_models + grok_from_groups))
     grok_hot = []
-    for kw in ["grok-4.6", "grok-4.5", "grok-4.3", "grok-4-20", "grok-4"]:
+    for kw in ["grok-4.7", "grok-4.6", "grok-4.5", "grok-4.3", "grok-4-20", "grok-4"]:
         grok_hot += [m for m in grok_all if kw in m.lower() and m not in grok_hot]
-    grok_hot = grok_hot[:6]
+    grok_hot = grok_hot[:7]
 
     print(f"  CN hot models found: {cn_hot}")
 

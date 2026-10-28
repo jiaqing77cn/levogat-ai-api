@@ -15,7 +15,7 @@
 
 </div>
 
-> Last updated: 2026-10-28 06:01 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-28 11:35 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -164,6 +164,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GROK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
+| `grok-4.7` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.6` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.5` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.3` | Azure-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
@@ -195,7 +196,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 全81グループ・366モデルの完全な料金表は[Levogat AI 料金ページ](https://api.levogat.com/pricing)でご確認ください。
+> 💡 全89グループ・336モデルの完全な料金表は[Levogat AI 料金ページ](https://api.levogat.com/pricing)でご確認ください。
 
 ### グループティア
 
@@ -327,14 +328,14 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | その他プロキシ | セルフビルド |
 |--|-------------|-----------|-------------|---------------|------------|
-| モデル数 | **366** | ~400 | 約200 | 約100 | 手動 |
-| グループ選択肢 | **81グループ** | なし（プロバイダー別） | なし | 1-3 | - |
+| モデル数 | **336** | ~400 | 約200 | 約100 | 手動 |
+| グループ選択肢 | **89グループ** | なし（プロバイダー別） | なし | 1-3 | - |
 | 中国CDN | ✅ マルチノード | ❌ 中国ノードなし | ✅ 単一 | ✅ | ❌ |
 | 最低チャージ | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | 従量課金 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude Code対応 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI互換 | ✅ | ✅ | ✅ | ✅ | アダプター必要 |
-| 価格透明性 | ✅ 81グループ | モデル別、選択制限 | 単一価格 | 単一価格 | - |
+| 価格透明性 | ✅ 89グループ | モデル別、選択制限 | 単一価格 | 単一価格 | - |
 | GitHubオープンソース | ✅ 自動価格更新 | ❌ | ❌ | ❌ | - |
 
 ---
@@ -388,7 +389,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | [OpenClaw ガイド](docs/ja/openclaw-guide.md) | OpenClaw AgentランタイムにLevogat AIを設定 |
 | [CC Switch ガイド](docs/ja/cc-switch-guide.md) | 複数AIツールのLevogat AI設定を統合管理 |
 | [Dify 統合ガイド](docs/ja/dify-integration.md) | DifyとLevogat AIの連携 |
-| [モデル選択ガイド](docs/ja/model-selection-guide.md) | 366モデルからどれを選ぶ？用途と予算別 |
+| [モデル選択ガイド](docs/ja/model-selection-guide.md) | 336モデルからどれを選ぶ？用途と予算別 |
 | [詐欺検出ガイド](docs/ja/fraud-detection-guide.md) | APIプロキシでモデルすり替えを検出する5つの方法 |
 | [コスト計算ガイド](docs/ja/cost-calculator-guide.md) | APIコストの見積もりと最適化 |
 

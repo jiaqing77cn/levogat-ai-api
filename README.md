@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Levogat 国内 AI API 中转站 | GPT-6/Claude Opus 5/Gemini 3.8/DeepSeek V4/Grok 4.6 免翻墙直连</h1>
+<h1 align="center">🚀 Levogat 国内 AI API 中转站 | GPT-6.1/Claude Opus 5.5/Gemini 3.8/DeepSeek V4.1/Grok 4.7 免翻墙直连</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/>
@@ -9,13 +9,13 @@
 
 <div align="center">
 
-· 低延迟 · 366 个模型 · OpenAI 兼容 · Claude Code
+· 低延迟 · 336 个模型 · OpenAI 兼容 · Claude Code
 
 [🌐 官网](https://api.levogat.com) · [📋 定价](https://api.levogat.com/pricing) · [📖 API 文档](https://levogat.apifox.cn/) · [💬 联系](https://api.levogat.com)
 
 </div>
 
-> 最后更新：2026-10-28 06:01 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-10-28 11:35 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 🖥️ 产品预览
 
-![levogat AI 首页 - 366 个 AI 模型 API 中转平台](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
+![levogat AI 首页 - 336 个 AI 模型 API 中转平台](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
 ![levogat AI 控制台 - 创建 API Key、查看用量、充值](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
@@ -164,6 +164,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- GROK_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
+| `grok-4.7` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.6` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.5` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.3` | Azure-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
@@ -195,7 +196,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 完整价格请前往 [Levogat AI 定价页面](https://api.levogat.com/pricing) 查看，支持 81 个分组、366 个模型、数千种价格组合。
+> 💡 完整价格请前往 [Levogat AI 定价页面](https://api.levogat.com/pricing) 查看，支持 89 个分组、336 个模型、数千种价格组合。
 
 ### 分组说明
 
@@ -328,8 +329,8 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | 维度 | levogat AI | OpenRouter | 硅基流动 | 神马中转 | 自建代理 |
 |------|------------|-----------|---------|---------|---------|
-| 模型数量 | **366** | ~400 | ~200 | ~100 | 需手动维护 |
-| 分组选择 | **81 个分组** | 无（按供应商定价） | 无分组 | 1-3 个 | - |
+| 模型数量 | **336** | ~400 | ~200 | ~100 | 需手动维护 |
+| 分组选择 | **89 个分组** | 无（按供应商定价） | 无分组 | 1-3 个 | - |
 | 国内 CDN 加速 | ✅ 多节点 | ❌ 无国内节点 | ✅ 单节点 | ✅ | ❌ |
 | 最低充值 | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | 按量计费 | ✅ | ✅ | ✅ | ✅ | ❌ |
@@ -391,7 +392,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | [OpenClaw 接入教程](docs/openclaw-guide.md) | OpenClaw Agent 运行时配置 levogat AI |
 | [CC Switch 接入教程](docs/cc-switch-guide.md) | 统一管理多个 AI 工具的 levogat AI 配置 |
 | [Dify 接入教程](docs/dify-integration.md) | Dify 对接 levogat AI 完整流程 |
-| [模型选择指南](docs/model-selection-guide.md) | 366 个模型怎么选？按场景/预算推荐 |
+| [模型选择指南](docs/model-selection-guide.md) | 336 个模型怎么选？按场景/预算推荐 |
 | [中转站掺水检测指南](docs/fraud-detection-guide.md) | 5 种方法检测中转站是否用低端模型冒充 |
 | [成本计算器使用指南](docs/cost-calculator-guide.md) | 估算 API 调用成本，优化开支 |
 

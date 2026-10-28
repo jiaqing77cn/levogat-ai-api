@@ -9,13 +9,13 @@
 
 <div align="center">
 
-**VPN 불필요 · 저지연 · 366개 모델 · OpenAI Compatible · Claude Code Ready**
+**VPN 불필요 · 저지연 · 336개 모델 · OpenAI Compatible · Claude Code Ready**
 
 [🌐 웹사이트](https://api.levogat.com) · [📋 가격](https://api.levogat.com/pricing) · [📖 API 문서](https://levogat.apifox.cn/) · [💬 문의](https://api.levogat.com)
 
 </div>
 
-> Last updated: 2026-10-28 06:01 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-28 11:35 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## 🖥️ 제품 미리보기
 
-![Levogat AI 홈페이지 - 366개 AI 모델 API 프록시 대시보드](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
+![Levogat AI 홈페이지 - 336개 AI 모델 API 프록시 대시보드](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/homepage.jpg)
 
 ![Levogat AI 콘솔 - API 키 생성, 사용량 확인, 계정 충전](https://raw.githubusercontent.com/jiaqing77cn/levogat-ai-api/main/assets/console.jpg)
 
@@ -164,6 +164,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GROK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
+| `grok-4.7` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.6` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.5` | Cli-Grok-1 | 0.15x | $0.29 | $0.88 | Xai-Grok-1 | 0.88x | $1.76 | $5.29 | 3x |
 | `grok-4.3` | Azure-Grok-1 | 0.15x | $0.18 | $0.37 | Xai-Grok-1 | 0.88x | $1.10 | $2.21 | 2x |
@@ -195,7 +196,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
-> 💡 81개 그룹 및 366개 모델의 전체 가격표는 [Levogat AI 가격 페이지](https://api.levogat.com/pricing)에서 확인하세요
+> 💡 89개 그룹 및 336개 모델의 전체 가격표는 [Levogat AI 가격 페이지](https://api.levogat.com/pricing)에서 확인하세요
 
 ### 그룹 등급
 
@@ -327,14 +328,14 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 
 | | [Levogat AI](https://api.levogat.com) | OpenRouter | SiliconFlow | 기타 프록시 | 자체 구축 |
 |--|-------------|-----------|-------------|---------------|------------|
-| 모델 수 | **366** | ~400 | ~200 | ~100 | 수동 |
-| 그룹 옵션 | **81개 그룹** | 없음 (공급자별) | 없음 | 1-3개 | - |
+| 모델 수 | **336** | ~400 | ~200 | ~100 | 수동 |
+| 그룹 옵션 | **89개 그룹** | 없음 (공급자별) | 없음 | 1-3개 | - |
 | 중국 CDN | ✅ 다중 노드 | ❌ 중국 노드 없음 | ✅ 단일 | ✅ | ❌ |
 | 최소 충전 | **¥1** | ~¥35 | ¥50 | ¥20 | - |
 | 사용량 기반 결제 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Claude Code 지원 | ✅ | ✅ | ✅ | ✅ | ❌ |
 | OpenAI Compatible | ✅ | ✅ | ✅ | ✅ | 어댑터 필요 |
-| 가격 투명성 | ✅ 81개 그룹 | 모델별, 선택 제한 | 단일 가격 | 단일 가격 | - |
+| 가격 투명성 | ✅ 89개 그룹 | 모델별, 선택 제한 | 단일 가격 | 단일 가격 | - |
 | GitHub 오픈소스 | ✅ 자동 가격 업데이트 | ❌ | ❌ | ❌ | - |
 
 ---
@@ -388,7 +389,7 @@ export GEMINI_API_BASE="https://api.levogat.com/v1"
 | [OpenClaw 가이드](docs/ko/openclaw-guide.md) | OpenClaw Agent 런타임에 Levogat AI 설정 |
 | [CC Switch 가이드](docs/ko/cc-switch-guide.md) | 여러 AI 도구의 Levogat AI 설정 통합 관리 |
 | [Dify 연동 가이드](docs/ko/dify-integration.md) | Dify와 Levogat AI 연결 |
-| [모델 선택 가이드](docs/ko/model-selection-guide.md) | 366개 모델 중 무엇을 선택할까? 용도 및 예산별 |
+| [모델 선택 가이드](docs/ko/model-selection-guide.md) | 336개 모델 중 무엇을 선택할까? 용도 및 예산별 |
 | [사기 감지 가이드](docs/ko/fraud-detection-guide.md) | API 프록시에서 모델 치환을 감지하는 5가지 방법 |
 | [비용 계산기 가이드](docs/ko/cost-calculator-guide.md) | API 비용 추정 및 지출 최적화 |
 
