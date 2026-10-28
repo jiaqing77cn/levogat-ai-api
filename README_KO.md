@@ -2,9 +2,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/>
-  <img src="https://img.shields.io/badge/500%2B-Models-34d399?style=flat" alt="Models"/>
-  <img src="https://img.shields.io/badge/CDN-China%20Accel-3b82f6?style=flat" alt="CDN"/>
-  <img src="https://img.shields.io/badge/OpenAI-Compatible-10a37f?style=flat" alt="OpenAI Compatible"/>
+  <img src="https://img.shields.io/badge/336%2B-Models-34d399?style=flat" alt="336+ AI Models: GPT/Claude/Gemini/DeepSeek/Grok"/>
+  <img src="https://img.shields.io/badge/CDN-China%20Accel-3b82f6?style=flat" alt="CDN China Acceleration"/>
+  <img src="https://img.shields.io/badge/OpenAI-Compatible-10a37f?style=flat" alt="OpenAI Compatible API"/>
+  <img src="https://img.shields.io/github/stars/jiaqing77cn/levogat-ai-api?style=flat&color=yellow" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/last-commit/jiaqing77cn/levogat-ai-api?style=flat&color=brightgreen" alt="Last Commit"/>
 </p>
 
 <div align="center">

@@ -2,9 +2,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/>
-  <img src="https://img.shields.io/badge/500%2B-Models-34d399?style=flat" alt="Models"/>
-  <img src="https://img.shields.io/badge/CDN-China%20加速-3b82f6?style=flat" alt="CDN"/>
-  <img src="https://img.shields.io/badge/OpenAI-Compatible-10a37f?style=flat" alt="OpenAI Compatible"/>
+  <img src="https://img.shields.io/badge/336%2B-Models-34d399?style=flat" alt="336+ AI Models: GPT/Claude/Gemini/DeepSeek/Grok"/>
+  <img src="https://img.shields.io/badge/CDN-China%20加速-3b82f6?style=flat" alt="CDN China 加速"/>
+  <img src="https://img.shields.io/badge/OpenAI-Compatible-10a37f?style=flat" alt="OpenAI Compatible API"/>
+  <img src="https://img.shields.io/github/stars/jiaqing77cn/levogat-ai-api?style=flat&color=yellow" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/last-commit/jiaqing77cn/levogat-ai-api?style=flat&color=brightgreen" alt="Last Commit"/>
 </p>
 
 <div align="center">
@@ -16,6 +18,8 @@
 </div>
 
 > 最后更新：2026-10-28 11:35 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+
+**Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
 ---
 
