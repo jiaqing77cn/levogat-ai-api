@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-10-29 13:20 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-29 20:43 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -104,9 +104,9 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.5` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
 | `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-1 | 0.09x | $2.64 | $15.84 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
-| `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.2x | $6.00 | $36.00 | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | 6x |
+| `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.2x | $6.00 | $36.00 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-mini` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
-| `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-5 | 1.2x | $0.90 | $5.40 | 6x |
+| `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Openai-Gpt-2 | 1.47x | $1.10 | $6.62 | 6x |
 | `gpt-5.4-nano` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Azure-Gpt-6 | 1.8x | $0.36 | $2.25 | 6.25x |
 
 <!-- GPT_PRICE_TABLE_END -->
@@ -119,7 +119,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `claude-fable-5` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
-| `claude-opus-4-1-20250805` | Claude-Code-… | 0.59x | $8.82 | $44.12 | - | - | - | - | 5x |
+| `claude-opus-4-1-20250805` | Claude-Code-… | 0.59x | $8.82 | $44.12 | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | 5x |
 | `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
@@ -193,8 +193,8 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `MiniMax-M2.7` | Hailuo-3 | 2.2x | $0.66 | $2.64 | - | - | - | - | 4x |
 | `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
-| `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 | `qwen3.8-27b` | Alibaba-3 | 2.2x | $1.10 | $6.60 | - | - | - | - | 6x |
+| `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
