@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-10-29 06:25 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | Deutsch
+> Last updated: 2026-10-29 13:20 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | Deutsch
 
 ---
 
@@ -94,7 +94,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `gpt-6-astra` | Codex-Gpt-1 | 0.07x | $0.74 | $3.68 | Azure-Gpt-6 | 1.8x | $18.00 | $90.00 | 5x |
-| `gpt-6-luna` | Azure-Gpt-2 | 0.2x | $0.02 | $0.10 | Azure-Gpt-6 | 1.8x | $0.18 | $0.90 | 5x |
+| `gpt-6-luna` | Codex-Gpt-2 | 0.12x | $0.01 | $0.06 | Azure-Gpt-6 | 1.8x | $0.18 | $0.90 | 5x |
 | `gpt-6-sol` | Codex-Gpt-1 | 0.07x | $0.15 | $0.74 | Azure-Gpt-6 | 1.8x | $3.60 | $18.00 | 5x |
 | `gpt-6.1-sol` | Codex-Gpt-1 | 0.07x | $0.15 | $0.74 | Azure-Gpt-6 | 1.8x | $3.60 | $18.00 | 5x |
 | `gpt-6.1-terra` | Codex-Gpt-1 | 0.07x | $0.07 | $0.37 | Azure-Gpt-6 | 1.8x | $1.80 | $9.00 | 5x |
@@ -102,7 +102,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.6-luna` | Azure-Gpt-2 | 0.2x | $0.04 | $0.24 | Azure-Gpt-6 | 1.8x | $0.36 | $2.16 | 6x |
 | `gpt-5.6-terra` | Codex-Gpt-1 | 0.07x | $0.15 | $0.88 | Azure-Gpt-6 | 1.8x | $3.60 | $21.60 | 6x |
 | `gpt-5.5` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
-| `gpt-5.5-pro` | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
+| `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-1 | 0.09x | $2.64 | $15.84 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
 | `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.2x | $6.00 | $36.00 | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | 6x |
 | `gpt-5.4-mini` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
