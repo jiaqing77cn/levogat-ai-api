@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-10-30 06:38 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
+> Last updated: 2026-10-30 13:19 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
 
 ---
 
@@ -182,7 +182,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `qwen3.8-max` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
-| `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | glm-1 | 2.2x | $3.08 | $9.68 | 3.14x |
+| `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `glm-5.3-flash` | Self-Deploye… | 0.6x | $0.09 | $0.30 | glm-1 | 2.2x | $0.33 | $1.10 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `kimi-k3` | Self-Deploye… | 0.6x | $1.80 | $9.00 | Kimi-1 | 1.5x | $4.50 | $22.50 | 5x |

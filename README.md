@@ -17,7 +17,7 @@
 
 </div>
 
-> 最后更新：2026-10-30 06:38 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-10-30 13:19 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 **Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
@@ -184,7 +184,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
 | `qwen3.8-max` | Self-Deploye… | 0.6x | $1.20 | $3.60 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
-| `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | glm-1 | 2.2x | $3.08 | $9.68 | 3.14x |
+| `glm-5.3` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `glm-5.3-flash` | Self-Deploye… | 0.6x | $0.09 | $0.30 | glm-1 | 2.2x | $0.33 | $1.10 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `kimi-k3` | Self-Deploye… | 0.6x | $1.80 | $9.00 | Kimi-1 | 1.5x | $4.50 | $22.50 | 5x |
