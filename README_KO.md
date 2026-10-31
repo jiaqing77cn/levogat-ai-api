@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-10-31 13:02 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-10-31 20:00 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -116,18 +116,18 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- CLAUDE_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `claude-fable-5` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
-| `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
+| `claude-fable-5` | Kiro-Claude-… | 0.18x | $1.76 | $8.82 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
+| `claude-fable-5-1` | Kiro-Claude-… | 0.18x | $1.76 | $8.82 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
-| `claude-opus-4-1-20250805` | Claude-Code-… | 0.59x | $8.82 | $44.12 | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | 5x |
+| `claude-opus-4-1-20250805` | Kiro-Claude-… | 0.18x | $2.65 | $13.24 | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | 5x |
 | `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-8` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-5` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-5-5` | Kiro-Claude-… | 0.18x | $0.71 | $3.53 | AWS-Claude-3 | 2.2x | $8.80 | $44.00 | 5x |
+| `claude-sonnet-4-20250514` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | - | - | - | - | 5x |
 | `claude-sonnet-4-5-20250929` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
-| `claude-sonnet-4-6` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
 
 <!-- CLAUDE_PRICE_TABLE_END -->
 
