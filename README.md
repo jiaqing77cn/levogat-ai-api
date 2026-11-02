@@ -17,7 +17,7 @@
 
 </div>
 
-> 最后更新：2026-11-02 13:31 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-11-02 23:23 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 **Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
@@ -109,7 +109,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | `gpt-5.4-pro-2026-03-05` | Azure-Gpt-2 | 0.2x | $6.00 | $36.00 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-mini` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
 | `gpt-5.4-mini-2026-03-17` | Azure-Gpt-1 | 0.09x | $0.07 | $0.40 | Openai-Gpt-2 | 1.47x | $1.10 | $6.62 | 6x |
-| `gpt-5.4-nano` | Azure-Gpt-1 | 0.09x | $0.02 | $0.11 | Azure-Gpt-6 | 1.8x | $0.36 | $2.25 | 6.25x |
+| `gpt-5.4-nano` | Azure-Gpt-2 | 0.2x | $0.04 | $0.25 | Azure-Gpt-6 | 1.8x | $0.36 | $2.25 | 6.25x |
 
 <!-- GPT_PRICE_TABLE_END -->
 
@@ -188,7 +188,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | `glm-5.3-flash` | Self-Deploye… | 0.6x | $0.09 | $0.30 | glm-1 | 2.2x | $0.33 | $1.10 | 3.33x |
 | `glm-5.2` | Self-Deploye… | 1x | $1.40 | $4.40 | Alibaba-3 | 2.2x | $3.08 | $9.68 | 3.14x |
 | `kimi-k3` | Self-Deploye… | 0.6x | $1.80 | $9.00 | Kimi-1 | 1.5x | $4.50 | $22.50 | 5x |
-| `kimi-k2.7-code` | Self-Deploye… | 0.6x | $0.57 | $2.37 | Kimi-2 | 2.2x | $2.09 | $8.68 | 4.15x |
+| `kimi-k2.7-code` | Self-Deploye… | 0.6x | $0.57 | $2.40 | Kimi-2 | 2.2x | $2.09 | $8.80 | 4.21x |
 | `kimi-k2.5` | Self-Deploye… | 1x | $0.60 | $3.15 | Kimi-2 | 2.2x | $1.32 | $6.93 | 5.25x |
 | `doubao-seed-2-1-pro-260628` | Doubao-2 | 1.5x | $1.35 | $6.75 | Doubao-3 | 2.2x | $1.98 | $9.90 | 5x |
 | `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
