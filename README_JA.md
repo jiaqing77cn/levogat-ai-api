@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-04 07:05 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-04 13:48 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -192,7 +192,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `MiniMax-M2.7` | Hailuo-3 | 2.2x | $0.66 | $2.64 | - | - | - | - | 4x |
 | `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
-| `qwen3.8-omni-flash-realtime` | Alibaba-3 | 2.2x | $0.51 | $1.54 | - | - | - | - | 3.04x |
+| `qwen3.8-27b` | Alibaba-3 | 2.2x | $1.10 | $6.60 | - | - | - | - | 6x |
 | `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
