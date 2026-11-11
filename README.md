@@ -17,7 +17,7 @@
 
 </div>
 
-> 最后更新：2026-11-11 13:42 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-11-11 21:55 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 **Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
@@ -195,7 +195,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | `MiniMax-M2.7` | Hailuo-3 | 2.2x | $0.66 | $2.64 | - | - | - | - | 4x |
 | `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
 | `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
-| `qwen3.8-27b` | Alibaba-3 | 2.2x | $1.10 | $6.60 | - | - | - | - | 6x |
+| `qwen3.8-27b` | Self-Deploye… | 1.5x | $0.75 | $4.50 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
