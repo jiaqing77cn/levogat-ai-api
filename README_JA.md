@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-12 08:24 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-12 22:56 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -120,7 +120,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-fable-5-2` | Claude-Code-… | 0.35x | $2.82 | $14.12 | AWS-Claude-2 | 1.76x | $14.12 | $70.59 | 5x |
 | `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
-| `claude-opus-4-1-20250805` | Claude-Code-… | 0.59x | $8.82 | $44.12 | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | 5x |
+| `claude-opus-4-1-20250805` | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | - | - | - | - | 5x |
 | `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
@@ -152,10 +152,9 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | deepseek-1 | 2.2x | $0.66 | $2.64 | 4x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Alibaba-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `deepseek-v4-pro` | Self-Deploye… | 0.6x | $0.79 | $2.38 | Self-Deploye… | 1.5x | $1.98 | $5.94 | 3x |
-| `deepseek-v4-pro-0813` | deepseek-1 | 2.2x | $2.90 | $8.71 | - | - | - | - | 3x |
-| `deepseek-v4-flash-0731` | Self-Deploye… | 0.6x | $0.26 | $0.79 | deepseek-1 | 2.2x | $0.97 | $2.90 | 3x |
+| `deepseek-v4-flash-0731` | Self-Deploye… | 0.6x | $0.26 | $0.79 | - | - | - | - | 3x |
 | `deepseek-v3-1` | Self-Deploye… | 0.6x | $0.35 | $1.04 | Self-Deploye… | 1x | $0.58 | $1.74 | 3x |
 
 <!-- DEEPSEEK_PRICE_TABLE_END -->
