@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-14 13:53 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-14 21:18 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
