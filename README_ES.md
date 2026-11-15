@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-15 06:12 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-15 13:54 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
 
 ---
 
@@ -94,7 +94,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `gpt-6-astra` | Codex-Gpt-1 | 0.07x | $0.74 | $3.68 | Azure-Gpt-6 | 1.8x | $18.00 | $90.00 | 5x |
-| `gpt-6-luna` | Codex-Gpt-2 | 0.12x | $0.01 | $0.06 | Azure-Gpt-6 | 1.8x | $0.18 | $0.90 | 5x |
+| `gpt-6-luna` | AWS-Gpt-1 | 0.59x | $0.06 | $0.29 | Azure-Gpt-6 | 1.8x | $0.18 | $0.90 | 5x |
 | `gpt-6-sol` | Codex-Gpt-1 | 0.07x | $0.15 | $0.74 | Azure-Gpt-6 | 1.8x | $3.60 | $18.00 | 5x |
 | `gpt-6.1-sol` | Codex-Gpt-1 | 0.07x | $0.15 | $0.74 | Azure-Gpt-6 | 1.8x | $3.60 | $18.00 | 5x |
 | `gpt-6.1-terra` | Codex-Gpt-1 | 0.07x | $0.07 | $0.37 | Azure-Gpt-6 | 1.8x | $1.80 | $9.00 | 5x |
