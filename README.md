@@ -17,7 +17,7 @@
 
 </div>
 
-> 最后更新：2026-11-17 09:46 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-11-17 23:47 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 **Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
@@ -96,7 +96,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
 | `gpt-6-astra` | Codex-Gpt-1 | 0.07x | $0.74 | $3.68 | Azure-Gpt-6 | 1.8x | $18.00 | $90.00 | 5x |
-| `gpt-6-luna` | AWS-Gpt-1 | 0.59x | $0.06 | $0.29 | Azure-Gpt-6 | 1.8x | $0.18 | $0.90 | 5x |
+| `gpt-6-luna` | Azure-Gpt-4 | 0.88x | $0.09 | $0.44 | Azure-Gpt-6 | 1.8x | $0.18 | $0.90 | 5x |
 | `gpt-6-sol` | Codex-Gpt-1 | 0.07x | $0.15 | $0.74 | Azure-Gpt-6 | 1.8x | $3.60 | $18.00 | 5x |
 | `gpt-6.1-sol` | Codex-Gpt-1 | 0.07x | $0.15 | $0.74 | Azure-Gpt-6 | 1.8x | $3.60 | $18.00 | 5x |
 | `gpt-6.1-terra` | Codex-Gpt-1 | 0.07x | $0.07 | $0.37 | Azure-Gpt-6 | 1.8x | $1.80 | $9.00 | 5x |
@@ -120,7 +120,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
 | `claude-fable-5` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
-| `claude-fable-5-2` | Claude-Code-… | 0.35x | $2.82 | $14.12 | AWS-Claude-2 | 1.76x | $14.12 | $70.59 | 5x |
+| `claude-fable-5-2` | Claude-Code-… | 0.35x | $2.82 | $14.12 | Claude-Code-… | 0.9x | $7.20 | $36.00 | 5x |
 | `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
 | `claude-opus-4-1-20250805` | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | - | - | - | - | 5x |
 | `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
