@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-20 23:12 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-21 07:52 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
 
 ---
 
@@ -107,7 +107,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
 | `gpt-5.4-pro-2026-03-05` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
-| `gpt-5.4-mini` | Azure-Gpt-2 | 0.2x | $0.15 | $0.90 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
+| `gpt-5.4-mini` | Azure-Gpt-4 | 0.88x | $0.66 | $3.96 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
 
 <!-- GPT_PRICE_TABLE_END -->
 
