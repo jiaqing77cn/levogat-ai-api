@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-22 14:09 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-23 03:20 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | Español | [Deutsch](./README_DE.md)
 
 ---
 
@@ -107,7 +107,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
 | `gpt-5.4-pro-2026-03-05` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
-| `gpt-5.4-mini` | Azure-Gpt-4 | 0.88x | $0.66 | $3.96 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
+| `gpt-5.4-mini` | Azure-Gpt-2 | 0.2x | $0.15 | $0.90 | Azure-Gpt-6 | 1.8x | $1.35 | $8.10 | 6x |
 
 <!-- GPT_PRICE_TABLE_END -->
 
@@ -118,7 +118,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `claude-fable-5` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
-| `claude-fable-5-2` | Claude-Code-… | 0.35x | $2.82 | $14.12 | Anthropic-Cl… | 2.2x | $17.60 | $88.00 | 5x |
+| `claude-fable-5-2` | Claude-Code-… | 0.35x | $2.82 | $14.12 | AWS-Claude-3 | 2.2x | $17.60 | $88.00 | 5x |
 | `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
 | `claude-opus-4-1-20250805` | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | - | - | - | - | 5x |
 | `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
