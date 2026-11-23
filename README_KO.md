@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-23 15:01 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-24 07:41 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | 한국어 | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -103,7 +103,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.6-sol` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
 | `gpt-5.6-luna` | Azure-Gpt-3 | 0.44x | $0.09 | $0.53 | Azure-Gpt-6 | 1.8x | $0.36 | $2.16 | 6x |
 | `gpt-5.6-terra` | Codex-Gpt-1 | 0.07x | $0.15 | $0.88 | Azure-Gpt-6 | 1.8x | $3.60 | $21.60 | 6x |
-| `gpt-5.5` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
+| `gpt-5.5` | Azure-Gpt-3 | 0.44x | $2.20 | $13.20 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
 | `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
 | `gpt-5.4-pro-2026-03-05` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
@@ -191,8 +191,8 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `MiniMax-M2.7` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `qwen3.8-flash` | Self-Deploye… | 1x | $0.15 | $0.47 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
-| `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 | `qwen3.8-27b` | Self-Deploye… | 1.5x | $0.75 | $4.50 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
+| `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 
 <!-- CN_MODEL_PRICE_TABLE_END -->
 
