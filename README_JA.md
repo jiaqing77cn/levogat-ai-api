@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-24 17:26 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-25 06:12 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -103,7 +103,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gpt-5.6-sol` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
 | `gpt-5.6-luna` | Azure-Gpt-3 | 0.44x | $0.09 | $0.53 | Azure-Gpt-6 | 1.8x | $0.36 | $2.16 | 6x |
 | `gpt-5.6-terra` | Codex-Gpt-1 | 0.07x | $0.15 | $0.88 | Azure-Gpt-6 | 1.8x | $3.60 | $21.60 | 6x |
-| `gpt-5.5` | Azure-Gpt-3 | 0.44x | $2.20 | $13.20 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
+| `gpt-5.5` | Codex-Gpt-1 | 0.07x | $0.37 | $2.21 | Azure-Gpt-6 | 1.8x | $9.00 | $54.00 | 6x |
 | `gpt-5.5-pro` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
 | `gpt-5.4-pro` | Azure-Gpt-4 | 0.88x | $26.40 | $158.40 | Azure-Gpt-6 | 1.8x | $54.00 | $324.00 | 6x |
 | `gpt-5.4-pro-2026-03-05` | Openai-Gpt-1 | 1.18x | $35.29 | $211.77 | Openai-Gpt-2 | 1.47x | $44.12 | $264.71 | 6x |
@@ -138,8 +138,8 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `gemini-3.8-flash` | Anti-Gemini-… | 0.15x | $0.11 | $0.55 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.8-flash-tts` | Aistudio-Gem… | 0.88x | $0.44 | $7.94 | Aistudio-Gem… | 1.91x | $0.96 | $17.21 | 18x |
-| `gemini-3.7-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
-| `gemini-3.6-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.7-flash` | Aistudio-Gem… | 0.88x | $0.66 | $3.31 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.6-flash` | Aistudio-Gem… | 0.53x | $0.40 | $1.99 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.5-flash` | Anti-Gemini-… | 0.15x | $0.22 | $1.32 | Aistudio-Gem… | 1.91x | $2.87 | $17.21 | 6x |
 | `gemini-3.5-flash-lite` | Anti-Gemini-… | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.33x |
 | `gemini-3-pro-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
