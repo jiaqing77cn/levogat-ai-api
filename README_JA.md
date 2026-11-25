@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-25 15:58 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-26 05:28 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -125,8 +125,8 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-8` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
-| `claude-opus-5` | Claude-Code-… | 0.35x | $1.76 | $8.82 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
-| `claude-opus-5-5` | Claude-Code-… | 0.35x | $1.41 | $7.06 | AWS-Claude-3 | 2.2x | $8.80 | $44.00 | 5x |
+| `claude-opus-5` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-opus-5-5` | Kiro-Claude-… | 0.18x | $0.71 | $3.53 | AWS-Claude-3 | 2.2x | $8.80 | $44.00 | 5x |
 | `claude-sonnet-4-5-20250929` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
 
 <!-- CLAUDE_PRICE_TABLE_END -->
@@ -136,7 +136,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- GEMINI_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `gemini-3.8-flash` | Anti-Gemini-… | 0.15x | $0.11 | $0.55 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.8-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.8-flash-tts` | Aistudio-Gem… | 0.88x | $0.44 | $7.94 | Aistudio-Gem… | 1.91x | $0.96 | $17.21 | 18x |
 | `gemini-3.7-flash` | Aistudio-Gem… | 0.88x | $0.66 | $3.31 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.6-flash` | Aistudio-Gem… | 0.53x | $0.40 | $1.99 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
