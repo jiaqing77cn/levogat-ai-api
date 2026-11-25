@@ -17,7 +17,7 @@
 
 </div>
 
-> 最后更新：2026-11-25 06:12 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-11-25 15:58 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 **Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
@@ -127,8 +127,8 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-7` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-8` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
-| `claude-opus-5` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
-| `claude-opus-5-5` | Kiro-Claude-… | 0.18x | $0.71 | $3.53 | AWS-Claude-3 | 2.2x | $8.80 | $44.00 | 5x |
+| `claude-opus-5` | Claude-Code-… | 0.35x | $1.76 | $8.82 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
+| `claude-opus-5-5` | Claude-Code-… | 0.35x | $1.41 | $7.06 | AWS-Claude-3 | 2.2x | $8.80 | $44.00 | 5x |
 | `claude-sonnet-4-5-20250929` | Kiro-Claude-… | 0.18x | $0.53 | $2.65 | AWS-Claude-3 | 2.2x | $6.60 | $33.00 | 5x |
 
 <!-- CLAUDE_PRICE_TABLE_END -->
@@ -192,8 +192,8 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 | `doubao-seed-2-1-pro-260628` | Doubao-2 | 1.5x | $1.35 | $6.75 | Doubao-3 | 2.2x | $1.98 | $9.90 | 5x |
 | `doubao-seed-1-6-250615` | Doubao-2 | 1.5x | $0.18 | $1.80 | Doubao-3 | 2.2x | $0.26 | $2.64 | 10x |
 | `MiniMax-M3` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
-| `MiniMax-M2.7` | Self-Deploye… | 1x | $0.30 | $1.20 | Hailuo-3 | 2.2x | $0.66 | $2.64 | 4x |
-| `qwen3.8-flash` | Self-Deploye… | 1x | $0.15 | $0.47 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
+| `MiniMax-M2.7` | Hailuo-3 | 2.2x | $0.66 | $2.64 | - | - | - | - | 4x |
+| `qwen3.8-flash` | Alibaba-2 | 1.5x | $0.22 | $0.70 | Alibaba-3 | 2.2x | $0.33 | $1.03 | 3.13x |
 | `qwen3.8-27b` | Self-Deploye… | 1.5x | $0.75 | $4.50 | Alibaba-3 | 2.2x | $1.10 | $6.60 | 6x |
 | `qwen3.8-max-0902` | Self-Deploye… | 1x | $2.00 | $6.00 | Alibaba-3 | 2.2x | $4.40 | $13.20 | 3x |
 
