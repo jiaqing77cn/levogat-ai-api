@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-26 05:28 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
+> Last updated: 2026-11-26 15:50 (UTC+8)| [中文](./README.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | English
 
 ---
 
@@ -119,7 +119,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `claude-fable-5` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-fable-5-1` | Claude-Code-… | 0.35x | $3.53 | $17.65 | AWS-Claude-3 | 2.2x | $22.00 | $110.00 | 5x |
 | `claude-fable-5-2` | Claude-Code-… | 0.35x | $2.82 | $14.12 | AWS-Claude-3 | 2.2x | $17.60 | $88.00 | 5x |
-| `claude-haiku-4-5-20251001` | Kiro-Claude-… | 0.18x | $0.18 | $0.88 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
+| `claude-haiku-4-5-20251001` | Claude-Code-… | 0.35x | $0.35 | $1.76 | AWS-Claude-3 | 2.2x | $2.20 | $11.00 | 5x |
 | `claude-opus-4-1-20250805` | AWS-Claude-3 | 2.2x | $33.00 | $165.00 | - | - | - | - | 5x |
 | `claude-opus-4-5-20251101` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
 | `claude-opus-4-6` | Kiro-Claude-… | 0.18x | $0.88 | $4.41 | AWS-Claude-3 | 2.2x | $11.00 | $55.00 | 5x |
@@ -141,7 +141,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 | `gemini-3.7-flash` | Aistudio-Gem… | 0.88x | $0.66 | $3.31 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.6-flash` | Aistudio-Gem… | 0.53x | $0.40 | $1.99 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.5-flash` | Anti-Gemini-… | 0.15x | $0.22 | $1.32 | Aistudio-Gem… | 1.91x | $2.87 | $17.21 | 6x |
-| `gemini-3.5-flash-lite` | Anti-Gemini-… | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.33x |
+| `gemini-3.5-flash-lite` | Cli-Gemini-1 | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.33x |
 | `gemini-3-pro-image` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
 | `gemini-3-pro-image-preview` | Aistudio-Gem… | 0.35x | $0.00 | $0.00 | Aistudio-Gem… | 1.91x | $0.00 | $0.00 | 0x |
 
