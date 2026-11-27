@@ -17,7 +17,7 @@
 
 </div>
 
-> Last updated: 2026-11-27 05:16 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
+> Last updated: 2026-11-27 15:50 (UTC+8)| [中文](./README.md) | [English](./README_EN.md) | [한국어](./README_KO.md) | 日本語 | [Español](./README_ES.md) | [Deutsch](./README_DE.md)
 
 ---
 
@@ -138,7 +138,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
 | `gemini-3.8-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.8-flash-tts` | Aistudio-Gem… | 0.88x | $0.44 | $7.94 | Aistudio-Gem… | 1.91x | $0.96 | $17.21 | 18x |
-| `gemini-3.7-flash` | Aistudio-Gem… | 0.88x | $0.66 | $3.31 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.7-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.6-flash` | Aistudio-Gem… | 0.53x | $0.40 | $1.99 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.5-flash` | Anti-Gemini-… | 0.15x | $0.22 | $1.32 | Aistudio-Gem… | 1.91x | $2.87 | $17.21 | 6x |
 | `gemini-3.5-flash-lite` | Anti-Gemini-… | 0.15x | $0.04 | $0.37 | Aistudio-Gem… | 1.91x | $0.57 | $4.78 | 8.33x |
@@ -152,7 +152,7 @@ prompt = "Implement an LRU cache with TTL expiration in Python"
 <!-- DEEPSEEK_PRICE_TABLE_START -->
 | Model | Cheapest Group | Ratio | Input($/M) | Output($/M) | Premium Group | Ratio | Input($/M) | Output($/M) | Out/In |
 |-------|---------------|-------|-----------|------------|--------------|-------|-----------|------------|--------|
-| `deepseek-v4.1-flash` | Self-Deploye… | 0.6x | $0.18 | $0.72 | Alibaba-3 | 2.2x | $0.66 | $2.64 | 4x |
+| `deepseek-v4.1-flash` | Self-Deploye… | 1x | $0.30 | $1.20 | Alibaba-3 | 2.2x | $0.66 | $2.64 | 4x |
 | `deepseek-v4-pro` | Self-Deploye… | 0.6x | $0.79 | $2.38 | Self-Deploye… | 1.5x | $1.98 | $5.94 | 3x |
 | `deepseek-v4-pro-0813` | deepseek-1 | 2.2x | $2.90 | $8.71 | - | - | - | - | 3x |
 | `deepseek-v4-flash-0731` | deepseek-1 | 2.2x | $0.97 | $2.90 | - | - | - | - | 3x |
