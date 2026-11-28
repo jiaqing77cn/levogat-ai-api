@@ -17,7 +17,7 @@
 
 </div>
 
-> 最后更新：2026-11-28 04:57 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
+> 最后更新：2026-11-28 15:18 (UTC+8) | [English](./README_EN.md) | [한국어](./README_KO.md) | [日本語](./README_JA.md) | [Español](./README_ES.md) | [Deutsch](./README_DE.md) | 中文
 
 **Levogat** 是面向国内用户的 **AI API 中转站**，提供 GPT-6.1、Claude Opus 5.5、Gemini 3.8、DeepSeek V4.1、Grok 4.7 等 **336+ 主流大模型**的 **免翻墙直连** 服务。完全兼容 OpenAI API 协议，支持 **Claude Code、Cursor、Codex、Gemini CLI、Dify** 等主流 AI 工具，一个 API Key 调用全球顶尖模型。
 
@@ -138,7 +138,7 @@ prompt = "用 Python 实现一个 LRU 缓存，带 TTL 过期"
 <!-- GEMINI_PRICE_TABLE_START -->
 | 模型 | 最低价分组 | 倍率 | 输入($/M) | 输出($/M) | 推荐分组 | 倍率 | 输入($/M) | 输出($/M) | 出入比 |
 |------|-----------|------|-----------|-----------|---------|------|-----------|-----------|--------|
-| `gemini-3.8-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
+| `gemini-3.8-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | - | - | - | - | 5x |
 | `gemini-3.8-flash-tts` | Aistudio-Gem… | 0.88x | $0.44 | $7.94 | Aistudio-Gem… | 1.91x | $0.96 | $17.21 | 18x |
 | `gemini-3.7-flash` | Anti-Gemini-… | 0.3x | $0.22 | $1.12 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
 | `gemini-3.6-flash` | Aistudio-Gem… | 0.53x | $0.40 | $1.99 | Aistudio-Gem… | 1.91x | $1.43 | $7.17 | 5x |
